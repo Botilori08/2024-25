@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "elagazasok0913/1.0.0": {
+        "runtime": {
+          "elagazasok0913.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "elagazasok0913/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

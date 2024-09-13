@@ -1,0 +1,15 @@
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\elagazasok0913\elagazasok0913\obj\Debug\net8.0\elagazasok0913.GeneratedMSBuildEditorConfig.editorconfig
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\elagazasok0913\elagazasok0913\obj\Debug\net8.0\elagazasok0913.AssemblyInfoInputs.cache
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\elagazasok0913\elagazasok0913\obj\Debug\net8.0\elagazasok0913.AssemblyInfo.cs
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\elagazasok0913\elagazasok0913\obj\Debug\net8.0\elagazasok0913.csproj.CoreCompileInputs.cache
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\elagazasok0913\elagazasok0913\obj\Debug\net8.0\elagazasok0913.sourcelink.json
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\elagazasok0913\elagazasok0913\bin\Debug\net8.0\elagazasok0913.exe
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\elagazasok0913\elagazasok0913\bin\Debug\net8.0\elagazasok0913.deps.json
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\elagazasok0913\elagazasok0913\bin\Debug\net8.0\elagazasok0913.runtimeconfig.json
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\elagazasok0913\elagazasok0913\bin\Debug\net8.0\elagazasok0913.dll
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\elagazasok0913\elagazasok0913\bin\Debug\net8.0\elagazasok0913.pdb
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\elagazasok0913\elagazasok0913\obj\Debug\net8.0\elagazasok0913.dll
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\elagazasok0913\elagazasok0913\obj\Debug\net8.0\refint\elagazasok0913.dll
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\elagazasok0913\elagazasok0913\obj\Debug\net8.0\elagazasok0913.pdb
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\elagazasok0913\elagazasok0913\obj\Debug\net8.0\elagazasok0913.genruntimeconfig.cache
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\elagazasok0913\elagazasok0913\obj\Debug\net8.0\ref\elagazasok0913.dll
