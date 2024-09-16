@@ -35,6 +35,7 @@
             }
 
             Console.WriteLine("");
+            //4. feladat kérjen be egy számot addig amíg nem tizet írunk 
             Console.WriteLine("4.feladat");
             int bekertszam = 0;
             while (bekertszam != 10)
