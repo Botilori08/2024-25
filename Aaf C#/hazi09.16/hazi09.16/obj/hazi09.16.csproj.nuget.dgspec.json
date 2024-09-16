@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\loran\\Desktop\\Suli\\Programozás, Ikt\\2024-25\\Aaf C#\\elagazasok0913\\elagazasok0913\\elagazasok0913.csproj": {}
+    "C:\\Users\\loran\\Desktop\\Suli\\Programozás, Ikt\\2024-25\\Aaf C#\\hazi09.16\\hazi09.16\\hazi09.16.csproj": {}
   },
   "projects": {
-    "C:\\Users\\loran\\Desktop\\Suli\\Programozás, Ikt\\2024-25\\Aaf C#\\elagazasok0913\\elagazasok0913\\elagazasok0913.csproj": {
+    "C:\\Users\\loran\\Desktop\\Suli\\Programozás, Ikt\\2024-25\\Aaf C#\\hazi09.16\\hazi09.16\\hazi09.16.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\loran\\Desktop\\Suli\\Programozás, Ikt\\2024-25\\Aaf C#\\elagazasok0913\\elagazasok0913\\elagazasok0913.csproj",
-        "projectName": "elagazasok0913",
-        "projectPath": "C:\\Users\\loran\\Desktop\\Suli\\Programozás, Ikt\\2024-25\\Aaf C#\\elagazasok0913\\elagazasok0913\\elagazasok0913.csproj",
+        "projectUniqueName": "C:\\Users\\loran\\Desktop\\Suli\\Programozás, Ikt\\2024-25\\Aaf C#\\hazi09.16\\hazi09.16\\hazi09.16.csproj",
+        "projectName": "hazi09.16",
+        "projectPath": "C:\\Users\\loran\\Desktop\\Suli\\Programozás, Ikt\\2024-25\\Aaf C#\\hazi09.16\\hazi09.16\\hazi09.16.csproj",
         "packagesPath": "C:\\Users\\loran\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\loran\\Desktop\\Suli\\Programozás, Ikt\\2024-25\\Aaf C#\\elagazasok0913\\elagazasok0913\\obj\\",
+        "outputPath": "C:\\Users\\loran\\Desktop\\Suli\\Programozás, Ikt\\2024-25\\Aaf C#\\hazi09.16\\hazi09.16\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\loran\\AppData\\Roaming\\NuGet\\NuGet.Config",
