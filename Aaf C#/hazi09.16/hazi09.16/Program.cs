@@ -15,6 +15,7 @@
             }
             Console.WriteLine("");
 
+
             //2. feladat egytől százig minden kétjegyű szám
             Console.WriteLine("2.feladat");
 
@@ -27,11 +28,9 @@
 
             //3.feladat kiírni egytől százig minden második számot
             Console.WriteLine("3.feladat");
-            int harmadikszam = 1;
-            while (harmadikszam <100)
+            for (int i = 1; i<100;i+=2)
             {
-                harmadikszam += 2;
-                Console.Write(harmadikszam.ToString()+";");
+                Console.Write(i.ToString()+";");
             }
 
             Console.WriteLine("");

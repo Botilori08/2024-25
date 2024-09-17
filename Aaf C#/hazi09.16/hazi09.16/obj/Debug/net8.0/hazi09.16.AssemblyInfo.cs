@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("hazi09.16")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4aaf5125b53f062579e23d5ede97d5c4b6c53337")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a765682287f032169f40c1b08a687eb8577059a5")]
 [assembly: System.Reflection.AssemblyProductAttribute("hazi09.16")]
 [assembly: System.Reflection.AssemblyTitleAttribute("hazi09.16")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
