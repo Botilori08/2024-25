@@ -8,10 +8,10 @@
             int szam = 0;
 
             Console.WriteLine("1.feladat");
-            while (szam !=100)
+            while (szam != 100)
             {
                 szam++;
-                Console.Write(szam.ToString()+";");
+                Console.Write(szam.ToString() + ";");
             }
             Console.WriteLine("");
 
@@ -19,18 +19,18 @@
             //2. feladat egytől százig minden kétjegyű szám
             Console.WriteLine("2.feladat");
 
-            for (int i = 10; i< 100; i++)
+            for (int i = 10; i < 100; i++)
             {
-                Console.Write(i.ToString()+";");
+                Console.Write(i.ToString() + ";");
             }
 
             Console.WriteLine("");
 
             //3.feladat kiírni egytől százig minden második számot
             Console.WriteLine("3.feladat");
-            for (int i = 1; i<100;i+=2)
+            for (int i = 1; i < 100; i += 2)
             {
-                Console.Write(i.ToString()+";");
+                Console.Write(i.ToString() + ";");
             }
 
             Console.WriteLine("");
@@ -46,7 +46,7 @@
                     break;
                 }
             }
-            
+
 
 
         }

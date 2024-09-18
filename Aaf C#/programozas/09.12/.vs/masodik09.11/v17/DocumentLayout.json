@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\munkak\u00F6nyvt\u00E1r\\Boti L\u00F3r\u00E1nt\\2024-25\\Aaf C#\\programozas\\09.11\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{00A56000-063B-486B-8039-703A62FB9322}|masodik09.11\\masodik09.11.csproj|d:\\munkak\u00F6nyvt\u00E1r\\boti l\u00F3r\u00E1nt\\2024-25\\aaf c#\\programozas\\09.11\\masodik09.11\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00A56000-063B-486B-8039-703A62FB9322}|masodik09.11\\masodik09.11.csproj|solutionrelative:masodik09.11\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\munkak\u00F6nyvt\u00E1r\\Boti L\u00F3r\u00E1nt\\2024-25\\Aaf C#\\programozas\\09.11\\masodik09.11\\Program.cs",
+              "RelativeDocumentMoniker": "masodik09.11\\Program.cs",
+              "ToolTip": "D:\\munkak\u00F6nyvt\u00E1r\\Boti L\u00F3r\u00E1nt\\2024-25\\Aaf C#\\programozas\\09.11\\masodik09.11\\Program.cs",
+              "RelativeToolTip": "masodik09.11\\Program.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAgwC0AAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-12T10:52:55.833Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
