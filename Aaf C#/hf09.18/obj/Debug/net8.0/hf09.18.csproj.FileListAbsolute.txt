@@ -1,0 +1,15 @@
+C:\Users\loran\Desktop\Suli\Programozás, Ikt\2024-25\Aaf C#\hf09.18\bin\Debug\net8.0\hf09.18.exe
+C:\Users\loran\Desktop\Suli\Programozás, Ikt\2024-25\Aaf C#\hf09.18\bin\Debug\net8.0\hf09.18.deps.json
+C:\Users\loran\Desktop\Suli\Programozás, Ikt\2024-25\Aaf C#\hf09.18\bin\Debug\net8.0\hf09.18.runtimeconfig.json
+C:\Users\loran\Desktop\Suli\Programozás, Ikt\2024-25\Aaf C#\hf09.18\bin\Debug\net8.0\hf09.18.dll
+C:\Users\loran\Desktop\Suli\Programozás, Ikt\2024-25\Aaf C#\hf09.18\bin\Debug\net8.0\hf09.18.pdb
+C:\Users\loran\Desktop\Suli\Programozás, Ikt\2024-25\Aaf C#\hf09.18\obj\Debug\net8.0\hf09.18.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\loran\Desktop\Suli\Programozás, Ikt\2024-25\Aaf C#\hf09.18\obj\Debug\net8.0\hf09.18.AssemblyInfoInputs.cache
+C:\Users\loran\Desktop\Suli\Programozás, Ikt\2024-25\Aaf C#\hf09.18\obj\Debug\net8.0\hf09.18.AssemblyInfo.cs
+C:\Users\loran\Desktop\Suli\Programozás, Ikt\2024-25\Aaf C#\hf09.18\obj\Debug\net8.0\hf09.18.csproj.CoreCompileInputs.cache
+C:\Users\loran\Desktop\Suli\Programozás, Ikt\2024-25\Aaf C#\hf09.18\obj\Debug\net8.0\hf09.18.sourcelink.json
+C:\Users\loran\Desktop\Suli\Programozás, Ikt\2024-25\Aaf C#\hf09.18\obj\Debug\net8.0\hf09.18.dll
+C:\Users\loran\Desktop\Suli\Programozás, Ikt\2024-25\Aaf C#\hf09.18\obj\Debug\net8.0\refint\hf09.18.dll
+C:\Users\loran\Desktop\Suli\Programozás, Ikt\2024-25\Aaf C#\hf09.18\obj\Debug\net8.0\hf09.18.pdb
+C:\Users\loran\Desktop\Suli\Programozás, Ikt\2024-25\Aaf C#\hf09.18\obj\Debug\net8.0\hf09.18.genruntimeconfig.cache
+C:\Users\loran\Desktop\Suli\Programozás, Ikt\2024-25\Aaf C#\hf09.18\obj\Debug\net8.0\ref\hf09.18.dll

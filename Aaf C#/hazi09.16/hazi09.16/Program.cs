@@ -16,12 +16,12 @@
             Console.WriteLine("");
 
 
-            //2. feladat egytől százig minden kétjegyű szám
+            //2. feladat egytől százig minden kétjegyű szám visszafelé
             Console.WriteLine("2.feladat");
 
-            for (int i = 10; i < 100; i++)
+            for (int i = 99; i > 10; i--)
             {
-                Console.Write(i.ToString() + ";");
+                Console.WriteLine(i);
             }
 
             Console.WriteLine("");
