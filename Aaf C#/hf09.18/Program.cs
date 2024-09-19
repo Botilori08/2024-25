@@ -4,11 +4,14 @@
 	{
 		static void Main(string[] args)
 		{
-			for (int k = 0;k < 10;k++)
+			Console.WriteLine("Szorzótábla:");
+
+			for (int k = 1;k <=10;k++)
 			{
-                for (int elso = 0; elso <= 10; elso++)
+				Console.WriteLine("");
+                for (int elso = 1; elso <= 10; elso++)
                 {
-                    Console.Write(k*elso+";");
+                    Console.Write(k * elso + ";");
                 }
             }
 			
