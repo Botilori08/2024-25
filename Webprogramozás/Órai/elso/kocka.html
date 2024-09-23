@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>HTML dokumentum felépítése</title>
+<meta charset="UTF-8">
+<script>
+function displayTime() {
+var d=new Date();
+//document.getElementById("demo").innerHTML=d.toLocaleTimeString();
+}
+
+
+</script>
+
+</head>
+<body>
+<h1>Címsor</h1>
+<p>Bekezdés</p>
+<ul>
+<li>Boti Lóránt</li>
+<li>Rengel Tamás</li>
+</ul>
+<p>Hivatkozás:<br />
+<a href="https://mik.uni-pannon.hu/index.php/hu/bbb2021" >Ugrás a
+verseny felhíváshoz</a>
+<div id="demo">Számting</div>
+
+<script>
+
+document.write("<h1>"+"Szorzások"+"</h1>")
+
+
+var elso = prompt("Kérem az első egész számot!");
+var masodik = prompt("Kérem a második egész számot!");
+
+document.write("<p>"+"Megadott számok szorzata="+elso*masodik+"</p>")
+
+document.write("<p>"+"Pontos idő: "+displayTime()+"<p>")
+</script>
+
+
+
+</p>
+<p>Kép:<br /><br />
+<img id="myimage" src="https://mik.uni-pannon.hu/images/cimer120.png"
+alt="Kocka" width="100" height="100" />
+</p>
+</body>
+</html>
