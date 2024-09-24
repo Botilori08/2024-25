@@ -4,12 +4,10 @@
 <title>HTML dokumentum felépítése</title>
 <meta charset="UTF-8">
 <script>
-function displayTime() {
-var d=new Date();
-//document.getElementById("demo").innerHTML=d.toLocaleTimeString();
+function datun(){
+    var ido=new Date();
+    
 }
-
-
 </script>
 
 </head>
@@ -29,16 +27,34 @@ verseny felhíváshoz</a>
 
 document.write("<h1>"+"Szorzások"+"</h1>")
 
+var szamlalo = 0
+var szamok = []
+while (szamlalo!=5)
+{
+    var szam = prompt("Kérek egy egész számot! ")
+    szamok.push(szam)
+    szamlalo += 1
+}
+document.write("<p>"+"A megadott számok: "+szamok+"<p>"+"<br>")
 
+
+/*
 var elso = prompt("Kérem az első egész számot!");
 var masodik = prompt("Kérem a második egész számot!");
 
 document.write("<p>"+"Megadott számok szorzata="+elso*masodik+"</p>")
-
-document.write("<p>"+"Pontos idő: "+displayTime()+"<p>")
+*/
+let negyzetek = []
+console.log(szamok)
+for (let egySzam in szamok)
+{
+    console.log(szamok[egySzam]*szamok[egySzam])
+    negyzetek.push(szamok[egySzam]*szamok[egySzam])
+}
+document.write("<p>"+"Az általad megadott számok négyzete: "+negyzetek+"<\p>")
 </script>
 
-
+<button type="button" onclick="datum()">Dátum</button>
 
 </p>
 <p>Kép:<br /><br />
