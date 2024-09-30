@@ -1,13 +1,3 @@
-function datum(){
-    var ido=new Date();
-    const strIdo = ido.toLocaleTimeString()
-    document.getElementById("datum").innerHTML= "Pontos idő: " + strIdo 
-}
-
-
-
-
-//document.write("<h1>"+"Szorzások"+"</h1>")
 
 function negyzetreEmel(){
     var szamlalo = 0
@@ -63,14 +53,26 @@ function Masodfoku(){
 
 }
 
-var szamlalo = 0
-let szamLista = []
-while(szamlalo != 5)
-{
-    var szam = prompt("Kérek egy számot! ")
-    szamlalo += 1
-    szamLista.push(szam)
+function ido(){
+    var ido=new Date();
+    const strIdo = ido.toLocaleTimeString()
+    document.getElementById("ido").innerHTML= "Pontos idő: " + strIdo 
 }
 
-console.log(szamLista)
+function Otszam()
+{
+    var szamlalo = 0
+    var szamLista = []
+    while(szamlalo != 5)
+    {
+        var szam = prompt("Kérek egy számot! ")
+        szamlalo += 1
+        szamLista.push(Number(szam))
+    }
 
+    console.log(szamLista.sort((function(a, b){return a-b})))
+
+    const legkisebb = szamLista[0]
+    console.log(legkisebb)
+    document.getElementById("szam").innerHTML = legkisebb;
+}
