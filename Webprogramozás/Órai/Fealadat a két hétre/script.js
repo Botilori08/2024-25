@@ -63,5 +63,14 @@ function Masodfoku(){
 
 }
 
+var szamlalo = 0
+let szamLista = []
+while(szamlalo != 5)
+{
+    var szam = prompt("Kérek egy számot! ")
+    szamlalo += 1
+    szamLista.push(szam)
+}
 
+console.log(szamLista)
 
