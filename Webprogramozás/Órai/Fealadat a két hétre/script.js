@@ -1,10 +1,13 @@
-function datun(){
+function datum(){
     var ido=new Date();
-    
+    const strIdo = ido.toLocaleTimeString()
+    document.getElementById("datum").innerHTML= "Pontos idő: " + strIdo 
 }
 
 
-document.write("<h1>"+"Szorzások"+"</h1>")
+
+
+//document.write("<h1>"+"Szorzások"+"</h1>")
 
 function negyzetreEmel(){
     var szamlalo = 0
@@ -58,7 +61,7 @@ function Masodfoku(){
     document.getElementById("megoldas1").innerHTML = "x1= "+ x1
     document.getElementById("megoldas2").innerHTML = "x2= "+ x2
 
-
-
-
 }
+
+
+
