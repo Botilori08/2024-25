@@ -74,5 +74,18 @@ function Otszam()
 
     const legkisebb = szamLista[0]
     console.log(legkisebb)
-    document.getElementById("szam").innerHTML = legkisebb;
+    document.getElementById("szam").innerHTML = "A legkisebb szám: "+legkisebb;
+}
+
+var darabszam = 0
+
+function hattalOszthato(){
+
+    var bekert = prompt("Kérek egy számot!")
+    if (bekert %6 == 0)
+    {
+        darabszam+=1
+    }
+    document.getElementById("bekeres").innerHTML= "A hattal osztható számok száma: "+darabszam
+
 }
