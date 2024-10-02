@@ -70,7 +70,7 @@ function Otszam()
         szamLista.push(Number(szam))
     }
 
-    console.log(szamLista.sort((function(a, b){return a-b})))
+    szamLista.sort((function(a, b){return a-b}))
 
     const legkisebb = szamLista[0]
     console.log(legkisebb)
@@ -91,8 +91,39 @@ function hattalOszthato(){
 }
 
 var randomLista = []
+var parosak = []
 while (randomLista.length != 15)
 {
-    randomLista.push(Math.floor(Math.random()*100))
+    var szam = Math.floor(Math.random()*100)
+    randomLista.push(szam)
+    if (szam %2 ==0)
+    {
+        parosak.push(szam)
+    }
 }
-console.log(randomLista)
+
+var bekertSzamok = []
+var bekeresekSzama = 0
+var bekertSzam = 1
+while (bekertSzam > 0)
+{
+    bekertSzam = prompt("Kérek egy számot! ")
+    bekeresekSzama += 1
+    bekertSzamok.push(bekertSzam)
+    if (bekertSzam == 0)
+    {
+        break
+    }
+}
+
+bekertSzamok.splice(-1)
+bekertSzamok.sort((function(a, b){return a-b}))
+console.log(bekertSzamok)
+
+document.addEventListener("DOMContentLoaded", function() {
+    document.getElementById("randomLista").innerHTML += randomLista
+    document.getElementById("parosak").innerHTML += parosak
+    document.getElementById("bekeresekSzama").innerHTML += bekeresekSzama
+    document.getElementById("legkisebb").innerHTML += bekertSzamok[0]
+    document.getElementById("legnagyobb").innerHTML += bekertSzamok[bekertSzamok.length -1]
+})
