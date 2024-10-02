@@ -89,3 +89,10 @@ function hattalOszthato(){
     document.getElementById("bekeres").innerHTML= "A hattal osztható számok száma: "+darabszam
 
 }
+
+var randomLista = []
+while (randomLista.length != 15)
+{
+    randomLista.push(Math.floor(Math.random()*100))
+}
+console.log(randomLista)

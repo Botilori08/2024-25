@@ -1,0 +1,30 @@
+div > h2 { 
+    margin-top: 20px;
+    font-family: monospace;
+}
+
+div
+{
+    margin-left: 15px;
+}
+button{
+    border-radius: 10px;
+    font-family: monospace;
+    background-color: rgb(5, 89, 104);
+    color: white;
+    border: 1px solid rgb(13, 119, 138) ;
+}
+button:hover
+{
+    font-size: 17px;
+    background-color: rgb(6, 57, 66);
+}
+body{
+    background-image: url(./pexels-felixmittermeier-956999.jpg);
+    background-repeat: no-repeat;
+}
+p{
+    color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    font-size: 14px;
+}
