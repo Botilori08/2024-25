@@ -102,28 +102,34 @@ while (randomLista.length != 15)
     }
 }
 
-var bekertSzamok = []
-var bekeresekSzama = 0
-var bekertSzam = 1
-while (bekertSzam > 0)
-{
-    bekertSzam = prompt("Kérek egy számot! ")
-    bekeresekSzama += 1
-    bekertSzamok.push(bekertSzam)
-    if (bekertSzam == 0)
+function Bekeres(){
+    var bekertSzamok = []
+    var bekeresekSzama = 0
+    var bekertSzam = 1
+    while (bekertSzam > 0)
     {
-        break
+        bekertSzam = prompt("Kérek egy számot! ")
+        bekeresekSzama += 1
+        bekertSzamok.push(bekertSzam)
+        if (bekertSzam == 0)
+        {
+            break
+        }
     }
+    
+    bekertSzamok.splice(-1)
+    bekertSzamok.sort((function(a, b){return a-b}))
+    console.log(bekertSzamok)
+
+    document.getElementById("bekeresekSzama").innerHTML += bekeresekSzama
+    document.getElementById("legkisebb").innerHTML += bekertSzamok[0]
+    document.getElementById("legnagyobb").innerHTML += bekertSzamok[bekertSzamok.length -1]
+
 }
 
-bekertSzamok.splice(-1)
-bekertSzamok.sort((function(a, b){return a-b}))
-console.log(bekertSzamok)
+
 
 document.addEventListener("DOMContentLoaded", function() {
     document.getElementById("randomLista").innerHTML += randomLista
     document.getElementById("parosak").innerHTML += parosak
-    document.getElementById("bekeresekSzama").innerHTML += bekeresekSzama
-    document.getElementById("legkisebb").innerHTML += bekertSzamok[0]
-    document.getElementById("legnagyobb").innerHTML += bekertSzamok[bekertSzamok.length -1]
 })
