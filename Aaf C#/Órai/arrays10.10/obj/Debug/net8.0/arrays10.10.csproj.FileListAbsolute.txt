@@ -1,0 +1,15 @@
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\arrays10.10\bin\Debug\net8.0\arrays10.10.exe
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\arrays10.10\bin\Debug\net8.0\arrays10.10.deps.json
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\arrays10.10\bin\Debug\net8.0\arrays10.10.runtimeconfig.json
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\arrays10.10\bin\Debug\net8.0\arrays10.10.dll
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\arrays10.10\bin\Debug\net8.0\arrays10.10.pdb
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\arrays10.10\obj\Debug\net8.0\arrays10.10.GeneratedMSBuildEditorConfig.editorconfig
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\arrays10.10\obj\Debug\net8.0\arrays10.10.AssemblyInfoInputs.cache
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\arrays10.10\obj\Debug\net8.0\arrays10.10.AssemblyInfo.cs
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\arrays10.10\obj\Debug\net8.0\arrays10.10.csproj.CoreCompileInputs.cache
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\arrays10.10\obj\Debug\net8.0\arrays10.10.sourcelink.json
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\arrays10.10\obj\Debug\net8.0\arrays10.10.dll
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\arrays10.10\obj\Debug\net8.0\refint\arrays10.10.dll
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\arrays10.10\obj\Debug\net8.0\arrays10.10.pdb
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\arrays10.10\obj\Debug\net8.0\arrays10.10.genruntimeconfig.cache
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\arrays10.10\obj\Debug\net8.0\ref\arrays10.10.dll
