@@ -23,6 +23,9 @@
 				Console.Write(i+", ");
 			}
 
+			Console.Write("Kérek egy számot ");
+            int elso = Convert.ToInt32(Console.ReadLine());
+
 
 		}
 	}
