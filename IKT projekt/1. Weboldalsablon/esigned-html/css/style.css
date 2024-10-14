@@ -72,8 +72,10 @@ body {
 .hero_area {
   height: 100vh;
   background-color: #b5caee;
-  background-image: url(../images/hero-bg.jpg);
+  background-image: url(./giphy.gif);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.61),rgba(0, 0, 0, 0.699)), url(./giphy.gif);
   background-size: cover;
+
 }
 
 .sub_page .hero_area {
