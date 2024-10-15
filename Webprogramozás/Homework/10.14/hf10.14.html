@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo class / element</title>
+    <style>
+        #elso::first-line{
+            color: blue;
+        }
+        #masodik::first-line{
+            color: rgb(89, 255, 0);
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        #harmadik::first-line{
+            color: rgb(217, 16, 16);
+            font-family: monospace;
+        }
+        #negyedik::first-line{
+            color: rgb(255, 162, 0);
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        #otodik::first-line{
+            color: rgb(41, 100, 17);
+            font-family:Arial, Helvetica, sans-serif
+        }
+        #hatodik::first-line{
+            color: rgb(26, 103, 103);
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        #masodik::first-letter, #negyedik::first-letter, #hatodik::first-letter
+        {
+            border: 3px solid black;
+        }
+
+        p::after{
+            
+            content: "  NEW";
+        }
+
+    </style>
+</head>
+<body>
+    <p id="elso">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec convallis dui mi, sit amet euismod metus aliquet eu. Nullam consectetur, erat ac tincidunt sollicitudin, lectus nisl egestas felis, non porttitor eros diam ut mauris. Etiam finibus quam leo, eget ullamcorper mi mollis ac. Quisque feugiat faucibus turpis, eget cursus nisl luctus at. Suspendisse potenti. Mauris porta porttitor est, et accumsan purus tempus non. Donec volutpat augue diam, at consectetur leo dictum vitae.</p>
+    <p id="masodik">Praesent non consectetur quam. Donec a faucibus diam, vitae vulputate ante. Sed porta libero id felis ornare dictum. Suspendisse potenti. Nam tincidunt dui tellus, quis condimentum arcu elementum ut. Donec eu malesuada turpis. Pellentesque pulvinar et mi sit amet ullamcorper. Aenean ut elementum tortor. Suspendisse ac enim et arcu elementum euismod. Donec pellentesque, eros in egestas feugiat, nunc felis scelerisque purus, ut egestas velit ex at leo. Nullam fringilla nec nunc nec venenatis. Sed nec sapien condimentum ante aliquam facilisis in quis leo.</p>
+    <p id="harmadik">Duis quis nisi accumsan, molestie est a, maximus dolor. Fusce neque metus, congue eget aliquet eu, elementum rhoncus urna. Nulla turpis metus, pharetra ut lacus in, dignissim convallis velit. In tempus ante magna, id elementum massa ullamcorper et. Vestibulum nec sapien lorem. Praesent accumsan, nisi eu porta posuere, enim libero sodales nibh, nec elementum enim orci vel leo. Aliquam in tellus bibendum, convallis mi et, posuere nisi.</p>
+    <p id="negyedik">Nam luctus, sem sit amet maximus ultrices, orci massa convallis justo, vel scelerisque odio nisi et mi. Nunc imperdiet laoreet odio id condimentum. Praesent nec massa a urna tempor laoreet sed in nunc. Ut convallis augue a aliquam pharetra. Donec ut gravida tellus. Aliquam et velit vulputate diam commodo pellentesque. Vivamus leo purus, aliquet nec viverra sed, lobortis id ante. Quisque nec augue arcu. In feugiat, magna eu ornare volutpat, risus tortor pretium est, sit amet facilisis metus risus sed massa. Cras non lacinia sem, sit amet aliquet elit. Etiam consectetur id leo eu gravida. Etiam quam velit, varius ut pharetra eu, consequat a metus. </p>
+    <p id="otodik">Vivamus lacus turpis, semper ut lorem vitae, bibendum dictum justo. Vivamus sed congue velit. Donec ut tempus est. Sed eget egestas metus. Aliquam placerat a enim at auctor. Nam nec mauris sit amet tellus pretium finibus. Cras at fermentum neque. Praesent commodo faucibus pellentesque. Donec vestibulum diam eget nunc venenatis, eget bibendum nisl ultricies. Proin dictum elit enim, nec venenatis turpis lacinia vel. </p>
+    <p id="hatodik">Sed luctus lorem egestas eros accumsan sodales. Vestibulum vitae nisl eget enim ornare malesuada. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Maecenas nisl velit, efficitur at diam non, pulvinar congue massa. In vulputate quis turpis at congue. Nam nunc eros, porta ut odio mollis, euismod laoreet ante. Nam vel ligula fermentum, pretium risus a, suscipit turpis. Nulla venenatis suscipit sapien id maximus. Mauris aliquet convallis ligula, aliquet pharetra nulla consequat eget. Vivamus ornare massa tellus, eget blandit ipsum ullamcorper quis. Nulla fringilla sagittis placerat. Sed ultricies lacinia eleifend.</p>
+</body>
+</html>
