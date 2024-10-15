@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "fuggvenyek10.15/1.0.0": {
+        "runtime": {
+          "fuggvenyek10.15.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "fuggvenyek10.15/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

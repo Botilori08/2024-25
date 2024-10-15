@@ -1,0 +1,15 @@
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\fuggvenyek10.15\fuggvenyek10.15\bin\Debug\net8.0\fuggvenyek10.15.exe
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\fuggvenyek10.15\fuggvenyek10.15\bin\Debug\net8.0\fuggvenyek10.15.deps.json
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\fuggvenyek10.15\fuggvenyek10.15\bin\Debug\net8.0\fuggvenyek10.15.runtimeconfig.json
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\fuggvenyek10.15\fuggvenyek10.15\bin\Debug\net8.0\fuggvenyek10.15.dll
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\fuggvenyek10.15\fuggvenyek10.15\bin\Debug\net8.0\fuggvenyek10.15.pdb
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\fuggvenyek10.15\fuggvenyek10.15\obj\Debug\net8.0\fuggvenyek10.15.GeneratedMSBuildEditorConfig.editorconfig
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\fuggvenyek10.15\fuggvenyek10.15\obj\Debug\net8.0\fuggvenyek10.15.AssemblyInfoInputs.cache
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\fuggvenyek10.15\fuggvenyek10.15\obj\Debug\net8.0\fuggvenyek10.15.AssemblyInfo.cs
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\fuggvenyek10.15\fuggvenyek10.15\obj\Debug\net8.0\fuggvenyek10.15.csproj.CoreCompileInputs.cache
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\fuggvenyek10.15\fuggvenyek10.15\obj\Debug\net8.0\fuggvenyek10.15.sourcelink.json
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\fuggvenyek10.15\fuggvenyek10.15\obj\Debug\net8.0\fuggvenyek10.15.dll
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\fuggvenyek10.15\fuggvenyek10.15\obj\Debug\net8.0\refint\fuggvenyek10.15.dll
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\fuggvenyek10.15\fuggvenyek10.15\obj\Debug\net8.0\fuggvenyek10.15.pdb
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\fuggvenyek10.15\fuggvenyek10.15\obj\Debug\net8.0\fuggvenyek10.15.genruntimeconfig.cache
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\fuggvenyek10.15\fuggvenyek10.15\obj\Debug\net8.0\ref\fuggvenyek10.15.dll
