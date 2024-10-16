@@ -1,4 +1,6 @@
-﻿namespace fuggvenyek10._15
+﻿using System.Reflection.Metadata.Ecma335;
+
+namespace fuggvenyek10._15
 {
     internal class Program
     {
@@ -36,6 +38,23 @@
         }
 
 
+        static string szamkiiras(int szam)
+        {
+            string[] szamok = { "nulla","egy", "kettő", "három", "négy", "öt", "hat", "hét", "nyolc", "kilenc" };
+
+            
+            if (szam > szamok.Length)
+            {
+                return "Túl nagy!";
+            }
+            else
+            {
+                return szamok[szam];
+            }
+        }
+
+
+
 
         static void Main(string[] args)
         {
@@ -52,7 +71,13 @@
             Console.WriteLine(oszt(2, 4));
             Console.WriteLine(oszt(2.5, 1.2));
 
-            szumma(2,2,2,2,2);
+            Console.WriteLine();
+            Console.WriteLine(szamkiiras(5));
+
+
+            // készítsetek egy függyvényt ami kap egy egyjegyű pozitív számot, majd jelenítse meg szöveggel a nevét
+            // Ha kilencnél nagyobb "Túl nagy"
+            //2. feladat készítsetek egy függvényt ami az egyjegyű pozitív egész számot kap és kiírja szövegesen a nevét
         }
     }
 }

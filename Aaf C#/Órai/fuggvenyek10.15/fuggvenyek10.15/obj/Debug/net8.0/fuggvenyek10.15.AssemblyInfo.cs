@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("fuggvenyek10.15")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+10c2184d4b969a3a6358e8d57c644380960c092b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+14492f4ecb460013d9fb64461882267205f7b4c0")]
 [assembly: System.Reflection.AssemblyProductAttribute("fuggvenyek10.15")]
 [assembly: System.Reflection.AssemblyTitleAttribute("fuggvenyek10.15")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
