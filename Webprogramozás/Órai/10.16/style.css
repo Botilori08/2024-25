@@ -1,0 +1,43 @@
+body
+{
+    background-image: url(./2560x1440-blue-abstract-noise-free-website-background-image.jpg);
+
+}
+
+
+#keret
+{
+    padding: 30px;
+}
+
+legend[id="felirat"]
+{
+    font-family: 'Courier New', Courier, monospace ;
+    color: aliceblue;
+    
+}
+
+
+input[name="felhasznalo"]
+{
+    font-size: 20px;
+    background-color: rgb(37, 63, 78);
+    color: rgb(56, 219, 219);
+}
+
+
+input[name="felhasznalo"]:hover
+{
+    font-size: 25px;
+
+}
+
+
+
+label[for="username"]
+{
+    font-family: monospace;
+    font-size: 18px;
+    padding-bottom: 40px;
+    margin-bottom: 20px;
+}

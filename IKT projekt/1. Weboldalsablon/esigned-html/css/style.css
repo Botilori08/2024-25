@@ -119,17 +119,18 @@ body {
   background-color: #ffffff;
 }
 
-a,
-a:hover,
-a:focus {
-  text-decoration: none;
+.header_section a:hover
+{
+  color: blue;
 }
 
+/*
 a:hover,
 a:focus {
   color: initial;
   color: #000000;
 }
+  */
 
 .btn,
 .btn:focus {
