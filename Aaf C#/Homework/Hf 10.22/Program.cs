@@ -21,7 +21,7 @@
 			{
 				Console.Write(randomlista[i]+", ");
 			}
-			/*
+			
 			Console.WriteLine();
 			Console.WriteLine("2.feladat");
 
@@ -31,16 +31,15 @@
             int masodikSzam = Convert.ToInt32(Console.ReadLine());
 			
 			
-			int[,] lista = ;
+			int[,] lista = new int[elsoSzam,masodikSzam];
 
 
-			for (int i = 0; i < elsoSzam;i++)
+			for (int i = 0; i < lista.GetLength(0);i++)
 			{
-                lista[0, i] = rand.Next(100, 1000);
-                for (int j = 0; j < masodikSzam; j++)
+                for (int j = 0; j < lista.GetLength(1); j++)
                 {
 
-					lista[1,j] = rand.Next(100, 1000);
+					lista[i,j] = rand.Next(100, 1000);
                 }
 
 			}
@@ -49,8 +48,23 @@
 			{
                 Console.WriteLine(i);
             }
-			*/
 
+			Console.WriteLine();
+			Console.WriteLine("3. feladat");
+
+			Console.Write("Mennyi legyen a lista elemszáma? ");
+			int darabszam = Convert.ToInt32(Console.ReadLine());
+
+			int[] szamLista = new int[darabszam];
+
+			for (int i = 0;i < szamLista.Length;i++)
+			{
+				szamLista[i] = rand.Next(-300, 300);
+			}
+			foreach (int i in szamLista)
+			{
+				Console.Write(i + " ");
+			}
 
 
 
