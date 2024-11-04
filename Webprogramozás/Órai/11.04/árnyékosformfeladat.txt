@@ -1,0 +1,3 @@
+űrlap
+kettő jól megkülönböztethető rész (fieldset,legend)
+Különböző típusú árnyékok az elemeken.

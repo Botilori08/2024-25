@@ -1,0 +1,39 @@
+
+body
+{
+    background-image: url(./pexels-eberhardgross-1287083.jpg);
+}
+
+form{
+    text-align: center;
+}
+
+input[type="text"]
+{
+
+    margin-bottom: 40px;
+
+    box-shadow: 5px 4px #606971;
+    font-size: 20px;
+}
+input[type="date"]
+{
+    box-shadow: 5px 3px #40464b;
+}
+#jelszo
+{
+    box-shadow: 5px 4px #2f3438;
+    margin-bottom: 20px;
+}
+fieldset
+{
+    margin: auto;
+    width: 400px;
+    box-shadow: 5px 5px #6f8191;
+}
+
+label{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-right: 10px;
+}
+
