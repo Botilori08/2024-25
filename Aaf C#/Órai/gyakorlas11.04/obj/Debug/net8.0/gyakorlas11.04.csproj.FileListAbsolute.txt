@@ -1,0 +1,15 @@
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\gyakorlas11.04\bin\Debug\net8.0\gyakorlas11.04.exe
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\gyakorlas11.04\bin\Debug\net8.0\gyakorlas11.04.deps.json
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\gyakorlas11.04\bin\Debug\net8.0\gyakorlas11.04.runtimeconfig.json
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\gyakorlas11.04\bin\Debug\net8.0\gyakorlas11.04.dll
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\gyakorlas11.04\bin\Debug\net8.0\gyakorlas11.04.pdb
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\gyakorlas11.04\obj\Debug\net8.0\gyakorlas11.04.GeneratedMSBuildEditorConfig.editorconfig
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\gyakorlas11.04\obj\Debug\net8.0\gyakorlas11.04.AssemblyInfoInputs.cache
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\gyakorlas11.04\obj\Debug\net8.0\gyakorlas11.04.AssemblyInfo.cs
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\gyakorlas11.04\obj\Debug\net8.0\gyakorlas11.04.csproj.CoreCompileInputs.cache
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\gyakorlas11.04\obj\Debug\net8.0\gyakorlas11.04.sourcelink.json
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\gyakorlas11.04\obj\Debug\net8.0\gyakorlas11.04.dll
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\gyakorlas11.04\obj\Debug\net8.0\refint\gyakorlas11.04.dll
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\gyakorlas11.04\obj\Debug\net8.0\gyakorlas11.04.pdb
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\gyakorlas11.04\obj\Debug\net8.0\gyakorlas11.04.genruntimeconfig.cache
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\gyakorlas11.04\obj\Debug\net8.0\ref\gyakorlas11.04.dll
