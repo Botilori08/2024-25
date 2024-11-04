@@ -48,7 +48,6 @@
 				if (gepTipp < gondolt)
 				{
 					Console.WriteLine(gepTipp);
-					Console.Write()
 					gepTipp = rand.Next(0, 10);
 				}
 
