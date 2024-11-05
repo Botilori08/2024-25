@@ -32,19 +32,11 @@
 
 		static int randomSzam(int szamjegySzama, int oszto)
 		{
-			int elso = 10;
-			for (int i = 0;i != szamjegySzama-1;i++)
-			{
-				elso = elso * 10;
-			}
+			int alsoH = (int)Math.Pow(10, szamjegySzama-1)/oszto;
 
-			int masodik = 100;
-			for (int i = 0;i != oszto;i++)
-			{
-				masodik = masodik * 10;
-			}
+			int felsoH = (int)Math.Pow(10, szamjegySzama) / oszto;
 
-            return rand.Next(elso,masodik) * 2;
+            return rand.Next(alsoH,felsoH) * oszto;
         }
 
 
@@ -54,9 +46,12 @@
 			//2. adott számjegyű számot, adott számmal oszthatót
 
 
+
 			tombkiiro(veletlenSzamok(8));
+			Console.WriteLine();
+			Console.WriteLine(randomSzam(4, 3));
 
-
+			
 
 		}
 	}
