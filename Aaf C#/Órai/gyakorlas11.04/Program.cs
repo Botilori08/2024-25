@@ -32,8 +32,19 @@
 
 		static int randomSzam(int szamjegySzama, int oszto)
 		{
-			
-            return rand.Next(50, 500) * 2;
+			int elso = 10;
+			for (int i = 0;i != szamjegySzama-1;i++)
+			{
+				elso = elso * 10;
+			}
+
+			int masodik = 100;
+			for (int i = 0;i != oszto;i++)
+			{
+				masodik = masodik * 10;
+			}
+
+            return rand.Next(elso,masodik) * 2;
         }
 
 
