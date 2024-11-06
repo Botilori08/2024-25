@@ -1,0 +1,15 @@
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\Feladat11.06\bin\Debug\net8.0\Feladat11.06.exe
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\Feladat11.06\bin\Debug\net8.0\Feladat11.06.deps.json
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\Feladat11.06\bin\Debug\net8.0\Feladat11.06.runtimeconfig.json
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\Feladat11.06\bin\Debug\net8.0\Feladat11.06.dll
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\Feladat11.06\bin\Debug\net8.0\Feladat11.06.pdb
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\Feladat11.06\obj\Debug\net8.0\Feladat11.06.GeneratedMSBuildEditorConfig.editorconfig
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\Feladat11.06\obj\Debug\net8.0\Feladat11.06.AssemblyInfoInputs.cache
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\Feladat11.06\obj\Debug\net8.0\Feladat11.06.AssemblyInfo.cs
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\Feladat11.06\obj\Debug\net8.0\Feladat11.06.csproj.CoreCompileInputs.cache
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\Feladat11.06\obj\Debug\net8.0\Feladat11.06.sourcelink.json
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\Feladat11.06\obj\Debug\net8.0\Feladat11.06.dll
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\Feladat11.06\obj\Debug\net8.0\refint\Feladat11.06.dll
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\Feladat11.06\obj\Debug\net8.0\Feladat11.06.pdb
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\Feladat11.06\obj\Debug\net8.0\Feladat11.06.genruntimeconfig.cache
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\Feladat11.06\obj\Debug\net8.0\ref\Feladat11.06.dll
