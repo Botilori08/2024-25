@@ -1,0 +1,15 @@
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Gyakorlás\gyakorlasaDogara\gyakorlasaDogara\bin\Debug\net8.0\gyakorlasaDogara.exe
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Gyakorlás\gyakorlasaDogara\gyakorlasaDogara\bin\Debug\net8.0\gyakorlasaDogara.deps.json
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Gyakorlás\gyakorlasaDogara\gyakorlasaDogara\bin\Debug\net8.0\gyakorlasaDogara.runtimeconfig.json
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Gyakorlás\gyakorlasaDogara\gyakorlasaDogara\bin\Debug\net8.0\gyakorlasaDogara.dll
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Gyakorlás\gyakorlasaDogara\gyakorlasaDogara\bin\Debug\net8.0\gyakorlasaDogara.pdb
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Gyakorlás\gyakorlasaDogara\gyakorlasaDogara\obj\Debug\net8.0\gyakorlasaDogara.GeneratedMSBuildEditorConfig.editorconfig
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Gyakorlás\gyakorlasaDogara\gyakorlasaDogara\obj\Debug\net8.0\gyakorlasaDogara.AssemblyInfoInputs.cache
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Gyakorlás\gyakorlasaDogara\gyakorlasaDogara\obj\Debug\net8.0\gyakorlasaDogara.AssemblyInfo.cs
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Gyakorlás\gyakorlasaDogara\gyakorlasaDogara\obj\Debug\net8.0\gyakorlasaDogara.csproj.CoreCompileInputs.cache
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Gyakorlás\gyakorlasaDogara\gyakorlasaDogara\obj\Debug\net8.0\gyakorlasaDogara.sourcelink.json
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Gyakorlás\gyakorlasaDogara\gyakorlasaDogara\obj\Debug\net8.0\gyakorlasaDogara.dll
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Gyakorlás\gyakorlasaDogara\gyakorlasaDogara\obj\Debug\net8.0\refint\gyakorlasaDogara.dll
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Gyakorlás\gyakorlasaDogara\gyakorlasaDogara\obj\Debug\net8.0\gyakorlasaDogara.pdb
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Gyakorlás\gyakorlasaDogara\gyakorlasaDogara\obj\Debug\net8.0\gyakorlasaDogara.genruntimeconfig.cache
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Gyakorlás\gyakorlasaDogara\gyakorlasaDogara\obj\Debug\net8.0\ref\gyakorlasaDogara.dll
