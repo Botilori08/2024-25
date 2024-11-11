@@ -1,0 +1,39 @@
+#elso
+{
+    border:3px solid Black;
+    width: 200px;
+    height:200px;
+    background: black;
+    transition: height,width 2s;
+    margin-bottom:40px;
+}
+
+#elso:hover
+{
+    height: 400px;
+    width: 400px;
+}
+
+#masodik
+{
+    background:red;
+    width:300px;
+    margin-top:100px;
+    height:200px;
+    transition: transform 1s;
+}
+#masodik:hover{
+    transform: rotate(90deg);
+}
+
+#harmadik
+{
+    background: blue;
+    width:100px;
+    height:100px;
+    border-radius:50px;
+    transition: transform, 1s;
+}
+#harmadik:hover{
+    transform:
+}
