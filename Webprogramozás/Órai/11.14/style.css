@@ -1,0 +1,30 @@
+
+.grid-container
+{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+}
+.grid-item
+{
+    text-align: center;
+    font-size: 100px;
+    background-color: rgb(2, 128, 128);
+    border:3px solid rgb(13, 92, 122);
+    font-family: 'Courier New', Courier, monospace;
+    color: blue;
+}
+
+@keyframes L{
+    0%  {transform: rotate(72deg);}
+    25%  {transform: rotate(144deg);}
+    50%  {transform: rotate(216deg);}
+    75%  {transform: rotate(288deg);}
+    100%  {transform: rotate(360deg);}
+
+    
+}
+#L
+{
+    animation-name: L;
+    animation-iteration-count: infinite;
+}
