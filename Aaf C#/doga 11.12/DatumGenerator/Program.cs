@@ -44,7 +44,7 @@
 
 			Console.Write("Kérek egy 10 és 100 közötti egész számot");
 			int bekert = 0;
-			while (bekert > 0)
+			while (bekert == 0)
 			{
 				bekert = Convert.ToInt32(Console.ReadLine());
 				if (bekert < 10)

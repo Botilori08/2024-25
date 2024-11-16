@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DatumGenerator")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c1e69e9958ed06f561484ff5c54bc8a184288aa5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7fc13cbab4bab3ca577a34df4e4b80616f1b9e3c")]
 [assembly: System.Reflection.AssemblyProductAttribute("DatumGenerator")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DatumGenerator")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

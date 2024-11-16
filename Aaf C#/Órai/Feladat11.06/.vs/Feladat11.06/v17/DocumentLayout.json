@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\munkak\u00F6nyvt\u00E1r\\Boti L\u00F3r\u00E1nt\\2024-25\\Aaf C#\\\u00D3rai\\Feladat11.06\\",
+  "WorkspaceRootPath": "C:\\Users\\loran\\Desktop\\Suli\\Programoz\u00E1s, Ikt\\2024-25\\Aaf C#\\\u00D3rai\\Feladat11.06\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7FDC6DCE-9E71-4CD9-92D8-F2784793A2A9}|Feladat11.06.csproj|d:\\munkak\u00F6nyvt\u00E1r\\boti l\u00F3r\u00E1nt\\2024-25\\aaf c#\\\u00F3rai\\feladat11.06\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7FDC6DCE-9E71-4CD9-92D8-F2784793A2A9}|Feladat11.06.csproj|c:\\users\\loran\\desktop\\suli\\programoz\u00E1s, ikt\\2024-25\\aaf c#\\\u00F3rai\\feladat11.06\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7FDC6DCE-9E71-4CD9-92D8-F2784793A2A9}|Feladat11.06.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\munkak\u00F6nyvt\u00E1r\\Boti L\u00F3r\u00E1nt\\2024-25\\Aaf C#\\\u00D3rai\\Feladat11.06\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\loran\\Desktop\\Suli\\Programoz\u00E1s, Ikt\\2024-25\\Aaf C#\\\u00D3rai\\Feladat11.06\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\munkak\u00F6nyvt\u00E1r\\Boti L\u00F3r\u00E1nt\\2024-25\\Aaf C#\\\u00D3rai\\Feladat11.06\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACQAAAAIAAAA",
+              "ToolTip": "C:\\Users\\loran\\Desktop\\Suli\\Programoz\u00E1s, Ikt\\2024-25\\Aaf C#\\\u00D3rai\\Feladat11.06\\Program.cs*",
+              "RelativeToolTip": "Program.cs*",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwCQAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-06T12:55:05.413Z",
               "EditorCaption": ""
