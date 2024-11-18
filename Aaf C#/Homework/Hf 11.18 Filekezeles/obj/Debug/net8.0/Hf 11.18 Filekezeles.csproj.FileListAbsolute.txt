@@ -1,0 +1,15 @@
+C:\Users\loran\Desktop\Suli\Programozás, Ikt\2024-25\Aaf C#\Homework\Hf 11.18 Filekezeles\bin\Debug\net8.0\Hf 11.18 Filekezeles.exe
+C:\Users\loran\Desktop\Suli\Programozás, Ikt\2024-25\Aaf C#\Homework\Hf 11.18 Filekezeles\bin\Debug\net8.0\Hf 11.18 Filekezeles.deps.json
+C:\Users\loran\Desktop\Suli\Programozás, Ikt\2024-25\Aaf C#\Homework\Hf 11.18 Filekezeles\bin\Debug\net8.0\Hf 11.18 Filekezeles.runtimeconfig.json
+C:\Users\loran\Desktop\Suli\Programozás, Ikt\2024-25\Aaf C#\Homework\Hf 11.18 Filekezeles\bin\Debug\net8.0\Hf 11.18 Filekezeles.dll
+C:\Users\loran\Desktop\Suli\Programozás, Ikt\2024-25\Aaf C#\Homework\Hf 11.18 Filekezeles\bin\Debug\net8.0\Hf 11.18 Filekezeles.pdb
+C:\Users\loran\Desktop\Suli\Programozás, Ikt\2024-25\Aaf C#\Homework\Hf 11.18 Filekezeles\obj\Debug\net8.0\Hf 11.18 Filekezeles.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\loran\Desktop\Suli\Programozás, Ikt\2024-25\Aaf C#\Homework\Hf 11.18 Filekezeles\obj\Debug\net8.0\Hf 11.18 Filekezeles.AssemblyInfoInputs.cache
+C:\Users\loran\Desktop\Suli\Programozás, Ikt\2024-25\Aaf C#\Homework\Hf 11.18 Filekezeles\obj\Debug\net8.0\Hf 11.18 Filekezeles.AssemblyInfo.cs
+C:\Users\loran\Desktop\Suli\Programozás, Ikt\2024-25\Aaf C#\Homework\Hf 11.18 Filekezeles\obj\Debug\net8.0\Hf 11.18 Filekezeles.csproj.CoreCompileInputs.cache
+C:\Users\loran\Desktop\Suli\Programozás, Ikt\2024-25\Aaf C#\Homework\Hf 11.18 Filekezeles\obj\Debug\net8.0\Hf 11.18 Filekezeles.sourcelink.json
+C:\Users\loran\Desktop\Suli\Programozás, Ikt\2024-25\Aaf C#\Homework\Hf 11.18 Filekezeles\obj\Debug\net8.0\Hf 11.18 Filekezeles.dll
+C:\Users\loran\Desktop\Suli\Programozás, Ikt\2024-25\Aaf C#\Homework\Hf 11.18 Filekezeles\obj\Debug\net8.0\refint\Hf 11.18 Filekezeles.dll
+C:\Users\loran\Desktop\Suli\Programozás, Ikt\2024-25\Aaf C#\Homework\Hf 11.18 Filekezeles\obj\Debug\net8.0\Hf 11.18 Filekezeles.pdb
+C:\Users\loran\Desktop\Suli\Programozás, Ikt\2024-25\Aaf C#\Homework\Hf 11.18 Filekezeles\obj\Debug\net8.0\Hf 11.18 Filekezeles.genruntimeconfig.cache
+C:\Users\loran\Desktop\Suli\Programozás, Ikt\2024-25\Aaf C#\Homework\Hf 11.18 Filekezeles\obj\Debug\net8.0\ref\Hf 11.18 Filekezeles.dll
