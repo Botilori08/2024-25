@@ -9,8 +9,14 @@ namespace megoldas11._19
 		{
 			
             beiro();
+            Console.WriteLine();
+            kiir();
+            Console.WriteLine();
             kiir2();
-
+            Console.WriteLine();
+            kiir3();
+            Console.WriteLine();
+            kiir4();
 
 
             // HF: Még két féle kiírás
@@ -65,12 +71,27 @@ namespace megoldas11._19
             string sor = "";
             while (!olvas.EndOfStream)
             {
-                sor += olvas.ReadLine();
+                sor = olvas.ReadLine();
                 Console.WriteLine(sor);
 
             }
 
 
+        }
+        static void kiir3()
+        {
+            string[] sorok = File.ReadAllLines("tablazat.csv");
+
+            for (int i = 0; i < sorok.Length;i++)
+            {
+                Console.WriteLine(sorok[i]);
+            }
+        }
+        static void kiir4()
+        {
+            string sorok = File.ReadAllText("tablazat.csv");
+
+            Console.WriteLine(sorok);
         }
     }
 }

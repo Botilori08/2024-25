@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("megoldas11.19")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a15f866da13dc1c2a5f11f85ac0755858c14611f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8719b7b96dcca163b52255e7071edeacd0c3e8cc")]
 [assembly: System.Reflection.AssemblyProductAttribute("megoldas11.19")]
 [assembly: System.Reflection.AssemblyTitleAttribute("megoldas11.19")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
