@@ -13,17 +13,15 @@
             Console.Write("Hány sorból álljon a táblázat? ");
             int sorok = Convert.ToInt32(Console.ReadLine());
 
-
-            for (int i = 0; i < oszlopok * sorok; i++)
+            for (int k = 0; k < sorok; k++)
             {
-                iro.Write(rand.Next(0,500));
-                iro.Write(";");
-
-                if (i%oszlopok == oszlopok-1)
+                for (int i = 0; i < oszlopok; i++)
                 {
-                    Console.WriteLine();
+                    iro.Write(rand.Next(0, 500));
+                    iro.Write(";");
                 }
             }
+ 
 
             iro.Close();
 
