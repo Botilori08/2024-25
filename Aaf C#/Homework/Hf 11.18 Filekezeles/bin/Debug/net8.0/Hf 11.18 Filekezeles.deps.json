@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Hf 11.18 Filekezeles/1.0.0": {
+        "runtime": {
+          "Hf 11.18 Filekezeles.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Hf 11.18 Filekezeles/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
