@@ -1,0 +1,15 @@
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\Dictionary12.03\bin\Debug\net8.0\Dictionary12.03.exe
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\Dictionary12.03\bin\Debug\net8.0\Dictionary12.03.deps.json
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\Dictionary12.03\bin\Debug\net8.0\Dictionary12.03.runtimeconfig.json
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\Dictionary12.03\bin\Debug\net8.0\Dictionary12.03.dll
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\Dictionary12.03\bin\Debug\net8.0\Dictionary12.03.pdb
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\Dictionary12.03\obj\Debug\net8.0\Dictionary12.03.GeneratedMSBuildEditorConfig.editorconfig
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\Dictionary12.03\obj\Debug\net8.0\Dictionary12.03.AssemblyInfoInputs.cache
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\Dictionary12.03\obj\Debug\net8.0\Dictionary12.03.AssemblyInfo.cs
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\Dictionary12.03\obj\Debug\net8.0\Dictionary12.03.csproj.CoreCompileInputs.cache
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\Dictionary12.03\obj\Debug\net8.0\Dictionary12.03.sourcelink.json
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\Dictionary12.03\obj\Debug\net8.0\Dictionary12.03.dll
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\Dictionary12.03\obj\Debug\net8.0\refint\Dictionary12.03.dll
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\Dictionary12.03\obj\Debug\net8.0\Dictionary12.03.pdb
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\Dictionary12.03\obj\Debug\net8.0\Dictionary12.03.genruntimeconfig.cache
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\Dictionary12.03\obj\Debug\net8.0\ref\Dictionary12.03.dll
