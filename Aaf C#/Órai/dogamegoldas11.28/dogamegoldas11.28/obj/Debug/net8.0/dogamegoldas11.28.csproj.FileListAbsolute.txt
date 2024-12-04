@@ -1,0 +1,15 @@
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\dogamegoldas11.28\dogamegoldas11.28\bin\Debug\net8.0\dogamegoldas11.28.exe
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\dogamegoldas11.28\dogamegoldas11.28\bin\Debug\net8.0\dogamegoldas11.28.deps.json
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\dogamegoldas11.28\dogamegoldas11.28\bin\Debug\net8.0\dogamegoldas11.28.runtimeconfig.json
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\dogamegoldas11.28\dogamegoldas11.28\bin\Debug\net8.0\dogamegoldas11.28.dll
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\dogamegoldas11.28\dogamegoldas11.28\bin\Debug\net8.0\dogamegoldas11.28.pdb
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\dogamegoldas11.28\dogamegoldas11.28\obj\Debug\net8.0\dogamegoldas11.28.GeneratedMSBuildEditorConfig.editorconfig
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\dogamegoldas11.28\dogamegoldas11.28\obj\Debug\net8.0\dogamegoldas11.28.AssemblyInfoInputs.cache
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\dogamegoldas11.28\dogamegoldas11.28\obj\Debug\net8.0\dogamegoldas11.28.AssemblyInfo.cs
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\dogamegoldas11.28\dogamegoldas11.28\obj\Debug\net8.0\dogamegoldas11.28.csproj.CoreCompileInputs.cache
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\dogamegoldas11.28\dogamegoldas11.28\obj\Debug\net8.0\dogamegoldas11.28.sourcelink.json
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\dogamegoldas11.28\dogamegoldas11.28\obj\Debug\net8.0\dogamegoldas11.28.dll
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\dogamegoldas11.28\dogamegoldas11.28\obj\Debug\net8.0\refint\dogamegoldas11.28.dll
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\dogamegoldas11.28\dogamegoldas11.28\obj\Debug\net8.0\dogamegoldas11.28.pdb
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\dogamegoldas11.28\dogamegoldas11.28\obj\Debug\net8.0\dogamegoldas11.28.genruntimeconfig.cache
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\dogamegoldas11.28\dogamegoldas11.28\obj\Debug\net8.0\ref\dogamegoldas11.28.dll

@@ -1,0 +1,15 @@
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\listaGyakorlas12.02\bin\Debug\net8.0\listaGyakorlas12.02.exe
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\listaGyakorlas12.02\bin\Debug\net8.0\listaGyakorlas12.02.deps.json
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\listaGyakorlas12.02\bin\Debug\net8.0\listaGyakorlas12.02.runtimeconfig.json
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\listaGyakorlas12.02\bin\Debug\net8.0\listaGyakorlas12.02.dll
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\listaGyakorlas12.02\bin\Debug\net8.0\listaGyakorlas12.02.pdb
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\listaGyakorlas12.02\obj\Debug\net8.0\listaGyakorlas12.02.GeneratedMSBuildEditorConfig.editorconfig
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\listaGyakorlas12.02\obj\Debug\net8.0\listaGyakorlas12.02.AssemblyInfoInputs.cache
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\listaGyakorlas12.02\obj\Debug\net8.0\listaGyakorlas12.02.AssemblyInfo.cs
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\listaGyakorlas12.02\obj\Debug\net8.0\listaGyakorlas12.02.csproj.CoreCompileInputs.cache
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\listaGyakorlas12.02\obj\Debug\net8.0\listaGyakorlas12.02.sourcelink.json
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\listaGyakorlas12.02\obj\Debug\net8.0\listaGyakorlas12.02.dll
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\listaGyakorlas12.02\obj\Debug\net8.0\refint\listaGyakorlas12.02.dll
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\listaGyakorlas12.02\obj\Debug\net8.0\listaGyakorlas12.02.pdb
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\listaGyakorlas12.02\obj\Debug\net8.0\listaGyakorlas12.02.genruntimeconfig.cache
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\listaGyakorlas12.02\obj\Debug\net8.0\ref\listaGyakorlas12.02.dll

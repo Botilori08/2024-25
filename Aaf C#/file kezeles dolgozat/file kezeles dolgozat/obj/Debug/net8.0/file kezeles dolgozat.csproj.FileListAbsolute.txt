@@ -1,0 +1,14 @@
+D:\munkakönyvtár\file kezeles dolgozat\file kezeles dolgozat\bin\Debug\net8.0\file kezeles dolgozat.exe
+D:\munkakönyvtár\file kezeles dolgozat\file kezeles dolgozat\bin\Debug\net8.0\file kezeles dolgozat.deps.json
+D:\munkakönyvtár\file kezeles dolgozat\file kezeles dolgozat\bin\Debug\net8.0\file kezeles dolgozat.runtimeconfig.json
+D:\munkakönyvtár\file kezeles dolgozat\file kezeles dolgozat\bin\Debug\net8.0\file kezeles dolgozat.dll
+D:\munkakönyvtár\file kezeles dolgozat\file kezeles dolgozat\bin\Debug\net8.0\file kezeles dolgozat.pdb
+D:\munkakönyvtár\file kezeles dolgozat\file kezeles dolgozat\obj\Debug\net8.0\file kezeles dolgozat.GeneratedMSBuildEditorConfig.editorconfig
+D:\munkakönyvtár\file kezeles dolgozat\file kezeles dolgozat\obj\Debug\net8.0\file kezeles dolgozat.AssemblyInfoInputs.cache
+D:\munkakönyvtár\file kezeles dolgozat\file kezeles dolgozat\obj\Debug\net8.0\file kezeles dolgozat.AssemblyInfo.cs
+D:\munkakönyvtár\file kezeles dolgozat\file kezeles dolgozat\obj\Debug\net8.0\file kezeles dolgozat.csproj.CoreCompileInputs.cache
+D:\munkakönyvtár\file kezeles dolgozat\file kezeles dolgozat\obj\Debug\net8.0\file kezeles dolgozat.dll
+D:\munkakönyvtár\file kezeles dolgozat\file kezeles dolgozat\obj\Debug\net8.0\refint\file kezeles dolgozat.dll
+D:\munkakönyvtár\file kezeles dolgozat\file kezeles dolgozat\obj\Debug\net8.0\file kezeles dolgozat.pdb
+D:\munkakönyvtár\file kezeles dolgozat\file kezeles dolgozat\obj\Debug\net8.0\file kezeles dolgozat.genruntimeconfig.cache
+D:\munkakönyvtár\file kezeles dolgozat\file kezeles dolgozat\obj\Debug\net8.0\ref\file kezeles dolgozat.dll

@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "listaGyakorlas12.02/1.0.0": {
+        "runtime": {
+          "listaGyakorlas12.02.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "listaGyakorlas12.02/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
