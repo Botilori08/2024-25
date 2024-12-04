@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>12.04</title>
+</head>
+<body>
+    <script>
+        const gyumolcs = ["barack","alma","cseresznye","banán","körte"];
+
+        console.log(gyumolcs.toString());
+
+        console.log();
+
+        for (let i = 0;i<gyumolcs.length;i++)
+        {
+            console.log(gyumolcs[i]);
+        }
+
+        console.log();
+
+        gyumolcs[gyumolcs.length] = "málna";
+        
+
+        for (let elem of gyumolcs)
+        {
+            console.log(elem);
+        }
+
+        gyumolcs[20] = "mangó";
+
+
+        console.log();
+
+        for (let elem of gyumolcs)
+        {
+            console.log(elem);
+        }
+
+        console.log()
+        console.log(gyumolcs.toString())
+
+
+    </script>
+</body>
+</html>
