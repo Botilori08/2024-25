@@ -1,0 +1,15 @@
+C:\Users\loran\Desktop\Suli\Programozás, Ikt\2024-25\Aaf C#\Homework\Hf12.06\bin\Debug\net8.0\Hf12.06.exe
+C:\Users\loran\Desktop\Suli\Programozás, Ikt\2024-25\Aaf C#\Homework\Hf12.06\bin\Debug\net8.0\Hf12.06.deps.json
+C:\Users\loran\Desktop\Suli\Programozás, Ikt\2024-25\Aaf C#\Homework\Hf12.06\bin\Debug\net8.0\Hf12.06.runtimeconfig.json
+C:\Users\loran\Desktop\Suli\Programozás, Ikt\2024-25\Aaf C#\Homework\Hf12.06\bin\Debug\net8.0\Hf12.06.dll
+C:\Users\loran\Desktop\Suli\Programozás, Ikt\2024-25\Aaf C#\Homework\Hf12.06\bin\Debug\net8.0\Hf12.06.pdb
+C:\Users\loran\Desktop\Suli\Programozás, Ikt\2024-25\Aaf C#\Homework\Hf12.06\obj\Debug\net8.0\Hf12.06.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\loran\Desktop\Suli\Programozás, Ikt\2024-25\Aaf C#\Homework\Hf12.06\obj\Debug\net8.0\Hf12.06.AssemblyInfoInputs.cache
+C:\Users\loran\Desktop\Suli\Programozás, Ikt\2024-25\Aaf C#\Homework\Hf12.06\obj\Debug\net8.0\Hf12.06.AssemblyInfo.cs
+C:\Users\loran\Desktop\Suli\Programozás, Ikt\2024-25\Aaf C#\Homework\Hf12.06\obj\Debug\net8.0\Hf12.06.csproj.CoreCompileInputs.cache
+C:\Users\loran\Desktop\Suli\Programozás, Ikt\2024-25\Aaf C#\Homework\Hf12.06\obj\Debug\net8.0\Hf12.06.sourcelink.json
+C:\Users\loran\Desktop\Suli\Programozás, Ikt\2024-25\Aaf C#\Homework\Hf12.06\obj\Debug\net8.0\Hf12.06.dll
+C:\Users\loran\Desktop\Suli\Programozás, Ikt\2024-25\Aaf C#\Homework\Hf12.06\obj\Debug\net8.0\refint\Hf12.06.dll
+C:\Users\loran\Desktop\Suli\Programozás, Ikt\2024-25\Aaf C#\Homework\Hf12.06\obj\Debug\net8.0\Hf12.06.pdb
+C:\Users\loran\Desktop\Suli\Programozás, Ikt\2024-25\Aaf C#\Homework\Hf12.06\obj\Debug\net8.0\Hf12.06.genruntimeconfig.cache
+C:\Users\loran\Desktop\Suli\Programozás, Ikt\2024-25\Aaf C#\Homework\Hf12.06\obj\Debug\net8.0\ref\Hf12.06.dll

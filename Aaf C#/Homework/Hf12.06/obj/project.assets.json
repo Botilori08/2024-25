@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\loran\\Desktop\\Suli\\Programozás, Ikt\\2024-25\\Aaf C#\\Órai\\12.06\\12.06.csproj",
-      "projectName": "12.06",
-      "projectPath": "C:\\Users\\loran\\Desktop\\Suli\\Programozás, Ikt\\2024-25\\Aaf C#\\Órai\\12.06\\12.06.csproj",
+      "projectUniqueName": "C:\\Users\\loran\\Desktop\\Suli\\Programozás, Ikt\\2024-25\\Aaf C#\\Homework\\Hf12.06\\Hf12.06.csproj",
+      "projectName": "Hf12.06",
+      "projectPath": "C:\\Users\\loran\\Desktop\\Suli\\Programozás, Ikt\\2024-25\\Aaf C#\\Homework\\Hf12.06\\Hf12.06.csproj",
       "packagesPath": "C:\\Users\\loran\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\loran\\Desktop\\Suli\\Programozás, Ikt\\2024-25\\Aaf C#\\Órai\\12.06\\obj\\",
+      "outputPath": "C:\\Users\\loran\\Desktop\\Suli\\Programozás, Ikt\\2024-25\\Aaf C#\\Homework\\Hf12.06\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\loran\\AppData\\Roaming\\NuGet\\NuGet.Config",
