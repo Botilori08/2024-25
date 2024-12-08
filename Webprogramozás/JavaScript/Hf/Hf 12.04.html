@@ -7,21 +7,45 @@
 </head>
 <body>
        <script>
-                //Hf: Hozzatok létre egy tömböt, ami a két számjegyű számokat tartalmazza
-                //Irassuk ki huszasával a számokat
-                //Irassuk ki minden másodikat
-                //Irassuk ki a 12-vel oszthatóakat
-                //Irassuk ki visszafelé
+                //Hf: 1. Hozzatok létre egy tömböt, ami a két számjegyű számokat tartalmazza
+                //2. Irassuk ki huszasával a számokat
+                //3. Irassuk ki minden másodikat
+                //4. Irassuk ki a 12-vel oszthatóakat
+                //5. Irassuk ki visszafelé
 
+
+                console.log("-----1.feladat-----")
                 let szam = 10;
                 let szamok = [];
 
-                for (let i = 0;szam < 100,i++)
+                while (szam<100)
                 {
-                    szamok[i] = szam+= 1;
+                    szamok[szamok.length]=szam;
+                    szam++;
                 }
+
                 console.log(szamok)
 
+                console.log("-----2.feladat-----")
+
+                for (let i = 0;i<szamok.length;i+=20)
+                {
+                    console.log(szamok[i]);
+                }
+
+                console.log("-----3.feladat-----")
+
+                for (let i of szamok)
+                {
+                    if (i%12 == 0)
+                    {
+                        console.log(i)
+                    }
+                }
+
+                console.log("-----4.feladat-----")
+
+                console.log(szamok.reverse())
        </script> 
 </body>
 </html>
