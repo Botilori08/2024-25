@@ -7,5 +7,5 @@ select faj,kormeret,meres from fa order by kormeret desc limit 1;
 ----4.feladat----
 select telepules, count(azon) as fadarabszam from fa group by telepules order by fadarabszam desc, telepules;
 ----5.feladat----
-
+select nev, count(faj) as fak_szama from megye inner join fa on id=megyeid group by megye.nev;
 ----6.feladat----
