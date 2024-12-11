@@ -1,14 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\loran\\Desktop\\Suli\\Programoz\u00E1s, Ikt\\2024-25\\Aaf C#\\Homework\\Hf12.06\\",
+  "WorkspaceRootPath": "D:\\munkak\u00F6nyvt\u00E1r\\Boti L\u00F3r\u00E1nt\\2024-25\\Aaf C#\\Homework\\Hf12.06\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4A55853D-3CC1-4AA8-8844-76503BB5B968}|Hf12.06.csproj|c:\\users\\loran\\desktop\\suli\\programoz\u00E1s, ikt\\2024-25\\aaf c#\\homework\\hf12.06\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A55853D-3CC1-4AA8-8844-76503BB5B968}|Hf12.06.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4A55853D-3CC1-4AA8-8844-76503BB5B968}|Hf12.06.csproj|d:\\munkak\u00F6nyvt\u00E1r\\boti l\u00F3r\u00E1nt\\2024-25\\aaf c#\\homework\\hf12.06\\ikarus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A55853D-3CC1-4AA8-8844-76503BB5B968}|Hf12.06.csproj|solutionrelative:ikarus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4A55853D-3CC1-4AA8-8844-76503BB5B968}|Hf12.06.csproj|c:\\users\\loran\\desktop\\suli\\programoz\u00E1s, ikt\\2024-25\\aaf c#\\homework\\hf12.06\\ikarus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A55853D-3CC1-4AA8-8844-76503BB5B968}|Hf12.06.csproj|solutionrelative:ikarus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4A55853D-3CC1-4AA8-8844-76503BB5B968}|Hf12.06.csproj|d:\\munkak\u00F6nyvt\u00E1r\\boti l\u00F3r\u00E1nt\\2024-25\\aaf c#\\homework\\hf12.06\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A55853D-3CC1-4AA8-8844-76503BB5B968}|Hf12.06.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,29 +18,33 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Ikarus.cs",
-              "DocumentMoniker": "C:\\Users\\loran\\Desktop\\Suli\\Programoz\u00E1s, Ikt\\2024-25\\Aaf C#\\Homework\\Hf12.06\\Ikarus.cs",
+              "DocumentMoniker": "D:\\munkak\u00F6nyvt\u00E1r\\Boti L\u00F3r\u00E1nt\\2024-25\\Aaf C#\\Homework\\Hf12.06\\Ikarus.cs",
               "RelativeDocumentMoniker": "Ikarus.cs",
-              "ToolTip": "C:\\Users\\loran\\Desktop\\Suli\\Programoz\u00E1s, Ikt\\2024-25\\Aaf C#\\Homework\\Hf12.06\\Ikarus.cs",
+              "ToolTip": "D:\\munkak\u00F6nyvt\u00E1r\\Boti L\u00F3r\u00E1nt\\2024-25\\Aaf C#\\Homework\\Hf12.06\\Ikarus.cs",
               "RelativeToolTip": "Ikarus.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAeAAAAAAAAAA==",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-08T06:57:02.864Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\loran\\Desktop\\Suli\\Programoz\u00E1s, Ikt\\2024-25\\Aaf C#\\Homework\\Hf12.06\\Program.cs",
+              "DocumentMoniker": "D:\\munkak\u00F6nyvt\u00E1r\\Boti L\u00F3r\u00E1nt\\2024-25\\Aaf C#\\Homework\\Hf12.06\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\loran\\Desktop\\Suli\\Programoz\u00E1s, Ikt\\2024-25\\Aaf C#\\Homework\\Hf12.06\\Program.cs",
+              "ToolTip": "D:\\munkak\u00F6nyvt\u00E1r\\Boti L\u00F3r\u00E1nt\\2024-25\\Aaf C#\\Homework\\Hf12.06\\Program.cs",
               "RelativeToolTip": "Program.cs",
+<<<<<<< HEAD
+              "ViewState": "AQIAAAIAAAAAAAAAAAAxwAAAAAAAAAAA",
+=======
               "ViewState": "AgIAAA8AAAAAAAAAAAAIwAMAAAAFAAAAAAAAAA==",
+>>>>>>> 868b8f05d84b67cb2e12687752367bfdfcd772df
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-08T06:56:36.656Z",
               "EditorCaption": ""

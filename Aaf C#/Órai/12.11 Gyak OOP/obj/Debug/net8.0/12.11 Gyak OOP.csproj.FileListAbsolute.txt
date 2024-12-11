@@ -1,0 +1,15 @@
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\12.11 Gyak OOP\bin\Debug\net8.0\12.11 Gyak OOP.exe
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\12.11 Gyak OOP\bin\Debug\net8.0\12.11 Gyak OOP.deps.json
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\12.11 Gyak OOP\bin\Debug\net8.0\12.11 Gyak OOP.runtimeconfig.json
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\12.11 Gyak OOP\bin\Debug\net8.0\12.11 Gyak OOP.dll
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\12.11 Gyak OOP\bin\Debug\net8.0\12.11 Gyak OOP.pdb
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\12.11 Gyak OOP\obj\Debug\net8.0\12.11 Gyak OOP.GeneratedMSBuildEditorConfig.editorconfig
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\12.11 Gyak OOP\obj\Debug\net8.0\12.11 Gyak OOP.AssemblyInfoInputs.cache
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\12.11 Gyak OOP\obj\Debug\net8.0\12.11 Gyak OOP.AssemblyInfo.cs
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\12.11 Gyak OOP\obj\Debug\net8.0\12.11 Gyak OOP.csproj.CoreCompileInputs.cache
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\12.11 Gyak OOP\obj\Debug\net8.0\12.11 Gyak OOP.sourcelink.json
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\12.11 Gyak OOP\obj\Debug\net8.0\12.11 Gyak OOP.dll
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\12.11 Gyak OOP\obj\Debug\net8.0\refint\12.11 Gyak OOP.dll
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\12.11 Gyak OOP\obj\Debug\net8.0\12.11 Gyak OOP.pdb
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\12.11 Gyak OOP\obj\Debug\net8.0\12.11 Gyak OOP.genruntimeconfig.cache
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\12.11 Gyak OOP\obj\Debug\net8.0\ref\12.11 Gyak OOP.dll
