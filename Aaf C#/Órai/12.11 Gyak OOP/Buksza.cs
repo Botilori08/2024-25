@@ -34,5 +34,17 @@ namespace _12._11_Gyak_OOP
 			return $"{szin} buksza, benne {penz} forint";
 		}
 
+		public void noveles(int noveles)
+		{
+			 int osszeg = penz + noveles;
+			if (osszeg <= 0)
+			{
+				Console.WriteLine("Üres a bukszád");
+            }
+			else
+			{
+				Console.WriteLine($"A bukszádban {osszeg} Ft van");
+			}
+		}
 	}
 }

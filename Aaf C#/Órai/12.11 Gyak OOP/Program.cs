@@ -16,5 +16,20 @@ internal class Program
 		Console.WriteLine();
 		Console.WriteLine(b2);
 
+
+
+        Console.WriteLine();
+		b2.noveles(30000);
+        Console.WriteLine();
+
+		Console.Write("Mennyi pénz legyen a bukszában? ");
+		int alapszam = Convert.ToInt32(Console.ReadLine());
+		Console.Write("Mennyi pénzt teszel a bukszába? ");
+		int bekert = Convert.ToInt32(Console.ReadLine());
+
+		Buksza tarca = new Buksza(alapszam);
+
+		tarca.noveles(bekert);
+
 	}
 }
