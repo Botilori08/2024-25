@@ -266,5 +266,3 @@ INSERT INTO adatok (AZON, versenynev, tipus, esemeny, datum) VALUES
 (264, 'Örökségünk’48', 'vegyes', 'Döntő', '2005-03-12'),
 (265, 'Országos Számítástechnikai Levelezőverseny', 'vegyes', 'Döntő', '2005-05-14'),
 (266, 'Országos Szilárd Leó Fizikaverseny', 'vegyes', 'Döntő', '2004-09-11');
-
-

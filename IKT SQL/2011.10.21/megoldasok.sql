@@ -7,6 +7,7 @@ select faj,kormeret,meres from fa order by kormeret desc limit 1;
 ----4.feladat----
 select telepules, count(azon) as fadarabszam from fa group by telepules order by fadarabszam desc, telepules;
 ----5.feladat----
- select nev as megye, count(azon) as fak_szama from megye inner join fa on id=megyeid group by megye;
+select nev as megye, count(azon) as fak_szama from megye inner join fa on id=megyeid group by megye;
 ----6.feladat----
-
+select telepules from fa where faj='tiszafa';
+select faj from fa where telepules in(select telepules from fa where faj='tiszafa');
