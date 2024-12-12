@@ -26,6 +26,12 @@ namespace adatokClassGyak
 
         }
 
+        /// <summary>
+        /// Ez a kezdési időt adja vissza másodpercben
+        /// </summary>
+        /// <returns>A nap másodpercben</returns>
+
+
         public int idoMpkezd()
         {
 			return kezdIdo[0] * 60 * 60 + kezdIdo[1] * 60 + kezdIdo[2];
