@@ -1,0 +1,15 @@
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\adatokClassGyak\bin\Debug\net8.0\adatokClassGyak.exe
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\adatokClassGyak\bin\Debug\net8.0\adatokClassGyak.deps.json
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\adatokClassGyak\bin\Debug\net8.0\adatokClassGyak.runtimeconfig.json
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\adatokClassGyak\bin\Debug\net8.0\adatokClassGyak.dll
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\adatokClassGyak\bin\Debug\net8.0\adatokClassGyak.pdb
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\adatokClassGyak\obj\Debug\net8.0\adatokClassGyak.GeneratedMSBuildEditorConfig.editorconfig
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\adatokClassGyak\obj\Debug\net8.0\adatokClassGyak.AssemblyInfoInputs.cache
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\adatokClassGyak\obj\Debug\net8.0\adatokClassGyak.AssemblyInfo.cs
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\adatokClassGyak\obj\Debug\net8.0\adatokClassGyak.csproj.CoreCompileInputs.cache
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\adatokClassGyak\obj\Debug\net8.0\adatokClassGyak.sourcelink.json
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\adatokClassGyak\obj\Debug\net8.0\adatokClassGyak.dll
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\adatokClassGyak\obj\Debug\net8.0\refint\adatokClassGyak.dll
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\adatokClassGyak\obj\Debug\net8.0\adatokClassGyak.pdb
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\adatokClassGyak\obj\Debug\net8.0\adatokClassGyak.genruntimeconfig.cache
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\adatokClassGyak\obj\Debug\net8.0\ref\adatokClassGyak.dll
