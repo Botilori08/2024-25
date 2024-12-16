@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM gyak</title>
+</head>
+<body onload="init()">
+
+    <div id="elso">Első div</div>
+
+    <script>
+        function init(){
+            console.log(document.getElementById("elso"));
+            console.log(document.getElementById("masodik"));
+
+            let m2 = document.getElementById("masodik");
+            m2.innerHTML = "Something <b>else</b>"
+
+            console.log(m2)
+        }
+    </script>
+
+    <div id="masodik">Második div</div>
+</body>
+</html>
