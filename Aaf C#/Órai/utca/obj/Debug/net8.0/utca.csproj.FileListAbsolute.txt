@@ -1,0 +1,15 @@
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\utca\bin\Debug\net8.0\utca.exe
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\utca\bin\Debug\net8.0\utca.deps.json
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\utca\bin\Debug\net8.0\utca.runtimeconfig.json
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\utca\bin\Debug\net8.0\utca.dll
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\utca\bin\Debug\net8.0\utca.pdb
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\utca\obj\Debug\net8.0\utca.GeneratedMSBuildEditorConfig.editorconfig
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\utca\obj\Debug\net8.0\utca.AssemblyInfoInputs.cache
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\utca\obj\Debug\net8.0\utca.AssemblyInfo.cs
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\utca\obj\Debug\net8.0\utca.csproj.CoreCompileInputs.cache
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\utca\obj\Debug\net8.0\utca.sourcelink.json
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\utca\obj\Debug\net8.0\utca.dll
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\utca\obj\Debug\net8.0\refint\utca.dll
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\utca\obj\Debug\net8.0\utca.pdb
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\utca\obj\Debug\net8.0\utca.genruntimeconfig.cache
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\utca\obj\Debug\net8.0\ref\utca.dll
