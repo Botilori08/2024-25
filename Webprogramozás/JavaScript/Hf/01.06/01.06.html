@@ -10,11 +10,43 @@
     </style>
 </head>
 <body>
-   <input type="text" value="1"><br>
-   <button onclick="setTimeout()">Indítás</button><br>
-   <input type="text" value="1"><br>
-   <button onclick="setTimeout()">Indítás</button><br>
-   <input type="text" value="1"><br>
-   <button onclick="setTimeout()">Indítás</button><br>
+   <input type="text" id="elso" value="1"><br>
+   <button onclick="setInterval(elsoSzamlalo,100)">Indítás</button><br>
+   <!--<button onclick="clearInterval(elsoF)">Stop</button><br>-->
+   <input type="text" id="masodik" value="1"><br>
+   <button onclick="setInterval(masodikSzamlalo,1000)">Indítás</button><br>
+   <input type="text" id="harmadik" value="1"><br>
+   <button onclick="setInterval(harmadikSzamlalo,5000)">Indítás</button><br>
+
+   <script>
+
+	function elsoSzamlalo()
+	{
+		let elso = parseInt(document.getElementById("elso").value);
+		elso++;
+		document.getElementById("elso").value = elso.toString();
+	}
+
+	//const elsoF = setInterval(elsoSzamlalo,100)
+
+	
+
+
+
+	function masodikSzamlalo()
+	{
+		let masodik = parseInt(document.getElementById("masodik").value);
+		masodik++;
+		document.getElementById("masodik").value = masodik.toString();
+	}
+
+	function harmadikSzamlalo()
+	{
+		let harmadik = parseInt(document.getElementById("harmadik").value);
+		harmadik++;
+		document.getElementById("harmadik").value = harmadik.toString();
+	}
+
+   </script>
 </body>
 </html>
