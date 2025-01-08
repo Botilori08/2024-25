@@ -6,20 +6,32 @@
     <title>01.06</title>
 
     <style>
-
+        button
+        {
+            margin-top: 10px;
+            margin-bottom: 10px;
+            font-family: monospace;
+        }
+        input
+        {
+            font-size: 20px;
+        }
     </style>
 </head>
 <body>
    <input type="text" id="elso" value="1"><br>
-   <button onclick="setInterval(elsoSzamlalo,100)">Indítás</button><br>
-   <!--<button onclick="clearInterval(elsoF)">Stop</button><br>-->
+   <button onclick="elsoF = setInterval(elsoSzamlalo,100)">Indítás</button><br>
+   <button onclick="clearInterval(elsoF)">Stop</button><br>
    <input type="text" id="masodik" value="1"><br>
-   <button onclick="setInterval(masodikSzamlalo,1000)">Indítás</button><br>
+   <button onclick="masodikF = setInterval(masodikSzamlalo,1000)">Indítás</button><br>
+   <button onclick="clearInterval(masodikF)">Stop</button><br>
    <input type="text" id="harmadik" value="1"><br>
-   <button onclick="setInterval(harmadikSzamlalo,5000)">Indítás</button><br>
+   <button onclick="harmadikF = setInterval(harmadikSzamlalo,5000)">Indítás</button><br>
+   <button onclick="clearInterval(harmadikF)">Stop</button><br>
 
    <script>
 
+    let elsoF;
 	function elsoSzamlalo()
 	{
 		let elso = parseInt(document.getElementById("elso").value);
@@ -27,12 +39,7 @@
 		document.getElementById("elso").value = elso.toString();
 	}
 
-	//const elsoF = setInterval(elsoSzamlalo,100)
-
-	
-
-
-
+	let masodikF;
 	function masodikSzamlalo()
 	{
 		let masodik = parseInt(document.getElementById("masodik").value);
@@ -40,6 +47,7 @@
 		document.getElementById("masodik").value = masodik.toString();
 	}
 
+    let harmadikF;
 	function harmadikSzamlalo()
 	{
 		let harmadik = parseInt(document.getElementById("harmadik").value);
