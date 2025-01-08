@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A negyzet</title>
+
+    <style>
+        div
+        {
+            display: flex;
+            margin: auto;
+            align-items: center;
+            justify-content: center;
+            color:white;
+            background-color: green;
+        }
+    </style>
+</head>
+<body>
+    <div id="box">0</div>
+    <script>
+        let alapertekek = 0;
+        let novelVcsokkent = true
+        let szam = document.getElementById("box").innerHTML;
+        let doboz = document.getElementById("box");
+
+        function megnovel()
+        {
+
+            doboz.style.width = 60+alapertekek+"px";
+            doboz.style.height = 60+alapertekek+"px";
+            doboz.style.fontSize = 60+alapertekek/3+"px";
+            doboz.innerHTML = alapertekek;
+
+
+            if (novelVcsokkent==true)
+            {
+                alapertekek++;
+                if(alapertekek >= 600)
+                {
+                    novelVcsokkent=false;
+                }
+            }
+            else{
+                alapertekek--;
+                if (alapertekek <=0)
+                {
+                    novelVcsokkent = true;
+                }
+            }
+
+        setTimeout(megnovel,10);
+        }
+        megnovel();
+        
+
+
+
+    </script>
+</body>
+</html>
