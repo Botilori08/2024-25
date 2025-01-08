@@ -6,24 +6,64 @@
     <title></title>
 
     <style>
-        div
+
+        #doboz
         {
-            background-color:green ;
-            height: 100px;
-            width:100px;
-            margin:auto;
-            text-align: center;
-            color:white;
+            margin: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color:green;
+            color: white;
         }
+
+
     </style>
 </head>
 <body>
+
+
     <div id="doboz">0</div>
 
+
+
     <script>
+        let alapertekek = 0;
+        const doboz = document.getElementById('doboz');
+            
+        let novekedj = true;
+        let csokkenj = true;
+
+    function modosit() {
+      doboz.textContent = alapertekek;
+      const uj = 100 + alapertekek;
 
 
 
+      doboz.style.width = uj + "px";
+      doboz.style.height = uj + "px";
+      doboz.style.fontSize = (50 + alapertekek / 50) + "px";
+
+      if (novekedj)
+      {
+        alapertekek++;
+        if (alapertekek >= 600)
+        {
+          novekedj = false;
+        }
+      }
+      else 
+      {
+        alapertekek--;
+        if (alapertekek <= 0)
+        {
+          novekedj = true;
+        }
+      }
+
+      setTimeout(modosit, 20);
+    }
+    modosit();
     </script>
 </body>
 </html>
