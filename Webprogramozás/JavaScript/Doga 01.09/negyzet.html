@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Béla</title>
+    <style>
+        div
+        {
+            display: flex;
+            margin: auto;
+            align-items: center;
+            justify-content: center;
+            background-color: green;
+            color:white;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="doboz">0</div>
+    <script>
+        let alapertek = 50;
+        let novelVcsok = true;
+        let doboz = document.getElementById("doboz");
+        let szam = doboz.innerHTML;
+
+        function modosit()
+        {
+            doboz.style.height = 120+alapertek+"px";
+            doboz.style.width = 120+alapertek+"px";
+            doboz.style.fontSize = (100+alapertek)/5 + "px";
+            doboz.innerHTML = szam;
+
+            if (novelVcsok==true)
+            {   
+                alapertek+=7;
+                szam++;
+                if (szam == 99)
+                {
+                    novelVcsok=false;
+                }
+                
+            }
+            else
+            {
+                alapertek-=7;
+                szam--;
+                if(szam ==0)
+                {   
+                    novelVcsok=true;
+                }
+            }
+
+            setTimeout(modosit,50);
+        }
+        modosit();
+        
+
+    </script>
+</body>
+</html>

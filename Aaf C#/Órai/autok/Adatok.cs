@@ -31,5 +31,16 @@ namespace autok_01._07
             perc = Convert.ToInt32(vag[2]);
             sebesseg = Convert.ToInt32(vag[3]);
         }
+
+        public string ido()
+        {
+            return $"{ora}:{perc:00}";
+        }
+
+        public bool check(int ora, int perc)
+        {
+            return ora==this.ora && perc==this.perc;
+        }
+
     }
 }
