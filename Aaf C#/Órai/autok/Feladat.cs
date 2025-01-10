@@ -74,16 +74,42 @@ namespace autok_01._07
 			A járművek: XQE - 678 PAL - 958*/
 
             Console.WriteLine("5.feladat");
+
 			int legnagyobb = 0;
 
-			for (int i = 0; i <= autok.Count; i++)
+			for (int i = 0; i < autok.Count; i++)
 			{
 				if (autok[i].sebesseg > legnagyobb)
 				{
-					autok[i].sebesseg = legnagyobb;
+                    legnagyobb = autok[i].sebesseg ;
 				}
 			}
 
+            Console.WriteLine($"A legnagyobb sebesség km/ h: {legnagyobb}");
+			Console.Write("A járművek: "); 
+
+
+            for (int i = 0; i < autok.Count; i++)
+			{
+				if (legnagyobb == autok[i].sebesseg)
+				{
+					Console.Write(autok[i].rendszam+" ");
+				}
+			}
         }
+
+		void feladat6()
+		{
+            Console.WriteLine("6.feladat");
+            Console.Write("Kérem a rendszámot: ");
+            string rendszam = Console.ReadLine();
+
+			for (int i = 0; i < autok.Count; i++)
+			{
+
+			}
+
+        }
+
 	}
 }
