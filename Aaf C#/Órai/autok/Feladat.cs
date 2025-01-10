@@ -17,6 +17,7 @@ namespace autok_01._07
 			feladat3();
 			feladat4();
 			feladat5();
+			feladat6();
 		}
 		void feladat1()
 		{
@@ -104,9 +105,24 @@ namespace autok_01._07
             Console.Write("Kérem a rendszámot: ");
             string rendszam = Console.ReadLine();
 
+			double megtettUt = 0;
+			Adatok elozo = new Adatok("q",6,0,0);
+
 			for (int i = 0; i < autok.Count; i++)
 			{
-
+				if (autok[i].rendszam == rendszam)
+				{
+					if (elozo.rendszam == "q")
+					{
+					}
+					else
+					{
+                        megtettUt += autok[i].ut(elozo);
+                        Console.WriteLine($"{autok[i].ido()} {megtettUt} km");
+                    }
+					elozo = autok[i];
+					
+                }
 			}
 
         }
