@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="hu">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -21,6 +21,7 @@
     <div id="box">0</div>
     <script>
         let alapertekek = 0;
+        let ertek = 0;
         let novelVcsokkent = true
         let szam = document.getElementById("box").innerHTML;
         let doboz = document.getElementById("box");
@@ -28,29 +29,31 @@
         function megnovel()
         {
 
-            doboz.style.width = 60+alapertekek+"px";
-            doboz.style.height = 60+alapertekek+"px";
-            doboz.style.fontSize = 60+alapertekek/3+"px";
-            doboz.innerHTML = alapertekek;
+            doboz.style.width = 100+alapertekek+"px";
+            doboz.style.height = 100+alapertekek+"px";
+            doboz.style.fontSize = (100+alapertekek)/5+"px";
+            doboz.innerHTML = ertek;
 
 
             if (novelVcsokkent==true)
             {
-                alapertekek++;
-                if(alapertekek >= 600)
+                alapertekek+=7;
+                ertek++;
+                if(ertek >= 100)
                 {
                     novelVcsokkent=false;
                 }
             }
             else{
-                alapertekek--;
-                if (alapertekek <=0)
+                alapertekek-=7;
+                ertek--;
+                if (ertek <=0)
                 {
                     novelVcsokkent = true;
                 }
             }
 
-        setTimeout(megnovel,10);
+        setTimeout(megnovel,30);
         }
         megnovel();
         

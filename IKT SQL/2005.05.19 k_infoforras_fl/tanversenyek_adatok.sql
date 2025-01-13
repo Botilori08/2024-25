@@ -1,4 +1,4 @@
-INSERT INTO tanverseny (versenynev, tipus, esemeny, datum) VALUES
+INSERT INTO adatok (versenynev, tipus, esemeny, datum) VALUES
 ('Magyar irodalom', 'OKTV', 'Nevezés', '2004-10-01'),
 ('Magyar nyelv', 'OKTV', 'Nevezés', '2004-10-01'),
 ('Történelem', 'OKTV', 'Nevezés', '2004-10-01'),
