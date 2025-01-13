@@ -52,7 +52,9 @@ namespace autok_01._07
 		public double ut(Adatok elozo)
 		{
 
-			return elozo.sebesseg * this.idoPerc/60.0;
+			return elozo.sebesseg * (this.idoPerc - elozo.idoPerc)/60.0;
+
+
 
 		}
 	}
