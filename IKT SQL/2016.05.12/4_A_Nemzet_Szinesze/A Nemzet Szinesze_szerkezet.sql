@@ -2,7 +2,7 @@
 CREATE TABLE elismeres (
   id int(11) NOT NULL,
   szoveg varchar(100) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_hungarian_ci;
+);
 
 
 CREATE TABLE kapott (
@@ -10,7 +10,7 @@ CREATE TABLE kapott (
   ev int(11) NOT NULL,
   szineszid int(11) NOT NULL,
   elismeresid int(11) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_hungarian_ci;
+);
 
 
 CREATE TABLE szinesz (
@@ -22,7 +22,7 @@ CREATE TABLE szinesz (
   szuletesihely varchar(100) NOT NULL,
   elhunyt date DEFAULT NULL,
   halalozasihely varchar(100) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_hungarian_ci;
+);
 
 
 ALTER TABLE elismeres

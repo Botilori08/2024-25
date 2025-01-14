@@ -1313,9 +1313,6 @@ INSERT INTO kapcsolat (id, muid, tipus, alkotoid) VALUES
 (1044, 328, 'zene', 44),
 (1045, 186, 'szöveg', 107);
 
---
--- A tábla adatainak kiíratása mu
---
 
 INSERT INTO mu (id, cim, eredeti, szinhaz, ev, felvonas, kep) VALUES
 (1, 'A régi orfeum', '', 'Fővárosi Operettszínház', 1932, 3, ''),
