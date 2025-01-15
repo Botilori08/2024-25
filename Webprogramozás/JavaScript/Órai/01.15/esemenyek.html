@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events</title>
+    <style>
+        .doboz
+        {
+            height: 300px;
+            width:300px;
+            background-color:beige;
+        }
+
+        #uzenet
+        {
+            background-color: blueviolet;
+            color:chartreuse;
+            height: 200px;
+            float: right;
+        }
+    </style>
+</head>
+<body>
+    <div class="doboz" id="uzenet">Üzenetek</div>
+    <div class="doboz" id="box1" onclick="m('1. kattintás')" onmouseenter="m('Egér beérkezett')" onmouseleave="m('Egér elment')">Első doboz</div>
+
+    <div class="doboz" id="box2" onclick="m('2. kattintás')">Második doboz</div>
+    
+    <script>
+        function m(szoveg)
+        {
+            document.getElementById("uzenet").innerHTML = szoveg;
+
+        }
+
+        document.getElementById("box2").onmousedown=function(){m('egérgomb(2)');}; 
+
+        document.getElementById("box2").addEventListener("dblclick",function(){m('duplakatt(2)')}) 
+    </script>
+</body>
+</html>
