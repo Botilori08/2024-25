@@ -33,7 +33,7 @@
 			{
 				if (!programok[i].hibas())
 				{
-					ir.Write(programok[i].nev);
+					ir.Write(programok[i].nev+" ");
 					ir.WriteLine(programok[i].iranyvaltasok());
 				}
 
