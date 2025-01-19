@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pixel rajz</title>
+
+    <style>
+        #nagyBox{
+            display: flex;
+            height:1000px;
+            width:1000px;
+            margin:auto;
+            background-color: grey;
+            
+        }
+        .kisBox
+        {
+
+            height: 50px;
+            width:50px;
+            background-color: white;
+            border: 1px solid black;
+        }
+
+    </style>
+</head>
+<body>
+    <input type="color" id="bekertSzin">
+    <div id="nagyBox">
+        <div class="kisBox" id="kisdoboz" onclick="szinvaltoztato()"></div>
+        <div class="kisBox" onclick="szinvaltoztato()"></div>
+        <div class="kisBox" onclick="szinvaltoztato()"></div>
+        <div class="kisBox" onclick="szinvaltoztato()"></div>
+        <div class="kisBox" onclick="szinvaltoztato()"></div>
+        <div class="kisBox" onclick="szinvaltoztato()"></div>
+        <div class="kisBox" onclick="szinvaltoztato()"></div>
+        <div class="kisBox" onclick="szinvaltoztato()"></div>
+        <div class="kisBox" onclick="szinvaltoztato()"></div>
+        <div class="kisBox" onclick="szinvaltoztato()"></div>
+        <div class="kisBox" onclick="szinvaltoztato()"></div>
+        <div class="kisBox" onclick="szinvaltoztato()"></div>
+        <div class="kisBox" onclick="szinvaltoztato()"></div>
+        <div class="kisBox" onclick="szinvaltoztato()"></div>
+        <div class="kisBox" onclick="szinvaltoztato()"></div>
+        <div class="kisBox" onclick="szinvaltoztato()"></div>
+        <div class="kisBox" onclick="szinvaltoztato()"></div>
+        <div class="kisBox" onclick="szinvaltoztato()"></div>
+        <div class="kisBox" onclick="szinvaltoztato()"></div>
+        <div class="kisBox" onclick="szinvaltoztato()"></div>
+        <div class="kisBox" onclick="szinvaltoztato()"></div>
+        
+        <div class="kisBox" onclick="szinvaltoztato()"></div>
+        <div class="kisBox" onclick="szinvaltoztato()"></div>
+        <div class="kisBox" onclick="szinvaltoztato()"></div>
+        <div class="kisBox" onclick="szinvaltoztato()"></div>
+        <div class="kisBox" onclick="szinvaltoztato()"></div>
+        <div class="kisBox" onclick="szinvaltoztato()"></div>
+        <div class="kisBox" onclick="szinvaltoztato()"></div>
+        <div class="kisBox" onclick="szinvaltoztato()"></div>
+        <div class="kisBox" onclick="szinvaltoztato()"></div>
+        <div class="kisBox" onclick="szinvaltoztato()"></div>
+        <div class="kisBox" onclick="szinvaltoztato()"></div>
+        <div class="kisBox" onclick="szinvaltoztato()"></div>
+        <div class="kisBox" onclick="szinvaltoztato()"></div>
+        <div class="kisBox" onclick="szinvaltoztato()"></div>
+        <div class="kisBox" onclick="szinvaltoztato()"></div>
+        <div class="kisBox" onclick="szinvaltoztato()"></div>
+        <div class="kisBox" onclick="szinvaltoztato()"></div>
+        <div class="kisBox" onclick="szinvaltoztato()"></div>
+        <div class="kisBox" onclick="szinvaltoztato()"></div>
+        <div class="kisBox" onclick="szinvaltoztato()"></div>
+        <div class="kisBox" onclick="szinvaltoztato()"></div>
+        <div class="kisBox" onclick="szinvaltoztato()"></div>
+        <div class="kisBox" onclick="szinvaltoztato()"></div>
+        <div class="kisBox" onclick="szinvaltoztato()"></div>
+        <div class="kisBox" onclick="szinvaltoztato()"></div>
+        <div class="kisBox" onclick="szinvaltoztato()"></div>
+        <div class="kisBox" onclick="szinvaltoztato()"></div>
+        <div class="kisBox" onclick="szinvaltoztato()"></div>
+        <div class="kisBox" onclick="szinvaltoztato()"></div>
+        <div class="kisBox" onclick="szinvaltoztato()"></div>
+        <div class="kisBox" onclick="szinvaltoztato()"></div>
+    </div>
+
+
+    <script>
+        function szinvaltoztato()
+        {
+            const dobozHelye = document.getElementById("kisdoboz");
+            let hatterszine = document.getElementById("kisdoboz").style.backgroundColor;
+
+            let kivantSzin = document.getElementById("bekertSzin").value;
+
+            event.target.style.backgroundColor=kivantSzin
+
+            
+
+        }
+
+    </script>
+</body>
+</html>
