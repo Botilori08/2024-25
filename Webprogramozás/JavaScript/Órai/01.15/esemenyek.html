@@ -18,6 +18,7 @@
             color:chartreuse;
             height: 200px;
             float: right;
+            font-size: 30px;
         }
     </style>
 </head>
@@ -34,9 +35,24 @@
 
         }
 
-        document.getElementById("box2").onmousedown=function(){m('egérgomb(2)');}; 
+        document.getElementById("box2").onmousedown=function(e){m(e);console.log(e)}; 
 
-        document.getElementById("box2").addEventListener("dblclick",function(){m('duplakatt(2)')}) 
+        document.getElementById("box2").addEventListener("dblclick",function(){m('duplakatt')}) ;
+
+        document.getElementById("box1").addEventListener("contextmenu",function(){
+            console.log(this);
+            this.style.backgroundColor="blue";
+            this.style.color="white";
+        }); 
+
+
+        document.getElementById("box2").addEventListener("contextmenu",function(){
+            console.log(this);
+            this.style.backgroundColor="green";
+        }) ;
+
+
+
     </script>
 </body>
 </html>

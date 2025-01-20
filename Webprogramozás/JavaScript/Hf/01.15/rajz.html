@@ -7,7 +7,6 @@
 
     <style>
         #nagyBox{
-            display: flex;
             height:1000px;
             width:1000px;
             margin:auto;
@@ -16,7 +15,7 @@
         }
         .kisBox
         {
-
+            float:left;
             height: 50px;
             width:50px;
             background-color: white;
@@ -49,7 +48,6 @@
         <div class="kisBox" onclick="szinvaltoztato()"></div>
         <div class="kisBox" onclick="szinvaltoztato()"></div>
         <div class="kisBox" onclick="szinvaltoztato()"></div>
-        
         <div class="kisBox" onclick="szinvaltoztato()"></div>
         <div class="kisBox" onclick="szinvaltoztato()"></div>
         <div class="kisBox" onclick="szinvaltoztato()"></div>
@@ -82,18 +80,24 @@
         <div class="kisBox" onclick="szinvaltoztato()"></div>
         <div class="kisBox" onclick="szinvaltoztato()"></div>
     </div>
-
+    kisBox.
 
     <script>
         function szinvaltoztato()
         {
-            const dobozHelye = document.getElementById("kisdoboz");
-            let hatterszine = document.getElementById("kisdoboz").style.backgroundColor;
-
+            let szin = event.target.style.backgroundColor;
             let kivantSzin = document.getElementById("bekertSzin").value;
+            if(szin!=kivantSzin)
+            {
+                szin = kivantSzin;
+            }
+            else
+            {
+                szin="";
+            }
 
+            
             event.target.style.backgroundColor=kivantSzin
-
             
 
         }

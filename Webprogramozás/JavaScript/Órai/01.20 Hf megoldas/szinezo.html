@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pixel szinező</title>
+    <style>
+        #palya
+        {
+            background-color: green;
+            width: 700px;
+            height:700px;
+            margin: auto;
+        }
+
+        .negyzet
+        {
+            width:35px;
+            height:35px;
+            float:left;
+            background-color:aquamarine
+        }
+    </style>
+</head>
+<body>
+    <div id="palya"></div>
+    <script>
+
+        const palya = document.getElementById("palya");
+
+        for(let i = 0 ; i < 400;i++)
+        {
+            palya.innerHTML += '<div class="negyzet" onclick="kattintas(this)"></div>';
+        }
+
+        function kattintas(elem)
+        {
+            if (elem.style.backgroundColor!="black")
+            {
+                elem.style.backgroundColor = "black";
+            }
+            else
+            {
+                elem.style.backgroundColor="";
+            }
+        }
+
+    </script>
+</body>
+</html>
