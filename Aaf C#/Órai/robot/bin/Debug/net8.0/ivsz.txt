@@ -1,12 +1,12 @@
-Janos3
-Pal14
-Terezia6
-Ferenc42
-Sandor80
-Benedek1
-Alma1
-Renato15
-Gabor18
-Alex7
-Nikoletta5
-Renata21
+Janos 3
+Pal 14
+Terezia 6
+Ferenc 42
+Sandor 80
+Benedek 1
+Alma 1
+Renato 15
+Gabor 18
+Alex 7
+Nikoletta 5
+Renata 21

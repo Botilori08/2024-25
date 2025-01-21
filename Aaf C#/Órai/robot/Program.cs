@@ -40,6 +40,45 @@
 			}
 
 			ir.Close();
+
+			Adatok legnagyobb = programok[0];
+
+			for (int i = 0; i < programok.Count;i++)
+			{
+				if(!programok[i].hibas())
+				{
+					legnagyobb = programok[i];
+					break;
+				}
+			}
+
+
+
+			for (int i = 1;i < programok.Count; i++)
+			{
+				if(!programok[i].hibas() && programok[i].utHossz() > legnagyobb.utHossz())
+				{
+					legnagyobb = programok[i];
+				}
+			}
+
+            Console.WriteLine($"5. feladat: Legtávolabbra jutó robot prgramját készítette: {legnagyobb.nev}");
+
+			int[] hosszok = new int[4];
+			string kod = "EEHHEEEJJEEJJEEHHBJ";
+			hosszok[0] = kod.Length - kod.Replace("E","").Length;
+            hosszok[1] = kod.Length - kod.Replace("H", "").Length;
+            hosszok[2] = kod.Length - kod.Replace("J", "").Length;
+            hosszok[3] = kod.Length - kod.Replace("B", "").Length;
+
+			string rovidkod = "";
+			if (hosszok[0] > hosszok[1])
+			{
+				for (int i = 0; i < hosszok[0] - hosszok[1].Length; i++)
+				{
+
+				}
+
         }
     }
 }
