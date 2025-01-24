@@ -47,6 +47,32 @@ namespace kraterek
             }
             Console.WriteLine("A legnagyobb kráterek neve és sugara: {0} {1}", legnagyobb.nev, legnagyobb.r);
 
+            Console.WriteLine("6.feladat");
+            Console.Write("Kérem egy kráter nevét: ");
+
+			string nev = Console.ReadLine();
+
+			int id = -1;
+
+			for(int i = 0;i < kraterek.Count;i++)
+			{
+				if (kraterek[i].nev == nev)
+				{
+					id = i;
+					break;
+				}
+			}
+			if(id == -1)
+			{
+                Console.WriteLine("Nincs ilyen!");
+            }
+			else
+			{
+				for (int i = 0; i < kraterek.Count;i++)
+				{
+
+				}
+			}
         }
     }
 }

@@ -30,5 +30,12 @@ namespace kraterek
 			return $"A(z) {nev} kozeppontja X={x} Y={y} sugara R={r}.";
 		}
 
+		public double tavolsag(Krater masik)
+		{
+			double dx = this.x - masik.x;
+			double dy = this.y - masik.y;
+
+			return Math.Sqrt(dx*dx + dy*dy);
+		}
 	}
 }
