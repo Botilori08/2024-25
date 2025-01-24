@@ -38,8 +38,7 @@
               "RelativeToolTip": "Krater.cs",
               "ViewState": "AQIAAAkAAAAAAAAAAAAAAB0AAAA8AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-22T12:51:29.828Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-22T12:51:29.828Z"
             },
             {
               "$type": "Document",
@@ -47,9 +46,9 @@
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\munkak\u00F6nyvt\u00E1r\\Boti L\u00F3r\u00E1nt\\2024-25\\Aaf C#\\\u00D3rai\\kraterek\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\munkak\u00F6nyvt\u00E1r\\Boti L\u00F3r\u00E1nt\\2024-25\\Aaf C#\\\u00D3rai\\kraterek\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAQwB0AAAAhAAAA",
+              "ToolTip": "D:\\munkak\u00F6nyvt\u00E1r\\Boti L\u00F3r\u00E1nt\\2024-25\\Aaf C#\\\u00D3rai\\kraterek\\Program.cs*",
+              "RelativeToolTip": "Program.cs*",
+              "ViewState": "AQIAABkAAAAAAAAAAAAgwDEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-22T12:49:58.972Z",
               "EditorCaption": ""
@@ -64,8 +63,7 @@
               "RelativeToolTip": "bin\\Debug\\net8.0\\felszin_tpont.txt",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-01-22T12:58:27.12Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-22T12:58:27.12Z"
             },
             {
               "$type": "Document",
@@ -77,8 +75,7 @@
               "RelativeToolTip": "bin\\Debug\\net8.0\\felszin_tvesszo.txt",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-01-22T12:58:25.022Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-22T12:58:25.022Z"
             }
           ]
         }
