@@ -1,0 +1,15 @@
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\Viragagyasok\bin\Debug\net8.0\Viragagyasok.exe
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\Viragagyasok\bin\Debug\net8.0\Viragagyasok.deps.json
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\Viragagyasok\bin\Debug\net8.0\Viragagyasok.runtimeconfig.json
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\Viragagyasok\bin\Debug\net8.0\Viragagyasok.dll
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\Viragagyasok\bin\Debug\net8.0\Viragagyasok.pdb
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\Viragagyasok\obj\Debug\net8.0\Viragagyasok.GeneratedMSBuildEditorConfig.editorconfig
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\Viragagyasok\obj\Debug\net8.0\Viragagyasok.AssemblyInfoInputs.cache
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\Viragagyasok\obj\Debug\net8.0\Viragagyasok.AssemblyInfo.cs
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\Viragagyasok\obj\Debug\net8.0\Viragagyasok.csproj.CoreCompileInputs.cache
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\Viragagyasok\obj\Debug\net8.0\Viragagyasok.sourcelink.json
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\Viragagyasok\obj\Debug\net8.0\Viragagyasok.dll
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\Viragagyasok\obj\Debug\net8.0\refint\Viragagyasok.dll
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\Viragagyasok\obj\Debug\net8.0\Viragagyasok.pdb
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\Viragagyasok\obj\Debug\net8.0\Viragagyasok.genruntimeconfig.cache
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\Viragagyasok\obj\Debug\net8.0\ref\Viragagyasok.dll
