@@ -1,0 +1,15 @@
+C:\Users\loran\Desktop\Suli\Programozás, Ikt\2024-25\Aaf C#\Gyakorlás\Játszma5\bin\Debug\net8.0\Játszma5.exe
+C:\Users\loran\Desktop\Suli\Programozás, Ikt\2024-25\Aaf C#\Gyakorlás\Játszma5\bin\Debug\net8.0\Játszma5.deps.json
+C:\Users\loran\Desktop\Suli\Programozás, Ikt\2024-25\Aaf C#\Gyakorlás\Játszma5\bin\Debug\net8.0\Játszma5.runtimeconfig.json
+C:\Users\loran\Desktop\Suli\Programozás, Ikt\2024-25\Aaf C#\Gyakorlás\Játszma5\bin\Debug\net8.0\Játszma5.dll
+C:\Users\loran\Desktop\Suli\Programozás, Ikt\2024-25\Aaf C#\Gyakorlás\Játszma5\bin\Debug\net8.0\Játszma5.pdb
+C:\Users\loran\Desktop\Suli\Programozás, Ikt\2024-25\Aaf C#\Gyakorlás\Játszma5\obj\Debug\net8.0\Játszma5.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\loran\Desktop\Suli\Programozás, Ikt\2024-25\Aaf C#\Gyakorlás\Játszma5\obj\Debug\net8.0\Játszma5.AssemblyInfoInputs.cache
+C:\Users\loran\Desktop\Suli\Programozás, Ikt\2024-25\Aaf C#\Gyakorlás\Játszma5\obj\Debug\net8.0\Játszma5.AssemblyInfo.cs
+C:\Users\loran\Desktop\Suli\Programozás, Ikt\2024-25\Aaf C#\Gyakorlás\Játszma5\obj\Debug\net8.0\Játszma5.csproj.CoreCompileInputs.cache
+C:\Users\loran\Desktop\Suli\Programozás, Ikt\2024-25\Aaf C#\Gyakorlás\Játszma5\obj\Debug\net8.0\Játszma5.sourcelink.json
+C:\Users\loran\Desktop\Suli\Programozás, Ikt\2024-25\Aaf C#\Gyakorlás\Játszma5\obj\Debug\net8.0\Játszma5.dll
+C:\Users\loran\Desktop\Suli\Programozás, Ikt\2024-25\Aaf C#\Gyakorlás\Játszma5\obj\Debug\net8.0\refint\Játszma5.dll
+C:\Users\loran\Desktop\Suli\Programozás, Ikt\2024-25\Aaf C#\Gyakorlás\Játszma5\obj\Debug\net8.0\Játszma5.pdb
+C:\Users\loran\Desktop\Suli\Programozás, Ikt\2024-25\Aaf C#\Gyakorlás\Játszma5\obj\Debug\net8.0\Játszma5.genruntimeconfig.cache
+C:\Users\loran\Desktop\Suli\Programozás, Ikt\2024-25\Aaf C#\Gyakorlás\Játszma5\obj\Debug\net8.0\ref\Játszma5.dll

@@ -1,0 +1,15 @@
+C:\Users\loran\Desktop\Suli\Programozás, Ikt\2024-25\Aaf C#\Gyakorlás\belepteto\bin\Debug\net8.0\belepteto.exe
+C:\Users\loran\Desktop\Suli\Programozás, Ikt\2024-25\Aaf C#\Gyakorlás\belepteto\bin\Debug\net8.0\belepteto.deps.json
+C:\Users\loran\Desktop\Suli\Programozás, Ikt\2024-25\Aaf C#\Gyakorlás\belepteto\bin\Debug\net8.0\belepteto.runtimeconfig.json
+C:\Users\loran\Desktop\Suli\Programozás, Ikt\2024-25\Aaf C#\Gyakorlás\belepteto\bin\Debug\net8.0\belepteto.dll
+C:\Users\loran\Desktop\Suli\Programozás, Ikt\2024-25\Aaf C#\Gyakorlás\belepteto\bin\Debug\net8.0\belepteto.pdb
+C:\Users\loran\Desktop\Suli\Programozás, Ikt\2024-25\Aaf C#\Gyakorlás\belepteto\obj\Debug\net8.0\belepteto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\loran\Desktop\Suli\Programozás, Ikt\2024-25\Aaf C#\Gyakorlás\belepteto\obj\Debug\net8.0\belepteto.AssemblyInfoInputs.cache
+C:\Users\loran\Desktop\Suli\Programozás, Ikt\2024-25\Aaf C#\Gyakorlás\belepteto\obj\Debug\net8.0\belepteto.AssemblyInfo.cs
+C:\Users\loran\Desktop\Suli\Programozás, Ikt\2024-25\Aaf C#\Gyakorlás\belepteto\obj\Debug\net8.0\belepteto.csproj.CoreCompileInputs.cache
+C:\Users\loran\Desktop\Suli\Programozás, Ikt\2024-25\Aaf C#\Gyakorlás\belepteto\obj\Debug\net8.0\belepteto.sourcelink.json
+C:\Users\loran\Desktop\Suli\Programozás, Ikt\2024-25\Aaf C#\Gyakorlás\belepteto\obj\Debug\net8.0\belepteto.dll
+C:\Users\loran\Desktop\Suli\Programozás, Ikt\2024-25\Aaf C#\Gyakorlás\belepteto\obj\Debug\net8.0\refint\belepteto.dll
+C:\Users\loran\Desktop\Suli\Programozás, Ikt\2024-25\Aaf C#\Gyakorlás\belepteto\obj\Debug\net8.0\belepteto.pdb
+C:\Users\loran\Desktop\Suli\Programozás, Ikt\2024-25\Aaf C#\Gyakorlás\belepteto\obj\Debug\net8.0\belepteto.genruntimeconfig.cache
+C:\Users\loran\Desktop\Suli\Programozás, Ikt\2024-25\Aaf C#\Gyakorlás\belepteto\obj\Debug\net8.0\ref\belepteto.dll

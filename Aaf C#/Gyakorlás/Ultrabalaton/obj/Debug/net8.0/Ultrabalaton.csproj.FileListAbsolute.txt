@@ -1,0 +1,15 @@
+C:\Users\loran\Desktop\Suli\Programozás, Ikt\2024-25\Aaf C#\Gyakorlás\Ultrabalaton\bin\Debug\net8.0\Ultrabalaton.exe
+C:\Users\loran\Desktop\Suli\Programozás, Ikt\2024-25\Aaf C#\Gyakorlás\Ultrabalaton\bin\Debug\net8.0\Ultrabalaton.deps.json
+C:\Users\loran\Desktop\Suli\Programozás, Ikt\2024-25\Aaf C#\Gyakorlás\Ultrabalaton\bin\Debug\net8.0\Ultrabalaton.runtimeconfig.json
+C:\Users\loran\Desktop\Suli\Programozás, Ikt\2024-25\Aaf C#\Gyakorlás\Ultrabalaton\bin\Debug\net8.0\Ultrabalaton.dll
+C:\Users\loran\Desktop\Suli\Programozás, Ikt\2024-25\Aaf C#\Gyakorlás\Ultrabalaton\bin\Debug\net8.0\Ultrabalaton.pdb
+C:\Users\loran\Desktop\Suli\Programozás, Ikt\2024-25\Aaf C#\Gyakorlás\Ultrabalaton\obj\Debug\net8.0\Ultrabalaton.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\loran\Desktop\Suli\Programozás, Ikt\2024-25\Aaf C#\Gyakorlás\Ultrabalaton\obj\Debug\net8.0\Ultrabalaton.AssemblyInfoInputs.cache
+C:\Users\loran\Desktop\Suli\Programozás, Ikt\2024-25\Aaf C#\Gyakorlás\Ultrabalaton\obj\Debug\net8.0\Ultrabalaton.AssemblyInfo.cs
+C:\Users\loran\Desktop\Suli\Programozás, Ikt\2024-25\Aaf C#\Gyakorlás\Ultrabalaton\obj\Debug\net8.0\Ultrabalaton.csproj.CoreCompileInputs.cache
+C:\Users\loran\Desktop\Suli\Programozás, Ikt\2024-25\Aaf C#\Gyakorlás\Ultrabalaton\obj\Debug\net8.0\Ultrabalaton.sourcelink.json
+C:\Users\loran\Desktop\Suli\Programozás, Ikt\2024-25\Aaf C#\Gyakorlás\Ultrabalaton\obj\Debug\net8.0\Ultrabalaton.dll
+C:\Users\loran\Desktop\Suli\Programozás, Ikt\2024-25\Aaf C#\Gyakorlás\Ultrabalaton\obj\Debug\net8.0\refint\Ultrabalaton.dll
+C:\Users\loran\Desktop\Suli\Programozás, Ikt\2024-25\Aaf C#\Gyakorlás\Ultrabalaton\obj\Debug\net8.0\Ultrabalaton.pdb
+C:\Users\loran\Desktop\Suli\Programozás, Ikt\2024-25\Aaf C#\Gyakorlás\Ultrabalaton\obj\Debug\net8.0\Ultrabalaton.genruntimeconfig.cache
+C:\Users\loran\Desktop\Suli\Programozás, Ikt\2024-25\Aaf C#\Gyakorlás\Ultrabalaton\obj\Debug\net8.0\ref\Ultrabalaton.dll
