@@ -19,5 +19,13 @@ namespace belepteto
             idopont = vag[1];
             mitCsinalt = int.Parse(vag[2]);
         }
+
+        public int idoValto(string idopont)
+        {
+            int ora = Convert.ToInt32(idopont.Split(":")[0]);
+            int perc = Convert.ToInt32(idopont.Split(",")[1]);
+
+            return ora * 60 + perc;
+        }
     }
 }

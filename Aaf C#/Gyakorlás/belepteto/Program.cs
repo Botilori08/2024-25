@@ -32,16 +32,17 @@
 
 			Console.WriteLine("5.feladat");
 			int konyvtar = 0;
-			string aktualis = "";
+			List <string> nevek = new List<string> ();
 			for (int i = 0; i < belepesek.Count; i++)
 			{
-				if (belepesek[i].tanuloKod != aktualis && belepesek[i].mitCsinalt==4)
+				if (!nevek.Contains(belepesek[i].tanuloKod) && belepesek[i].mitCsinalt==4)
 				{
-					konyvtar++;
+					nevek.Add(belepesek[i].tanuloKod);
 				}
 
 			}
 
+			konyvtar += nevek.Count;
 			Console.WriteLine($"Aznap {konyvtar} tanuló kölcsönzött a könyvtárban.");
 			if (konyvtar > ebed)
 			{
@@ -52,6 +53,26 @@
 				Console.WriteLine("Nem voltak többen, mint a menzán.");
 			}
 
+            Console.WriteLine("6.feladat");
+
+			List <string> kodok = new List<string>();
+
+			for (int i = 0; i < belepesek.Count; i++)
+			{
+				if (idoValto(belepesek[i].idopont))
+				{
+					kodok.Add(belepesek[i].tanuloKod);
+				}
+			}
+
+			for (int i = 0; i < kodok.Count; i++)
+			{
+				Console.WriteLine(kodok[i]);
+			}
+
+            Console.WriteLine("7.feladat");
+			string bekertKod = Console.ReadLine();
+			Console.Write("Kérem egy tanuló kódját! ");
 		}
 	}
 }

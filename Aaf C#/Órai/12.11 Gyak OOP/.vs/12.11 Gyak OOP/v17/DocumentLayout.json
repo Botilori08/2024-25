@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\loran\\Desktop\\Suli\\Programoz\u00E1s, Ikt\\2024-25\\Aaf C#\\\u00D3rai\\12.11 Gyak OOP\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4AEC681E-53AF-4183-9E4E-36B9040C63D7}|12.11 Gyak OOP.csproj|c:\\users\\loran\\desktop\\suli\\programoz\u00E1s, ikt\\2024-25\\aaf c#\\\u00F3rai\\12.11 gyak oop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4AEC681E-53AF-4183-9E4E-36B9040C63D7}|12.11 Gyak OOP.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4AEC681E-53AF-4183-9E4E-36B9040C63D7}|12.11 Gyak OOP.csproj|c:\\users\\loran\\desktop\\suli\\programoz\u00E1s, ikt\\2024-25\\aaf c#\\\u00F3rai\\12.11 gyak oop\\buksza.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4AEC681E-53AF-4183-9E4E-36B9040C63D7}|12.11 Gyak OOP.csproj|solutionrelative:buksza.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AEC681E-53AF-4183-9E4E-36B9040C63D7}|12.11 Gyak OOP.csproj|c:\\users\\loran\\desktop\\suli\\programoz\u00E1s, ikt\\2024-25\\aaf c#\\\u00F3rai\\12.11 gyak oop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AEC681E-53AF-4183-9E4E-36B9040C63D7}|12.11 Gyak OOP.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,24 +18,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Buksza.cs",
               "DocumentMoniker": "C:\\Users\\loran\\Desktop\\Suli\\Programoz\u00E1s, Ikt\\2024-25\\Aaf C#\\\u00D3rai\\12.11 Gyak OOP\\Buksza.cs",
               "RelativeDocumentMoniker": "Buksza.cs",
               "ToolTip": "C:\\Users\\loran\\Desktop\\Suli\\Programoz\u00E1s, Ikt\\2024-25\\Aaf C#\\\u00D3rai\\12.11 Gyak OOP\\Buksza.cs",
               "RelativeToolTip": "Buksza.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAYwC0AAAA1AAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAA1wC0AAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-11T12:50:18.819Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\loran\\Desktop\\Suli\\Programoz\u00E1s, Ikt\\2024-25\\Aaf C#\\\u00D3rai\\12.11 Gyak OOP\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",

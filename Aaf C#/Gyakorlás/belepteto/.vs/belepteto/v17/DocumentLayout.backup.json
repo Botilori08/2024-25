@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\loran\\Desktop\\Suli\\Programoz\u00E1s, Ikt\\2024-25\\Aaf C#\\Gyakorl\u00E1s\\belepteto\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{021CFD01-A40D-4C6B-BC09-7FC0F911B7D6}|belepteto.csproj|c:\\users\\loran\\desktop\\suli\\programoz\u00E1s, ikt\\2024-25\\aaf c#\\gyakorl\u00E1s\\belepteto\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{021CFD01-A40D-4C6B-BC09-7FC0F911B7D6}|belepteto.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{021CFD01-A40D-4C6B-BC09-7FC0F911B7D6}|belepteto.csproj|c:\\users\\loran\\desktop\\suli\\programoz\u00E1s, ikt\\2024-25\\aaf c#\\gyakorl\u00E1s\\belepteto\\belepes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{021CFD01-A40D-4C6B-BC09-7FC0F911B7D6}|belepteto.csproj|solutionrelative:belepes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{021CFD01-A40D-4C6B-BC09-7FC0F911B7D6}|belepteto.csproj|c:\\users\\loran\\desktop\\suli\\programoz\u00E1s, ikt\\2024-25\\aaf c#\\gyakorl\u00E1s\\belepteto\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{021CFD01-A40D-4C6B-BC09-7FC0F911B7D6}|belepteto.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\loran\\Desktop\\Suli\\Programoz\u00E1s, Ikt\\2024-25\\Aaf C#\\Gyakorl\u00E1s\\belepteto\\bin\\Debug\\net8.0\\bedat.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
@@ -32,33 +32,33 @@
               "RelativeDocumentMoniker": "bin\\Debug\\net8.0\\bedat.txt",
               "ToolTip": "C:\\Users\\loran\\Desktop\\Suli\\Programoz\u00E1s, Ikt\\2024-25\\Aaf C#\\Gyakorl\u00E1s\\belepteto\\bin\\Debug\\net8.0\\bedat.txt",
               "RelativeToolTip": "bin\\Debug\\net8.0\\bedat.txt",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACYBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
               "WhenOpened": "2025-02-04T19:17:17.984Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Belepes.cs",
               "DocumentMoniker": "C:\\Users\\loran\\Desktop\\Suli\\Programoz\u00E1s, Ikt\\2024-25\\Aaf C#\\Gyakorl\u00E1s\\belepteto\\Belepes.cs",
               "RelativeDocumentMoniker": "Belepes.cs",
               "ToolTip": "C:\\Users\\loran\\Desktop\\Suli\\Programoz\u00E1s, Ikt\\2024-25\\Aaf C#\\Gyakorl\u00E1s\\belepteto\\Belepes.cs",
               "RelativeToolTip": "Belepes.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwCAAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-04T17:47:27.823Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\loran\\Desktop\\Suli\\Programoz\u00E1s, Ikt\\2024-25\\Aaf C#\\Gyakorl\u00E1s\\belepteto\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\loran\\Desktop\\Suli\\Programoz\u00E1s, Ikt\\2024-25\\Aaf C#\\Gyakorl\u00E1s\\belepteto\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAQwCcAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAADkAAAAAAAAAAAAQwEoAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-04T17:47:04.918Z",
               "EditorCaption": ""
