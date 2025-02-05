@@ -1,7 +1,36 @@
-div{
+/*div{
     background-color: red;
     width:100px;
     height:100px;
     border:1px solid black;
     float:right;
+}*/
+#tabla
+{
+    _display: grid;
+    _grid-template-columns: auto auto auto auto;
+    height:917px;
+    width:1800px;
+    margin: auto;
+    background-color: blue;
+    border:10px solid black;
+
+}
+
+
+#nagybox
+{
+    background-color: #f1f1f1;
+    border: 1px solid black;
+    height:186.17px;
+    width:187.83px;
+    text-align: center;
+}
+#kisbox{
+
+    background-color: #f1f1f1;
+    border: 1px solid black;
+    height:87.94px;
+    width:187.83px;
+    text-align: center;
 }
