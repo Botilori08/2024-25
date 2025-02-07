@@ -5,18 +5,72 @@
     border:1px solid black;
     float:right;
 }*/
+
+background-color: #f1f1f1;
+    border: 1px solid black;
+    
+#startM { grid-area: startM; 
+    background-color: #f1f1f1;
+    border: 1px solid black;
+}
+#mezo1 { grid-area: mezo1;
+    background-color: #f1f1f1;
+    border: 1px solid black; 
+}
+#mezo2 { grid-area: mezo2; 
+    background-color: #f1f1f1;
+    border: 1px solid black;
+}
+#mezo3 { grid-area: mezo3;     background-color: #f1f1f1;
+    border: 1px solid black;
+}
+#mezo4 { grid-area: mezo4;     background-color: #f1f1f1;
+    border: 1px solid black;
+}
+#mezo5 { grid-area: mezo5;     background-color: #f1f1f1;
+    border: 1px solid black;
+}
+#mezo6 { grid-area: mezo6;     background-color: #f1f1f1;
+    border: 1px solid black;
+}
+#mezo7 { grid-area: mezo7;     background-color: #f1f1f1;
+    border: 1px solid black;
+}
+#mezo8 { grid-area: mezo8;     background-color: #f1f1f1;
+    border: 1px solid black;}
+#mezo9 { grid-area: mezo9;     background-color: #f1f1f1;
+    border: 1px solid black;}
+#mezo10 { grid-area: mezo10;     background-color: #f1f1f1;
+    border: 1px solid black;}
+
 #tabla
 {
-    _display: grid;
-    _grid-template-columns: auto auto auto auto;
+
     height:917px;
     width:1800px;
     margin: auto;
     background-color: blue;
     border:10px solid black;
-
+    display: grid;
+    grid-template: startM mezo1 mezo2 mezo3 mezo4 mezo5 mezo6 mezo7 mezo8 mezo9 mezo10;
 }
 
+
+
+#tablaOszlop
+{
+    display: grid;
+    grid-template: start mezo1 mezo2 mezo3 mezo4 mezo5 mezo6 mezo7 mezo8 mezo9 mezo10;
+}
+
+/*
+#tablaSorFelso
+{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto auto auto;   
+    row-gap: 0px;
+}
+*/
 
 #nagybox
 {
@@ -26,11 +80,20 @@
     width:187.83px;
     text-align: center;
 }
-#kisbox{
+#kisboxOszlop{
 
     background-color: #f1f1f1;
     border: 1px solid black;
     height:87.94px;
     width:187.83px;
+    text-align: center;
+}
+
+#kisboxSor
+{
+    background-color: #f1f1f1;
+    border: 1px solid black;
+    width:87.94px;
+    height:187.83px;
     text-align: center;
 }
