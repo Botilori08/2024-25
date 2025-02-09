@@ -1,0 +1,15 @@
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\reklam\bin\Debug\net8.0\reklam.exe
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\reklam\bin\Debug\net8.0\reklam.deps.json
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\reklam\bin\Debug\net8.0\reklam.runtimeconfig.json
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\reklam\bin\Debug\net8.0\reklam.dll
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\reklam\bin\Debug\net8.0\reklam.pdb
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\reklam\obj\Debug\net8.0\reklam.GeneratedMSBuildEditorConfig.editorconfig
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\reklam\obj\Debug\net8.0\reklam.AssemblyInfoInputs.cache
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\reklam\obj\Debug\net8.0\reklam.AssemblyInfo.cs
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\reklam\obj\Debug\net8.0\reklam.csproj.CoreCompileInputs.cache
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\reklam\obj\Debug\net8.0\reklam.sourcelink.json
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\reklam\obj\Debug\net8.0\reklam.dll
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\reklam\obj\Debug\net8.0\refint\reklam.dll
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\reklam\obj\Debug\net8.0\reklam.pdb
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\reklam\obj\Debug\net8.0\reklam.genruntimeconfig.cache
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\reklam\obj\Debug\net8.0\ref\reklam.dll
