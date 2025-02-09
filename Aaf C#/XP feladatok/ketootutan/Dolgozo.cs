@@ -22,8 +22,10 @@ namespace ketootutan
         public Dolgozo(string sor)
         {
             string[] vag = sor.Split(';');
-            azonosito = vag[0].Substring(1, vag[0].Length -3);
+            azonosito = vag[0].Substring(1, vag[0].Length -2);
+            //Console.WriteLine(azonosito);
             nev = vag[1].Substring(1, vag[1].Length - 2);
+            //Console.WriteLine(nev);
             anyjaNeve = vag[2].Substring(1, vag[2].Length - 2); ;
             telepules = vag[3].Substring(1, vag[3].Length - 2);
             cim = vag[4].Substring(1, vag[4].Length - 2);

@@ -8,9 +8,10 @@
 
             List <Dolgozo> dolgozok = new List <Dolgozo>();
 
-            for (int i = 1; i <= sorok.Length; i++)
+            
+            for (int i = 0; i <= sorok.Length; i++)
             {
-                dolgozok.Add(new Dolgozo(sorok[i]));
+                Console.WriteLine(sorok[i]);
             }
 
 
