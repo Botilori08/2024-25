@@ -22,14 +22,14 @@ namespace ketootutan
         public Dolgozo(string sor)
         {
             string[] vag = sor.Split(';');
-            azonosito = vag[0].Substring(1, vag[0].Length -2);
-            Convert.ToInt32(azonosito);
+            azonosito = vag[0].Substring(1, vag[0].Length -3);
             nev = vag[1].Substring(1, vag[1].Length - 2);
-            anyjaNeve = vag[1].Substring(1, vag[1].Length - 2); ;
+            anyjaNeve = vag[2].Substring(1, vag[2].Length - 2); ;
             telepules = vag[3].Substring(1, vag[3].Length - 2);
             cim = vag[4].Substring(1, vag[4].Length - 2);
             netto = vag[5].Substring(1, vag[5].Length - 2);
-            juttatas = Convert.ToInt32(vag[6].Substring(1,vag[6].Length - 2));
+            string juttatas_get = vag[6].Substring(1,vag[6].Length - 2);
+            juttatas = Convert.ToInt32(juttatas_get);
             belepes = vag[7].Substring(1, vag[7].Length - 2);
             szuletes = vag[8].Substring(1, vag[8].Length - 2);
             szulHely = vag[9].Substring(1, vag[9].Length - 2);
