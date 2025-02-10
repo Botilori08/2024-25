@@ -18,7 +18,10 @@
 
 			for (int i = 0; i < dolgozok.Count; i++)
 			{
-				Console.WriteLine(dolgozok[i].Ev());
+				if (Convert.ToInt32(dolgozok[i].belepes.Substring(0, 2)) > 2005)
+				{
+					Console.WriteLine($"{ dolgozok[i].nev}:{dolgozok[i].netto}");
+				}
 			}
 
 			/*

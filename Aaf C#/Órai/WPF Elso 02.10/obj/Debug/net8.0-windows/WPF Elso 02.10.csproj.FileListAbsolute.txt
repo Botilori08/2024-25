@@ -1,0 +1,21 @@
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\WPF Elso 02.10\bin\Debug\net8.0-windows\WPF Elso 02.10.exe
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\WPF Elso 02.10\bin\Debug\net8.0-windows\WPF Elso 02.10.deps.json
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\WPF Elso 02.10\bin\Debug\net8.0-windows\WPF Elso 02.10.runtimeconfig.json
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\WPF Elso 02.10\bin\Debug\net8.0-windows\WPF Elso 02.10.dll
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\WPF Elso 02.10\bin\Debug\net8.0-windows\WPF Elso 02.10.pdb
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\WPF Elso 02.10\obj\Debug\net8.0-windows\MainWindow.g.cs
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\WPF Elso 02.10\obj\Debug\net8.0-windows\App.g.cs
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\WPF Elso 02.10\obj\Debug\net8.0-windows\WPF Elso 02.10_MarkupCompile.cache
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\WPF Elso 02.10\obj\Debug\net8.0-windows\WPF Elso 02.10_MarkupCompile.lref
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\WPF Elso 02.10\obj\Debug\net8.0-windows\MainWindow.baml
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\WPF Elso 02.10\obj\Debug\net8.0-windows\WPF Elso 02.10.g.resources
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\WPF Elso 02.10\obj\Debug\net8.0-windows\WPF Elso 02.10.GeneratedMSBuildEditorConfig.editorconfig
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\WPF Elso 02.10\obj\Debug\net8.0-windows\WPF Elso 02.10.AssemblyInfoInputs.cache
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\WPF Elso 02.10\obj\Debug\net8.0-windows\WPF Elso 02.10.AssemblyInfo.cs
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\WPF Elso 02.10\obj\Debug\net8.0-windows\WPF Elso 02.10.csproj.CoreCompileInputs.cache
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\WPF Elso 02.10\obj\Debug\net8.0-windows\WPF Elso 02.10.sourcelink.json
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\WPF Elso 02.10\obj\Debug\net8.0-windows\WPF Elso 02.10.dll
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\WPF Elso 02.10\obj\Debug\net8.0-windows\refint\WPF Elso 02.10.dll
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\WPF Elso 02.10\obj\Debug\net8.0-windows\WPF Elso 02.10.pdb
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\WPF Elso 02.10\obj\Debug\net8.0-windows\WPF Elso 02.10.genruntimeconfig.cache
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\WPF Elso 02.10\obj\Debug\net8.0-windows\ref\WPF Elso 02.10.dll
