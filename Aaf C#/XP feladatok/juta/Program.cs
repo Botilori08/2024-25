@@ -61,6 +61,18 @@
             }
 
             Console.WriteLine("4.");
+
+            int tataiak = 0;
+            for(int i = 0;i < dolgozok.Count ;i++)
+            {
+                if (dolgozok[i].telepules == "Tata")
+                {
+                    tataiak++;
+                }
+            }
+
+            Console.WriteLine($"{tataiak} tatai dolgozó van");
+
         }
     }
 }
