@@ -9,11 +9,14 @@
 {
     background-color: #f1f1f1;
     border: 1px solid black;
+    float:left
 }
 
     
 #startM { grid-area: startM;}
-#mezo1 { grid-area: mezo1;}
+#mezoK { grid-area: mezoK;}
+
+/*
 #mezo2 { grid-area: mezo2; }
 #mezo3 { grid-area: mezo3;}
 #mezo4 { grid-area: mezo4;}
@@ -23,17 +26,21 @@
 #mezo8 { grid-area: mezo8;}
 #mezo9 { grid-area: mezo9;}
 #mezo10 { grid-area: mezo10;}
-
+*/
+/*
 .nagy
 {
     height:186.17px;
     width:187.83px;
+    border:1px solid black;
 }
 .kicsi
 {
-    height:87.94px;
-    width:187.83px;
+    width:87.94px;
+    height:187.83px;
+    border:1px solid black;
 }
+*/
 #tabla
 {
     height:917px;
@@ -42,18 +49,18 @@
     background-color: blue;
     border:10px solid black;
     display: grid;
-    grid-template: startM mezo1 mezo2 mezo3 mezo4 mezo5 mezo6 mezo7 mezo8 mezo9 mezo10;
+    grid-template-areas: "startM mezoK mezoK mezok mezoK mezoK mezoK mezoK mezoK mezoK mezoK";
 }
 
 
-
+/*
 #tablaOszlop
 {
     display: grid;
     grid-template-columns: start mezo1 mezo2 mezo3 mezo4 mezo5 mezo6 mezo7 mezo8 mezo9 mezo10;
 }
 
-/*
+
 #tablaSorFelso
 {
     display: grid;
@@ -61,6 +68,7 @@
     row-gap: 0px;
 }
 */
+
 
 #nagybox
 {

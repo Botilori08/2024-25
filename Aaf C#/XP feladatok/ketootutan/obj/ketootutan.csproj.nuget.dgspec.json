@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\loran\\Desktop\\Suli\\Programozás, Ikt\\2024-25\\Aaf C#\\XP feladatok\\ketootutan\\ketootutan.csproj": {}
+    "D:\\munkakönyvtár\\Boti Lóránt\\2024-25\\Aaf C#\\XP feladatok\\ketootutan\\ketootutan.csproj": {}
   },
   "projects": {
-    "C:\\Users\\loran\\Desktop\\Suli\\Programozás, Ikt\\2024-25\\Aaf C#\\XP feladatok\\ketootutan\\ketootutan.csproj": {
+    "D:\\munkakönyvtár\\Boti Lóránt\\2024-25\\Aaf C#\\XP feladatok\\ketootutan\\ketootutan.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\loran\\Desktop\\Suli\\Programozás, Ikt\\2024-25\\Aaf C#\\XP feladatok\\ketootutan\\ketootutan.csproj",
+        "projectUniqueName": "D:\\munkakönyvtár\\Boti Lóránt\\2024-25\\Aaf C#\\XP feladatok\\ketootutan\\ketootutan.csproj",
         "projectName": "ketootutan",
-        "projectPath": "C:\\Users\\loran\\Desktop\\Suli\\Programozás, Ikt\\2024-25\\Aaf C#\\XP feladatok\\ketootutan\\ketootutan.csproj",
-        "packagesPath": "C:\\Users\\loran\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\loran\\Desktop\\Suli\\Programozás, Ikt\\2024-25\\Aaf C#\\XP feladatok\\ketootutan\\obj\\",
+        "projectPath": "D:\\munkakönyvtár\\Boti Lóránt\\2024-25\\Aaf C#\\XP feladatok\\ketootutan\\ketootutan.csproj",
+        "packagesPath": "C:\\Users\\botil22\\.nuget\\packages\\",
+        "outputPath": "D:\\munkakönyvtár\\Boti Lóránt\\2024-25\\Aaf C#\\XP feladatok\\ketootutan\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\loran\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\botil22\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -60,7 +60,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

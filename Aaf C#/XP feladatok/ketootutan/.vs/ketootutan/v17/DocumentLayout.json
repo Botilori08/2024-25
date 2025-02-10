@@ -1,17 +1,17 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\loran\\Desktop\\Suli\\Programoz\u00E1s, Ikt\\2024-25\\Aaf C#\\XP feladatok\\ketootutan\\",
+  "WorkspaceRootPath": "D:\\munkak\u00F6nyvt\u00E1r\\Boti L\u00F3r\u00E1nt\\2024-25\\Aaf C#\\XP feladatok\\ketootutan\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6516E03E-0D00-409D-BBE0-A2F198555828}|ketootutan.csproj|c:\\users\\loran\\desktop\\suli\\programoz\u00E1s, ikt\\2024-25\\aaf c#\\xp feladatok\\ketootutan\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6516E03E-0D00-409D-BBE0-A2F198555828}|ketootutan.csproj|d:\\munkak\u00F6nyvt\u00E1r\\boti l\u00F3r\u00E1nt\\2024-25\\aaf c#\\xp feladatok\\ketootutan\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6516E03E-0D00-409D-BBE0-A2F198555828}|ketootutan.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6516E03E-0D00-409D-BBE0-A2F198555828}|ketootutan.csproj|c:\\users\\loran\\desktop\\suli\\programoz\u00E1s, ikt\\2024-25\\aaf c#\\xp feladatok\\ketootutan\\dolgozo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6516E03E-0D00-409D-BBE0-A2F198555828}|ketootutan.csproj|d:\\munkak\u00F6nyvt\u00E1r\\boti l\u00F3r\u00E1nt\\2024-25\\aaf c#\\xp feladatok\\ketootutan\\dolgozo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6516E03E-0D00-409D-BBE0-A2F198555828}|ketootutan.csproj|solutionrelative:dolgozo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\loran\\Desktop\\Suli\\Programoz\u00E1s, Ikt\\2024-25\\Aaf C#\\XP feladatok\\ketootutan\\bin\\Debug\\net8.0\\dolgozok.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\munkak\u00F6nyvt\u00E1r\\Boti L\u00F3r\u00E1nt\\2024-25\\Aaf C#\\XP feladatok\\ketootutan\\bin\\Debug\\net8.0\\dolgozok.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:bin\\Debug\\net8.0\\dolgozok.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
@@ -28,24 +28,23 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "dolgozok.txt",
-              "DocumentMoniker": "C:\\Users\\loran\\Desktop\\Suli\\Programoz\u00E1s, Ikt\\2024-25\\Aaf C#\\XP feladatok\\ketootutan\\bin\\Debug\\net8.0\\dolgozok.txt",
+              "DocumentMoniker": "D:\\munkak\u00F6nyvt\u00E1r\\Boti L\u00F3r\u00E1nt\\2024-25\\Aaf C#\\XP feladatok\\ketootutan\\bin\\Debug\\net8.0\\dolgozok.txt",
               "RelativeDocumentMoniker": "bin\\Debug\\net8.0\\dolgozok.txt",
-              "ToolTip": "C:\\Users\\loran\\Desktop\\Suli\\Programoz\u00E1s, Ikt\\2024-25\\Aaf C#\\XP feladatok\\ketootutan\\bin\\Debug\\net8.0\\dolgozok.txt",
+              "ToolTip": "D:\\munkak\u00F6nyvt\u00E1r\\Boti L\u00F3r\u00E1nt\\2024-25\\Aaf C#\\XP feladatok\\ketootutan\\bin\\Debug\\net8.0\\dolgozok.txt",
               "RelativeToolTip": "bin\\Debug\\net8.0\\dolgozok.txt",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAABzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-02-09T13:35:06.011Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-09T13:35:06.011Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Dolgozo.cs",
-              "DocumentMoniker": "C:\\Users\\loran\\Desktop\\Suli\\Programoz\u00E1s, Ikt\\2024-25\\Aaf C#\\XP feladatok\\ketootutan\\Dolgozo.cs",
+              "DocumentMoniker": "D:\\munkak\u00F6nyvt\u00E1r\\Boti L\u00F3r\u00E1nt\\2024-25\\Aaf C#\\XP feladatok\\ketootutan\\Dolgozo.cs",
               "RelativeDocumentMoniker": "Dolgozo.cs",
-              "ToolTip": "C:\\Users\\loran\\Desktop\\Suli\\Programoz\u00E1s, Ikt\\2024-25\\Aaf C#\\XP feladatok\\ketootutan\\Dolgozo.cs",
+              "ToolTip": "D:\\munkak\u00F6nyvt\u00E1r\\Boti L\u00F3r\u00E1nt\\2024-25\\Aaf C#\\XP feladatok\\ketootutan\\Dolgozo.cs",
               "RelativeToolTip": "Dolgozo.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBsAAAAOAAAAAAAAAA==",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAACAAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-09T13:32:06.952Z",
               "EditorCaption": ""
@@ -54,11 +53,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\loran\\Desktop\\Suli\\Programoz\u00E1s, Ikt\\2024-25\\Aaf C#\\XP feladatok\\ketootutan\\Program.cs",
+              "DocumentMoniker": "D:\\munkak\u00F6nyvt\u00E1r\\Boti L\u00F3r\u00E1nt\\2024-25\\Aaf C#\\XP feladatok\\ketootutan\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\loran\\Desktop\\Suli\\Programoz\u00E1s, Ikt\\2024-25\\Aaf C#\\XP feladatok\\ketootutan\\Program.cs",
+              "ToolTip": "D:\\munkak\u00F6nyvt\u00E1r\\Boti L\u00F3r\u00E1nt\\2024-25\\Aaf C#\\XP feladatok\\ketootutan\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAaAAAAAAAAAA==",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAgwCgAAAAGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-09T13:20:32.71Z",
               "EditorCaption": ""
