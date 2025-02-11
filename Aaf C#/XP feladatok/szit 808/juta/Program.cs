@@ -70,10 +70,11 @@
 
             for(int i = 0;i <adatL.Count;i++)
             {
-                if(adatL[i].Split(";")[3] =="Tata");
+                if (adatL[i].Split(";")[3] == "Tata")
                 {
                     tataiak++;
                 }
+
             }
             Console.WriteLine($"Tatai dolgozók száma: {tataiak}");
 
