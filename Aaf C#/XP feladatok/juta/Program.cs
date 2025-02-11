@@ -19,7 +19,7 @@
             {
                 osszJutalom += dolgozok[i].jutalom;
             }
-            Console.WriteLine($"A jutalmak összege: {osszJutalom}");
+            Console.WriteLine($"A jutalmak összege: {osszJutalom} Ft");
 
             Console.WriteLine("2.");
             List <int> fizetesek = new List <int> ();

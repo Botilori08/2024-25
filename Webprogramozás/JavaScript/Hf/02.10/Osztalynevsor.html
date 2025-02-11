@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Osztálynévsor</title>
+</head>
+<body>
+    
+    <div id="nevsorHelye"></div>
+    <div id="bennevagyokE"></div>
+    <div id="elsoHuszas"></div>
+    <div id="indexHelye"></div>
+
+   <script>
+        let nevek = ["Boti Lóránt Ferenc","Csicskó Réka","Farkas Balázs","Gyarmati Gábor","Holczer Zoltán","Kollár Vanda","Kovács Máté","Rengel Tamás","Takács Bence","Török Ádám","Török Dominik","Valenta Roland Milán"];
+
+        for(let i = 0;i < nevek.length;i++)
+        {
+            document.getElementById("nevsorHelye").innerHTML = nevek.join(", ");
+        }
+
+        let bennevagyokE = false;
+
+        bennevagyokE = nevek.includes("Boti Lóránt Ferenc")
+
+        if(bennevagyokE)
+        {
+            document.getElementById("bennevagyokE").innerHTML = "Benne vagyok a névsorban."
+        }
+        else
+        {
+            document.getElementById("bennevagyokE").innerHTML = "Nem vagyok benne a névsorban."  
+        }
+
+
+        for(let i =0;i < nevek.length;i++)
+        {
+            if(nevek[i].length > 20)
+            {
+                document.getElementById("elsoHuszas").innerHTML= nevek[i];
+                break
+            }
+            else
+            {document.getElementById("elsoHuszas").innerHTML = "Nincs húsz karakternél hosszabb név"}
+        }
+
+        let legutolso = 0;
+
+        for(let i = 0;i < nevek.length;i++)
+        {
+            if(nevek[i].length <= 30)
+            {
+                legutolso = nevek.lastIndexOf(nevek[i])
+            }
+        }
+
+        //console.log(legutolso)
+
+        document.getElementById("indexHelye").innerHTML = "A legutolsó maximum harminc karakteres név indexe: " + legutolso;
+        
+
+
+
+
+   </script> 
+</body>
+</html>
