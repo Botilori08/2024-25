@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("juta")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+324865a0d2db915ede78d8cae2d4ee753ef36dc4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7a21642361d8866f01c3a4d0080b53f4582e6eaf")]
 [assembly: System.Reflection.AssemblyProductAttribute("juta")]
 [assembly: System.Reflection.AssemblyTitleAttribute("juta")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

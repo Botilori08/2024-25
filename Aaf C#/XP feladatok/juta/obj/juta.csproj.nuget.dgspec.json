@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\loran\\Desktop\\Suli\\Programozás, Ikt\\2024-25\\Aaf C#\\XP feladatok\\juta\\juta.csproj": {}
+    "D:\\munkakönyvtár\\Boti Lóránt\\2024-25\\Aaf C#\\XP feladatok\\juta\\juta.csproj": {}
   },
   "projects": {
-    "C:\\Users\\loran\\Desktop\\Suli\\Programozás, Ikt\\2024-25\\Aaf C#\\XP feladatok\\juta\\juta.csproj": {
+    "D:\\munkakönyvtár\\Boti Lóránt\\2024-25\\Aaf C#\\XP feladatok\\juta\\juta.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\loran\\Desktop\\Suli\\Programozás, Ikt\\2024-25\\Aaf C#\\XP feladatok\\juta\\juta.csproj",
+        "projectUniqueName": "D:\\munkakönyvtár\\Boti Lóránt\\2024-25\\Aaf C#\\XP feladatok\\juta\\juta.csproj",
         "projectName": "juta",
-        "projectPath": "C:\\Users\\loran\\Desktop\\Suli\\Programozás, Ikt\\2024-25\\Aaf C#\\XP feladatok\\juta\\juta.csproj",
-        "packagesPath": "C:\\Users\\loran\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\loran\\Desktop\\Suli\\Programozás, Ikt\\2024-25\\Aaf C#\\XP feladatok\\juta\\obj\\",
+        "projectPath": "D:\\munkakönyvtár\\Boti Lóránt\\2024-25\\Aaf C#\\XP feladatok\\juta\\juta.csproj",
+        "packagesPath": "C:\\Users\\botil22\\.nuget\\packages\\",
+        "outputPath": "D:\\munkakönyvtár\\Boti Lóránt\\2024-25\\Aaf C#\\XP feladatok\\juta\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\loran\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\botil22\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -60,7 +60,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
