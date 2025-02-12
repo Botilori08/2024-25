@@ -5,18 +5,37 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WPF_Elso_02._10"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        <Button Content="Gomb" RenderTransformOrigin="0.5,0.5" Margin="152,82,524,306" Click="Button_Click">
+        Title="asd" Height="443" Width="743">
+    <Grid Margin="0,-10,-2,1" RenderTransformOrigin="0.5,0.5">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="0*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RenderTransform>
+            <TransformGroup>
+                <ScaleTransform/>
+                <SkewTransform/>
+                <RotateTransform Angle="0.222"/>
+                <TranslateTransform/>
+            </TransformGroup>
+        </Grid.RenderTransform>
+        <Button Content="Gomb" RenderTransformOrigin="0.498,0.495" Margin="250,111,346,265" Click="Button_Click">
             <Button.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
                     <SkewTransform/>
                     <RotateTransform Angle="0.315"/>
-                    <TranslateTransform/>
+                    <TranslateTransform X="0.003" Y="-0.002"/>
                 </TransformGroup>
             </Button.RenderTransform>
         </Button>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="126,104,0,0" VerticalAlignment="Top" Height="58" Width="100"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="416,47,0,0" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Margin="23,0,0,0" TextWrapping="Wrap" VerticalAlignment="Center" Width="190" Height="33" TextChanged="TextBox_TextChanged" Text="Valami"/>
+        <Label Content="Szöveg" HorizontalAlignment="Left" Margin="22,177,0,0" VerticalAlignment="Top"/>
+        <StackPanel HorizontalAlignment="Left" Height="94" Margin="451,79,0,0" VerticalAlignment="Top" Width="159">
+            <Button Content="Button" RenderTransformOrigin="-0.629,0.427"/>
+        </StackPanel>
 
     </Grid>
 </Window>

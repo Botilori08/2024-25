@@ -25,5 +25,10 @@ namespace WPF_Elso_02._10
         {
 
         }
+
+        private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
     }
 }

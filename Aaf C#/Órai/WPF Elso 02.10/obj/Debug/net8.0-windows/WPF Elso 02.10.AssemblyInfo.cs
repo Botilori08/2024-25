@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WPF Elso 02.10")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e0f77edd81ec6f1bfd629e4f2e9cb234250a7cf6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+23e5fef2be876aec73367d087c1341953980a81c")]
 [assembly: System.Reflection.AssemblyProductAttribute("WPF Elso 02.10")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WPF Elso 02.10")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
