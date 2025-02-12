@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>414</title>
+</head>
+<body>
+    <input type="number" id="szam">
+    <button onclick="vizsgalo()">Küldés</button>
+    <div id="oszthatoe"></div>
+    <script>
+        function vizsgalo()
+        {
+            let szam = document.getElementById("szam").value;
+            const hely = document.getElementById("oszthatoe");
+
+
+            if(szam%2 ==0 && szam%3==0)
+            {
+                hely.innerHTML = "A szám osztható kettővel és hárommal";
+            }
+            else
+            {
+                hely.innerHTML = "A szám nem osztható kettővel és hárommal";
+            }
+        }
+
+
+
+
+    </script>
+</body>
+</html>
