@@ -1,0 +1,15 @@
+C:\Users\loran\Desktop\Suli\Programozás, Ikt\2024-25\Aaf C#\XP feladatok\szit 503\szamokotvenig\bin\Debug\net8.0\szamokotvenig.exe
+C:\Users\loran\Desktop\Suli\Programozás, Ikt\2024-25\Aaf C#\XP feladatok\szit 503\szamokotvenig\bin\Debug\net8.0\szamokotvenig.deps.json
+C:\Users\loran\Desktop\Suli\Programozás, Ikt\2024-25\Aaf C#\XP feladatok\szit 503\szamokotvenig\bin\Debug\net8.0\szamokotvenig.runtimeconfig.json
+C:\Users\loran\Desktop\Suli\Programozás, Ikt\2024-25\Aaf C#\XP feladatok\szit 503\szamokotvenig\bin\Debug\net8.0\szamokotvenig.dll
+C:\Users\loran\Desktop\Suli\Programozás, Ikt\2024-25\Aaf C#\XP feladatok\szit 503\szamokotvenig\bin\Debug\net8.0\szamokotvenig.pdb
+C:\Users\loran\Desktop\Suli\Programozás, Ikt\2024-25\Aaf C#\XP feladatok\szit 503\szamokotvenig\obj\Debug\net8.0\szamokotvenig.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\loran\Desktop\Suli\Programozás, Ikt\2024-25\Aaf C#\XP feladatok\szit 503\szamokotvenig\obj\Debug\net8.0\szamokotvenig.AssemblyInfoInputs.cache
+C:\Users\loran\Desktop\Suli\Programozás, Ikt\2024-25\Aaf C#\XP feladatok\szit 503\szamokotvenig\obj\Debug\net8.0\szamokotvenig.AssemblyInfo.cs
+C:\Users\loran\Desktop\Suli\Programozás, Ikt\2024-25\Aaf C#\XP feladatok\szit 503\szamokotvenig\obj\Debug\net8.0\szamokotvenig.csproj.CoreCompileInputs.cache
+C:\Users\loran\Desktop\Suli\Programozás, Ikt\2024-25\Aaf C#\XP feladatok\szit 503\szamokotvenig\obj\Debug\net8.0\szamokotvenig.sourcelink.json
+C:\Users\loran\Desktop\Suli\Programozás, Ikt\2024-25\Aaf C#\XP feladatok\szit 503\szamokotvenig\obj\Debug\net8.0\szamokotvenig.dll
+C:\Users\loran\Desktop\Suli\Programozás, Ikt\2024-25\Aaf C#\XP feladatok\szit 503\szamokotvenig\obj\Debug\net8.0\refint\szamokotvenig.dll
+C:\Users\loran\Desktop\Suli\Programozás, Ikt\2024-25\Aaf C#\XP feladatok\szit 503\szamokotvenig\obj\Debug\net8.0\szamokotvenig.pdb
+C:\Users\loran\Desktop\Suli\Programozás, Ikt\2024-25\Aaf C#\XP feladatok\szit 503\szamokotvenig\obj\Debug\net8.0\szamokotvenig.genruntimeconfig.cache
+C:\Users\loran\Desktop\Suli\Programozás, Ikt\2024-25\Aaf C#\XP feladatok\szit 503\szamokotvenig\obj\Debug\net8.0\ref\szamokotvenig.dll
