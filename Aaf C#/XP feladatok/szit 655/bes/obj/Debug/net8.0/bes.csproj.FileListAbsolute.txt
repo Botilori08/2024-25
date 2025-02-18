@@ -1,0 +1,15 @@
+C:\Users\loran\Desktop\Suli\Programozás, Ikt\2024-25\Aaf C#\XP feladatok\szit 655\bes\bin\Debug\net8.0\bes.exe
+C:\Users\loran\Desktop\Suli\Programozás, Ikt\2024-25\Aaf C#\XP feladatok\szit 655\bes\bin\Debug\net8.0\bes.deps.json
+C:\Users\loran\Desktop\Suli\Programozás, Ikt\2024-25\Aaf C#\XP feladatok\szit 655\bes\bin\Debug\net8.0\bes.runtimeconfig.json
+C:\Users\loran\Desktop\Suli\Programozás, Ikt\2024-25\Aaf C#\XP feladatok\szit 655\bes\bin\Debug\net8.0\bes.dll
+C:\Users\loran\Desktop\Suli\Programozás, Ikt\2024-25\Aaf C#\XP feladatok\szit 655\bes\bin\Debug\net8.0\bes.pdb
+C:\Users\loran\Desktop\Suli\Programozás, Ikt\2024-25\Aaf C#\XP feladatok\szit 655\bes\obj\Debug\net8.0\bes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\loran\Desktop\Suli\Programozás, Ikt\2024-25\Aaf C#\XP feladatok\szit 655\bes\obj\Debug\net8.0\bes.AssemblyInfoInputs.cache
+C:\Users\loran\Desktop\Suli\Programozás, Ikt\2024-25\Aaf C#\XP feladatok\szit 655\bes\obj\Debug\net8.0\bes.AssemblyInfo.cs
+C:\Users\loran\Desktop\Suli\Programozás, Ikt\2024-25\Aaf C#\XP feladatok\szit 655\bes\obj\Debug\net8.0\bes.csproj.CoreCompileInputs.cache
+C:\Users\loran\Desktop\Suli\Programozás, Ikt\2024-25\Aaf C#\XP feladatok\szit 655\bes\obj\Debug\net8.0\bes.sourcelink.json
+C:\Users\loran\Desktop\Suli\Programozás, Ikt\2024-25\Aaf C#\XP feladatok\szit 655\bes\obj\Debug\net8.0\bes.dll
+C:\Users\loran\Desktop\Suli\Programozás, Ikt\2024-25\Aaf C#\XP feladatok\szit 655\bes\obj\Debug\net8.0\refint\bes.dll
+C:\Users\loran\Desktop\Suli\Programozás, Ikt\2024-25\Aaf C#\XP feladatok\szit 655\bes\obj\Debug\net8.0\bes.pdb
+C:\Users\loran\Desktop\Suli\Programozás, Ikt\2024-25\Aaf C#\XP feladatok\szit 655\bes\obj\Debug\net8.0\bes.genruntimeconfig.cache
+C:\Users\loran\Desktop\Suli\Programozás, Ikt\2024-25\Aaf C#\XP feladatok\szit 655\bes\obj\Debug\net8.0\ref\bes.dll

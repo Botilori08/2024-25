@@ -1,0 +1,15 @@
+C:\Users\loran\Desktop\Suli\Programozás, Ikt\2024-25\Aaf C#\XP feladatok\szit 904\fuggdup\bin\Debug\net8.0\fuggdup.exe
+C:\Users\loran\Desktop\Suli\Programozás, Ikt\2024-25\Aaf C#\XP feladatok\szit 904\fuggdup\bin\Debug\net8.0\fuggdup.deps.json
+C:\Users\loran\Desktop\Suli\Programozás, Ikt\2024-25\Aaf C#\XP feladatok\szit 904\fuggdup\bin\Debug\net8.0\fuggdup.runtimeconfig.json
+C:\Users\loran\Desktop\Suli\Programozás, Ikt\2024-25\Aaf C#\XP feladatok\szit 904\fuggdup\bin\Debug\net8.0\fuggdup.dll
+C:\Users\loran\Desktop\Suli\Programozás, Ikt\2024-25\Aaf C#\XP feladatok\szit 904\fuggdup\bin\Debug\net8.0\fuggdup.pdb
+C:\Users\loran\Desktop\Suli\Programozás, Ikt\2024-25\Aaf C#\XP feladatok\szit 904\fuggdup\obj\Debug\net8.0\fuggdup.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\loran\Desktop\Suli\Programozás, Ikt\2024-25\Aaf C#\XP feladatok\szit 904\fuggdup\obj\Debug\net8.0\fuggdup.AssemblyInfoInputs.cache
+C:\Users\loran\Desktop\Suli\Programozás, Ikt\2024-25\Aaf C#\XP feladatok\szit 904\fuggdup\obj\Debug\net8.0\fuggdup.AssemblyInfo.cs
+C:\Users\loran\Desktop\Suli\Programozás, Ikt\2024-25\Aaf C#\XP feladatok\szit 904\fuggdup\obj\Debug\net8.0\fuggdup.csproj.CoreCompileInputs.cache
+C:\Users\loran\Desktop\Suli\Programozás, Ikt\2024-25\Aaf C#\XP feladatok\szit 904\fuggdup\obj\Debug\net8.0\fuggdup.sourcelink.json
+C:\Users\loran\Desktop\Suli\Programozás, Ikt\2024-25\Aaf C#\XP feladatok\szit 904\fuggdup\obj\Debug\net8.0\fuggdup.dll
+C:\Users\loran\Desktop\Suli\Programozás, Ikt\2024-25\Aaf C#\XP feladatok\szit 904\fuggdup\obj\Debug\net8.0\refint\fuggdup.dll
+C:\Users\loran\Desktop\Suli\Programozás, Ikt\2024-25\Aaf C#\XP feladatok\szit 904\fuggdup\obj\Debug\net8.0\fuggdup.pdb
+C:\Users\loran\Desktop\Suli\Programozás, Ikt\2024-25\Aaf C#\XP feladatok\szit 904\fuggdup\obj\Debug\net8.0\fuggdup.genruntimeconfig.cache
+C:\Users\loran\Desktop\Suli\Programozás, Ikt\2024-25\Aaf C#\XP feladatok\szit 904\fuggdup\obj\Debug\net8.0\ref\fuggdup.dll

@@ -1,0 +1,30 @@
+C:\Users\loran\Desktop\Suli\Programozás, Ikt\2024-25\Aaf C#\XP feladatok\ketnagy\bin\Debug\net8.0\ketnagy.exe
+C:\Users\loran\Desktop\Suli\Programozás, Ikt\2024-25\Aaf C#\XP feladatok\ketnagy\bin\Debug\net8.0\ketnagy.deps.json
+C:\Users\loran\Desktop\Suli\Programozás, Ikt\2024-25\Aaf C#\XP feladatok\ketnagy\bin\Debug\net8.0\ketnagy.runtimeconfig.json
+C:\Users\loran\Desktop\Suli\Programozás, Ikt\2024-25\Aaf C#\XP feladatok\ketnagy\bin\Debug\net8.0\ketnagy.dll
+C:\Users\loran\Desktop\Suli\Programozás, Ikt\2024-25\Aaf C#\XP feladatok\ketnagy\bin\Debug\net8.0\ketnagy.pdb
+C:\Users\loran\Desktop\Suli\Programozás, Ikt\2024-25\Aaf C#\XP feladatok\ketnagy\obj\Debug\net8.0\ketnagy.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\loran\Desktop\Suli\Programozás, Ikt\2024-25\Aaf C#\XP feladatok\ketnagy\obj\Debug\net8.0\ketnagy.AssemblyInfoInputs.cache
+C:\Users\loran\Desktop\Suli\Programozás, Ikt\2024-25\Aaf C#\XP feladatok\ketnagy\obj\Debug\net8.0\ketnagy.AssemblyInfo.cs
+C:\Users\loran\Desktop\Suli\Programozás, Ikt\2024-25\Aaf C#\XP feladatok\ketnagy\obj\Debug\net8.0\ketnagy.csproj.CoreCompileInputs.cache
+C:\Users\loran\Desktop\Suli\Programozás, Ikt\2024-25\Aaf C#\XP feladatok\ketnagy\obj\Debug\net8.0\ketnagy.sourcelink.json
+C:\Users\loran\Desktop\Suli\Programozás, Ikt\2024-25\Aaf C#\XP feladatok\ketnagy\obj\Debug\net8.0\ketnagy.dll
+C:\Users\loran\Desktop\Suli\Programozás, Ikt\2024-25\Aaf C#\XP feladatok\ketnagy\obj\Debug\net8.0\refint\ketnagy.dll
+C:\Users\loran\Desktop\Suli\Programozás, Ikt\2024-25\Aaf C#\XP feladatok\ketnagy\obj\Debug\net8.0\ketnagy.pdb
+C:\Users\loran\Desktop\Suli\Programozás, Ikt\2024-25\Aaf C#\XP feladatok\ketnagy\obj\Debug\net8.0\ketnagy.genruntimeconfig.cache
+C:\Users\loran\Desktop\Suli\Programozás, Ikt\2024-25\Aaf C#\XP feladatok\ketnagy\obj\Debug\net8.0\ref\ketnagy.dll
+C:\Users\loran\Desktop\Suli\Programozás, Ikt\2024-25\Aaf C#\XP feladatok\szit 652\ketnagy\bin\Debug\net8.0\ketnagy.exe
+C:\Users\loran\Desktop\Suli\Programozás, Ikt\2024-25\Aaf C#\XP feladatok\szit 652\ketnagy\bin\Debug\net8.0\ketnagy.deps.json
+C:\Users\loran\Desktop\Suli\Programozás, Ikt\2024-25\Aaf C#\XP feladatok\szit 652\ketnagy\bin\Debug\net8.0\ketnagy.runtimeconfig.json
+C:\Users\loran\Desktop\Suli\Programozás, Ikt\2024-25\Aaf C#\XP feladatok\szit 652\ketnagy\bin\Debug\net8.0\ketnagy.dll
+C:\Users\loran\Desktop\Suli\Programozás, Ikt\2024-25\Aaf C#\XP feladatok\szit 652\ketnagy\bin\Debug\net8.0\ketnagy.pdb
+C:\Users\loran\Desktop\Suli\Programozás, Ikt\2024-25\Aaf C#\XP feladatok\szit 652\ketnagy\obj\Debug\net8.0\ketnagy.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\loran\Desktop\Suli\Programozás, Ikt\2024-25\Aaf C#\XP feladatok\szit 652\ketnagy\obj\Debug\net8.0\ketnagy.AssemblyInfoInputs.cache
+C:\Users\loran\Desktop\Suli\Programozás, Ikt\2024-25\Aaf C#\XP feladatok\szit 652\ketnagy\obj\Debug\net8.0\ketnagy.AssemblyInfo.cs
+C:\Users\loran\Desktop\Suli\Programozás, Ikt\2024-25\Aaf C#\XP feladatok\szit 652\ketnagy\obj\Debug\net8.0\ketnagy.csproj.CoreCompileInputs.cache
+C:\Users\loran\Desktop\Suli\Programozás, Ikt\2024-25\Aaf C#\XP feladatok\szit 652\ketnagy\obj\Debug\net8.0\ketnagy.sourcelink.json
+C:\Users\loran\Desktop\Suli\Programozás, Ikt\2024-25\Aaf C#\XP feladatok\szit 652\ketnagy\obj\Debug\net8.0\ketnagy.dll
+C:\Users\loran\Desktop\Suli\Programozás, Ikt\2024-25\Aaf C#\XP feladatok\szit 652\ketnagy\obj\Debug\net8.0\refint\ketnagy.dll
+C:\Users\loran\Desktop\Suli\Programozás, Ikt\2024-25\Aaf C#\XP feladatok\szit 652\ketnagy\obj\Debug\net8.0\ketnagy.pdb
+C:\Users\loran\Desktop\Suli\Programozás, Ikt\2024-25\Aaf C#\XP feladatok\szit 652\ketnagy\obj\Debug\net8.0\ketnagy.genruntimeconfig.cache
+C:\Users\loran\Desktop\Suli\Programozás, Ikt\2024-25\Aaf C#\XP feladatok\szit 652\ketnagy\obj\Debug\net8.0\ref\ketnagy.dll
