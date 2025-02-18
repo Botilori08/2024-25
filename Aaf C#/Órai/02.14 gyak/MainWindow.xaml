@@ -7,11 +7,11 @@
         mc:Ignorable="d"
         Title="Belépés" Height="196" Width="197">
     <Grid>
-        <Label Content="Név" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
-        <TextBox x:Name="textBox" HorizontalAlignment="Left" Margin="64,14,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged"/>
-        <Label Content="Jelszó" HorizontalAlignment="Left" Margin="10,36,0,0" VerticalAlignment="Top"/>
-        <PasswordBox x:Name="passwordBox" HorizontalAlignment="Left" Margin="64,40,0,0" VerticalAlignment="Top" Width="120"/>
-        <Button Content="Belépés" HorizontalAlignment="Left" Margin="102,70,0,0" VerticalAlignment="Top"/>
+        <Label Content="Név:" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Margin="64,14,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged" Text="Valami"/>
+        <Label Content="Jelszó:" HorizontalAlignment="Left" Margin="10,36,0,0" VerticalAlignment="Top"/>
+        <PasswordBox x:Name="passwordBox" HorizontalAlignment="Left" Margin="64,40,0,0" VerticalAlignment="Top" Width="120" Password="reptérlobogaszélben..."/>
+        <Button Content="Belépés" HorizontalAlignment="Left" Margin="102,70,0,0" VerticalAlignment="Top" Click="Button_Click"/>
 
     </Grid>
 </Window>
