@@ -1,0 +1,14 @@
+C:\Users\tanulo.F6PC11\Desktop\maghang\maghang\obj\Debug\net8.0\maghang.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tanulo.F6PC11\Desktop\maghang\maghang\obj\Debug\net8.0\maghang.AssemblyInfoInputs.cache
+C:\Users\tanulo.F6PC11\Desktop\maghang\maghang\obj\Debug\net8.0\maghang.AssemblyInfo.cs
+C:\Users\tanulo.F6PC11\Desktop\maghang\maghang\obj\Debug\net8.0\maghang.csproj.CoreCompileInputs.cache
+C:\Users\tanulo.F6PC11\Desktop\maghang\maghang\bin\Debug\net8.0\maghang.exe
+C:\Users\tanulo.F6PC11\Desktop\maghang\maghang\bin\Debug\net8.0\maghang.deps.json
+C:\Users\tanulo.F6PC11\Desktop\maghang\maghang\bin\Debug\net8.0\maghang.runtimeconfig.json
+C:\Users\tanulo.F6PC11\Desktop\maghang\maghang\bin\Debug\net8.0\maghang.dll
+C:\Users\tanulo.F6PC11\Desktop\maghang\maghang\bin\Debug\net8.0\maghang.pdb
+C:\Users\tanulo.F6PC11\Desktop\maghang\maghang\obj\Debug\net8.0\maghang.dll
+C:\Users\tanulo.F6PC11\Desktop\maghang\maghang\obj\Debug\net8.0\refint\maghang.dll
+C:\Users\tanulo.F6PC11\Desktop\maghang\maghang\obj\Debug\net8.0\maghang.pdb
+C:\Users\tanulo.F6PC11\Desktop\maghang\maghang\obj\Debug\net8.0\maghang.genruntimeconfig.cache
+C:\Users\tanulo.F6PC11\Desktop\maghang\maghang\obj\Debug\net8.0\ref\maghang.dll
