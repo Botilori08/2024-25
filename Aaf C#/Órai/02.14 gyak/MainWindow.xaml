@@ -5,13 +5,14 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:_02._14_gyak"
         mc:Ignorable="d"
-        Title="Belépés" Height="196" Width="197">
+        Title="Belépés" Height="300" Width="684">
     <Grid>
-        <Label Content="Név:" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
-        <TextBox x:Name="textBox" HorizontalAlignment="Left" Margin="64,14,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged" Text="Valami"/>
-        <Label Content="Jelszó:" HorizontalAlignment="Left" Margin="10,36,0,0" VerticalAlignment="Top"/>
-        <PasswordBox x:Name="passwordBox" HorizontalAlignment="Left" Margin="64,40,0,0" VerticalAlignment="Top" Width="120" Password="reptérlobogaszélben..."/>
-        <Button Content="Belépés" HorizontalAlignment="Left" Margin="102,70,0,0" VerticalAlignment="Top" Click="Button_Click"/>
+        <Label Content="Név:" HorizontalAlignment="Left" Margin="10,23,0,0" VerticalAlignment="Top" Height="37" Width="49" FontSize="18"/>
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Margin="75,19,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="185" TextChanged="TextBox_TextChanged" Height="37"/>
+        <Label Content="Jelszó:" HorizontalAlignment="Left" Margin="10,65,0,0" VerticalAlignment="Top" Height="43" Width="60" FontSize="18"/>
+        <Button Content="Küldés" HorizontalAlignment="Left" Margin="149,125,0,0" VerticalAlignment="Top" Click="Button_Click" Height="46" Width="61" FontSize="20"/>
+        <TextBox x:Name="jelszo" HorizontalAlignment="Left" Margin="75,69,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="185" TextChanged="TextBox_TextChanged" Height="35"/>
+        <ListBox x:Name="listBox" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="322,19,0,0"/>
 
     </Grid>
 </Window>
