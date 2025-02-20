@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("02.14 gyak")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("02.19")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8b6a1d1357d31d218a26ff74e1189551b792af8a")]
-[assembly: System.Reflection.AssemblyProductAttribute("02.14 gyak")]
-[assembly: System.Reflection.AssemblyTitleAttribute("02.14 gyak")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1945c8a9f5f19a723ca0a846b09d27d93b773aaf")]
+[assembly: System.Reflection.AssemblyProductAttribute("02.19")]
+[assembly: System.Reflection.AssemblyTitleAttribute("02.19")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 [assembly: System.Runtime.Versioning.TargetPlatformAttribute("Windows7.0")]
 [assembly: System.Runtime.Versioning.SupportedOSPlatformAttribute("Windows7.0")]
