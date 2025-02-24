@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fgvgyak</title>
+</head>
+<body>
+    <script>
+
+        const a = [0,321,345,210,765,98,43,65,73,675];
+
+        console.log("A tömb elemszáma: "+a.length);
+
+        //const b = a.toSorted(function(a,b){return a-b});
+
+        const b = a.toSorted((a,b) => a-b);
+        console.log("Növekvő sorrendben: "+b)
+
+        const c = a.filter((value) => value%2 === 0);
+
+        console.log("Páros számok: "+c)
+
+        console.log("A legnagyobb szám: "+b.at(-1))
+
+        console.log("A legnagyobb szám eredeti indexe: "+a.indexOf(b.at(-1)))
+
+        console.log("Az első háromjegyű szám: "+a.find())
+
+    </script>
+</body>
+</html>

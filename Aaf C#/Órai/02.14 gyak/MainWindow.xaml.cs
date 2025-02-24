@@ -19,6 +19,9 @@ namespace _02._14_gyak
 		public MainWindow()
 		{
 			InitializeComponent();
+
+			listBox.ItemsSource = adatok;
+
 		}
 
 		private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
@@ -26,9 +29,20 @@ namespace _02._14_gyak
 
 		}
 
-		private void Button_Click(object sender, RoutedEventArgs e)
+        private List<string> adatok = new List<string>();
+        private void Button_Click(object sender, RoutedEventArgs e)
 		{
 
+			adatok.Add(textBox.Text + ":" + jelszo.Text);
+
+
+			/*
+			string csere = textBox.Text;
+			textBox.Text = jelszo.Text;
+
+			jelszo.Text = csere;*/
+
+			
 		}
 	}
 }

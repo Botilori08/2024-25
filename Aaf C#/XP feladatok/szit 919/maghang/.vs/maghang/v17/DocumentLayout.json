@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\tanulo.F6PC11\\Desktop\\maghang\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{13CE7AB7-6448-428D-A5D3-334869DB1577}|maghang\\maghang.csproj|c:\\users\\tanulo.f6pc11\\desktop\\maghang\\maghang\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13CE7AB7-6448-428D-A5D3-334869DB1577}|maghang\\maghang.csproj|solutionrelative:maghang\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\tanulo.F6PC11\\Desktop\\maghang\\maghang\\Program.cs",
+              "RelativeDocumentMoniker": "maghang\\Program.cs",
+              "ToolTip": "C:\\Users\\tanulo.F6PC11\\Desktop\\maghang\\maghang\\Program.cs",
+              "RelativeToolTip": "maghang\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACQAAABfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-19T07:59:38.99Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
