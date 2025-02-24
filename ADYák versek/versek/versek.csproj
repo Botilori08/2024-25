@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="adyaklogo_hatternelkul_javitott.png" />
+    <None Remove="signal-2024-10-11-211709_002.jpeg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="adyaklogo_hatternelkul_javitott.png" />
+    <Resource Include="signal-2024-10-11-211709_002.jpeg" />
+  </ItemGroup>
+
+</Project>
