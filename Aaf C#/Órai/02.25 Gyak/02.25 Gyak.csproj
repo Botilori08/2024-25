@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <RootNamespace>_02._25_Gyak</RootNamespace>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="dicap.jpg" />
+    <None Remove="ems_chjklwvtcy1hc3nldhmvbw92aw.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="dicap.jpg" />
+    <Resource Include="ems_chjklwvtcy1hc3nldhmvbw92aw.jpg" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,15 @@
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\XP feladatok\szit 412\legnagyobb2\bin\Debug\net8.0\legnagyobb2.exe
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\XP feladatok\szit 412\legnagyobb2\bin\Debug\net8.0\legnagyobb2.deps.json
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\XP feladatok\szit 412\legnagyobb2\bin\Debug\net8.0\legnagyobb2.runtimeconfig.json
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\XP feladatok\szit 412\legnagyobb2\bin\Debug\net8.0\legnagyobb2.dll
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\XP feladatok\szit 412\legnagyobb2\bin\Debug\net8.0\legnagyobb2.pdb
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\XP feladatok\szit 412\legnagyobb2\obj\Debug\net8.0\legnagyobb2.GeneratedMSBuildEditorConfig.editorconfig
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\XP feladatok\szit 412\legnagyobb2\obj\Debug\net8.0\legnagyobb2.AssemblyInfoInputs.cache
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\XP feladatok\szit 412\legnagyobb2\obj\Debug\net8.0\legnagyobb2.AssemblyInfo.cs
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\XP feladatok\szit 412\legnagyobb2\obj\Debug\net8.0\legnagyobb2.csproj.CoreCompileInputs.cache
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\XP feladatok\szit 412\legnagyobb2\obj\Debug\net8.0\legnagyobb2.sourcelink.json
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\XP feladatok\szit 412\legnagyobb2\obj\Debug\net8.0\legnagyobb2.dll
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\XP feladatok\szit 412\legnagyobb2\obj\Debug\net8.0\refint\legnagyobb2.dll
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\XP feladatok\szit 412\legnagyobb2\obj\Debug\net8.0\legnagyobb2.pdb
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\XP feladatok\szit 412\legnagyobb2\obj\Debug\net8.0\legnagyobb2.genruntimeconfig.cache
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\XP feladatok\szit 412\legnagyobb2\obj\Debug\net8.0\ref\legnagyobb2.dll

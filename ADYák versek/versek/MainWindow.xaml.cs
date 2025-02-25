@@ -31,7 +31,7 @@ namespace versek
 
             StreamWriter sr = new StreamWriter("eddigiversek.txt",true,Encoding.UTF8);
 
-            sr.WriteLine($"{nev};{szerzo};{versCime};{datum}");
+            sr.WriteLine($"{nev}:{szerzo};{versCime};{datum}");
             
             Nev.Text = "";
             szerzoNeve.Text ="";
