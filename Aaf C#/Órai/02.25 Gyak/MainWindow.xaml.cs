@@ -11,19 +11,31 @@ using System.Windows.Shapes;
 
 namespace _02._25_Gyak
 {
-    /// <summary>
-    /// Interaction logic for MainWindow.xaml
-    /// </summary>
-    public partial class MainWindow : Window
-    {
-        public MainWindow()
-        {
-            InitializeComponent();
-        }
+	/// <summary>
+	/// Interaction logic for MainWindow.xaml
+	/// </summary>
+	public partial class MainWindow : Window
+	{
+		public MainWindow()
+		{
+			InitializeComponent();
+		}
 
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
+		int szamlalo = 0;
+		private void Button_Click(object sender, RoutedEventArgs e)
+		{
+		   if(szamlalo%2 == 1)
+			{
+				kep.Visibility = Visibility.Visible;
+			}
+			else {
+			kep.Visibility = Visibility.Hidden; 
+			}
 
-        }
-    }
+			szamlalo++;
+
+
+			//Hf: Egymás mellett kettő kép, egy gomb, gombnyomásra mindig csak az egyik látszik
+		}
+	}
 }

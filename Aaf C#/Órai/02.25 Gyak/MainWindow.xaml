@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Button x:Name="VarazsGomb" Content="Varázslat" HorizontalAlignment="Center" Margin="0,329,0,0" VerticalAlignment="Top" Height="85" Width="342" FontSize="36" FontFamily="Freestyle Script" Click="Button_Click"/>
+        <Button x:Name="VarazsGomb" Content="Varázslat!" HorizontalAlignment="Center" Margin="0,329,0,0" VerticalAlignment="Top" Height="85" Width="342" FontSize="48" FontFamily="Algerian" Click="Button_Click"/>
         <Image x:Name="kep" HorizontalAlignment="Left" Height="284" Margin="37,10,0,0" VerticalAlignment="Top" Width="785" Source="/dicap.jpg"/>
 
     </Grid>
