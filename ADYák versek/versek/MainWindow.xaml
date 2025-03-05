@@ -7,7 +7,6 @@
         mc:Ignorable="d"
         Title="ADYák szemle: Heti versek" Height="656" Width="800">
     <Grid Background="#FFCBD8D6">
-        <TextBox x:Name="Nev" HorizontalAlignment="Left" Margin="216,75,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="381" Height="60" FontSize="36" FontFamily="Sitka Heading"/>
         <TextBox x:Name="cim" HorizontalAlignment="Left" Margin="216,309,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="381" Height="60" FontSize="36" FontFamily="Sitka Heading"/>
         <TextBox x:Name="szerzoNeve" HorizontalAlignment="Left" Margin="216,189,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="381" Height="60" FontSize="36" FontFamily="Sitka Heading"/>
         <Label Content="Felelős neve:" HorizontalAlignment="Left" Margin="216,20,0,0" VerticalAlignment="Top" Height="115" Width="251" FontSize="36" FontFamily="Sitka Subheading"/>
@@ -17,6 +16,7 @@
         <Image HorizontalAlignment="Left" Height="178" Margin="10,10,0,0" VerticalAlignment="Top" Width="174" Source="/adyaklogo_hatternelkul_javitott.png"/>
         <Label Content="Dátum:" HorizontalAlignment="Left" Margin="216,369,0,0" VerticalAlignment="Top" Height="115" Width="203" FontSize="36" FontFamily="Sitka Subheading"/>
         <DatePicker x:Name="Datum" HorizontalAlignment="Left" Margin="216,426,0,0" VerticalAlignment="Top" Width="385" Height="65" FontSize="36" BorderBrush="{x:Null}" FontFamily="Sitka Subheading"/>
+        <ComboBox HorizontalAlignment="Left" Margin="216,73,0,0" VerticalAlignment="Top" Width="381" Height="54"/>
 
     </Grid>
 </Window>
