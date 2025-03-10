@@ -20,20 +20,22 @@ namespace versek
         public MainWindow()
         {
             InitializeComponent();
+            nevKivalaszt.ItemsSource = nevek;
         }
 
+        string[] nevek = File.ReadAllLines("ember.txt");
         private void kuldes_Click(object sender, RoutedEventArgs e)
         {
-            string nev = Nev.Text;
             string szerzo = szerzoNeve.Text;
             string versCime = cim.Text;
             string datum = Datum.Text;
+            string neve = nevKivalaszt.Text;
 
             StreamWriter sr = new StreamWriter("eddigiversek.txt",true,Encoding.UTF8);
 
-            sr.WriteLine($"{nev};{szerzo} - {versCime};{datum}");
+            sr.WriteLine($"{neve};{szerzo} - {versCime};{datum}");
             
-            Nev.Text = "";
+            nevKivalaszt.Text = "";
             szerzoNeve.Text ="";
             cim.Text = "";
             Datum.Text = "";
