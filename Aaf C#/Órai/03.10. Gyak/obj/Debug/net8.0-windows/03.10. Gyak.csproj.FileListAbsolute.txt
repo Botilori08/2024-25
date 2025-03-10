@@ -1,0 +1,21 @@
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\03.10. Gyak\bin\Debug\net8.0-windows\03.10. Gyak.exe
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\03.10. Gyak\bin\Debug\net8.0-windows\03.10. Gyak.deps.json
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\03.10. Gyak\bin\Debug\net8.0-windows\03.10. Gyak.runtimeconfig.json
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\03.10. Gyak\bin\Debug\net8.0-windows\03.10. Gyak.dll
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\03.10. Gyak\bin\Debug\net8.0-windows\03.10. Gyak.pdb
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\03.10. Gyak\obj\Debug\net8.0-windows\MainWindow.g.cs
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\03.10. Gyak\obj\Debug\net8.0-windows\App.g.cs
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\03.10. Gyak\obj\Debug\net8.0-windows\03.10. Gyak_MarkupCompile.cache
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\03.10. Gyak\obj\Debug\net8.0-windows\03.10. Gyak_MarkupCompile.lref
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\03.10. Gyak\obj\Debug\net8.0-windows\MainWindow.baml
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\03.10. Gyak\obj\Debug\net8.0-windows\03.10. Gyak.g.resources
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\03.10. Gyak\obj\Debug\net8.0-windows\03.10. Gyak.GeneratedMSBuildEditorConfig.editorconfig
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\03.10. Gyak\obj\Debug\net8.0-windows\03.10. Gyak.AssemblyInfoInputs.cache
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\03.10. Gyak\obj\Debug\net8.0-windows\03.10. Gyak.AssemblyInfo.cs
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\03.10. Gyak\obj\Debug\net8.0-windows\03.10. Gyak.csproj.CoreCompileInputs.cache
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\03.10. Gyak\obj\Debug\net8.0-windows\03.10. Gyak.sourcelink.json
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\03.10. Gyak\obj\Debug\net8.0-windows\03.10. Gyak.dll
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\03.10. Gyak\obj\Debug\net8.0-windows\refint\03.10. Gyak.dll
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\03.10. Gyak\obj\Debug\net8.0-windows\03.10. Gyak.pdb
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\03.10. Gyak\obj\Debug\net8.0-windows\03.10. Gyak.genruntimeconfig.cache
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\03.10. Gyak\obj\Debug\net8.0-windows\ref\03.10. Gyak.dll

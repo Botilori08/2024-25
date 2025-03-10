@@ -8,7 +8,7 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid Background="Black">
         
-        <Slider x:Name="csuszka" HorizontalAlignment="Left" Margin="334,109,0,0" VerticalAlignment="Top" Width="185" Height="27" FontSize="72" RenderTransformOrigin="0.502,0.481" TickPlacement="TopLeft" ValueChanged="Slider_ValueChanged" Maximum="100" SmallChange="1" IsSnapToTickEnabled="True">
+        <Slider x:Name="csuszka" HorizontalAlignment="Left" Margin="324,109,0,0" VerticalAlignment="Top" Width="185" Height="27" FontSize="72" RenderTransformOrigin="0.502,0.481" TickPlacement="TopLeft" ValueChanged="Slider_ValueChanged" Maximum="100" SmallChange="1" IsSnapToTickEnabled="True">
             <Slider.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform ScaleX="2" ScaleY="2"/>

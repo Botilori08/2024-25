@@ -22,6 +22,7 @@
             {
                 let vissza = "<div style='width:200px'>";
                 vissza+= "<h1>"+this.nev+"</h1>";
+                vissza+="<img src='"+this.kep+"'>"
                 vissza+= "<ul>";
                 this.kepesseg.forEach(e => {
                     vissza+="<li>"+e+"</li>";
@@ -51,11 +52,14 @@
 
         const p1 = new powerpuff("Csuporka","zöld","cs.png")
         
-        const p2 = new powerpuff("Puszedli","kék")
+        const p2 = new powerpuff("Puszedli","kék","p.png")
         
-        const p3 = new powerpuff("Sziporka","rózsaszín")
+        const p3 = new powerpuff("Sziporka","rózsaszín","sz.png")
 
         document.getElementById("ide").innerHTML = p1.adatlap();
+        document.getElementById("ide").innerHTML += p2.adatlap();
+        document.getElementById("ide").innerHTML += p3.adatlap();
+
 
         console.log(p1.koszon());
         console.log(p2.koszon());
