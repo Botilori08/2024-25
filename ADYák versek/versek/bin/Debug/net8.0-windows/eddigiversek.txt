@@ -33,4 +33,10 @@ Tamás Bettina;Pilinszky János - Apokrif;2025. 01. 29.
 Máté Abigél;Aranyosi Ervin - Legyen mágnes a szíved;2025. 02. 03.
 Boti Lóránt;Petőfi Sándor - Minek nevezzelek?;2025. 02. 12.
 Simon Sára Franciska;Radnóti Miklós - Bájoló;2025. 02. 24.
+<<<<<<< HEAD
 Tamás Bettina;József Attila - TAVASZ VAN! GYÖNYÖRŰ!;2025. 03. 05.
+=======
+Boti Lóránt;Kosztolányi Dezső - Mostan színes tintákról álmodom;2025. 03. 10.
+Boti Lóránt;Kosztolányi Dezső - Hajnali részegség;
+Boti Lóránt;Kosztolányi Dezső - Hajnali részegség;2025. 03. 12.
+>>>>>>> 4eb11a11f644312f05aa4b08a65942ba6b219d9a
