@@ -46,6 +46,22 @@ namespace _03._10._Gyak
             }
         }
 
+        private void rogzites_Click(object sender, RoutedEventArgs e)
+        {
+            string utiCel = valaszt.Text;
+            string indulasDatum = indulas.Text;
+            string erkezesDatum = erkezes.Text;
+            //MessageBox.Show(utiCel);
 
+
+
+
+            List<string> adatok = new List<string>();
+
+            adatok.Add(utiCel);
+            adatok.Add(indulasDatum);
+            adatok.Add(erkezesDatum);
+
+        }
     }
 }
