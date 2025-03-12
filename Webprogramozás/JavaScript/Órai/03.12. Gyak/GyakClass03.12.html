@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>03.12 Gyak</title>
+</head>
+<body>
+    <div id="uzenet"></div>
+    <script>
+
+        class Konyv{
+            constructor(szerzo,cim,maxOldalSzam)
+            {
+                this.szerzo = szerzo;
+                this.cim = cim;
+                this.oldalSzam = 1;
+                this.maxOldalSzam = maxOldalSzam;
+            }
+
+            lapozz()
+            {
+                if(this.oldalSzam < this.maxOldalSzam)
+                {
+                    this.oldalSzam++;
+                }
+
+            }
+            olvass()
+            {
+                return this.oldalSzam+". oldal teljesen üres!";
+            }
+
+            get holtartunk()
+            {
+                return this.oldalSzam;
+            }
+            //Get: megkapjuk hogy hol tartunk
+            //Set: áthelyezzük a könyvjelzőt máshova
+            set holtartunk(oldal)
+            {
+                if(oldal > 0 && oldal < this.maxOldalSzam)
+                {
+                    this.oldalSzam = oldal;
+                }
+            }
+
+        }
+
+        class Konyv2 extends Konyv{
+            constructor(szerzo,cim,oldalSzam)
+            {
+                super(szerzo,cim,oldalSzam)
+            }
+
+            set holtartunk(oldal)
+            {
+                if(oldal< 1)
+                {
+                    this.oldalSzam=1;
+                }
+                else if(oldal>this.maxOldalSzam)
+                {
+                    this.oldalSzam = this.maxOldalSzam;
+                }
+                else
+                {
+                    this.oldalSzam=oldal;
+                }
+            }
+        }
+
+
+        const k1 = new Konyv("Agatha Christie","Halál a níluson",200);
+        const k2 = new Konyv2("Alexandre Dumas","A három testőr",500);
+
+        document.getElementById("uzenet").innerHTML = k1.olvass()+"<br>";
+        k1.lapozz();
+        document.getElementById("uzenet").innerHTML += k1.olvass()+"<br>";
+        document.getElementById("uzenet").innerHTML += k1.holtartunk+"<br>";
+        k2.holtartunk = 100;
+        document.getElementById("uzenet").innerHTML += k2.holtartunk+"<br>";
+        k1.holtartunk = -10;
+        document.getElementById("uzenet").innerHTML += k1.holtartunk+"<br>";
+        k1.holtartunk = 2445533;
+        document.getElementById("uzenet").innerHTML += k1.holtartunk+"<br>";
+
+        //Hf teszt esetek a holtartunk függvény tesztelésére
+
+
+    </script>
+
+</body>
+</html>
