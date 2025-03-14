@@ -1,0 +1,21 @@
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\wpfCanvas 03.14\bin\Debug\net8.0-windows\wpfCanvas 03.14..exe
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\wpfCanvas 03.14\bin\Debug\net8.0-windows\wpfCanvas 03.14..deps.json
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\wpfCanvas 03.14\bin\Debug\net8.0-windows\wpfCanvas 03.14..runtimeconfig.json
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\wpfCanvas 03.14\bin\Debug\net8.0-windows\wpfCanvas 03.14..dll
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\wpfCanvas 03.14\bin\Debug\net8.0-windows\wpfCanvas 03.14..pdb
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\wpfCanvas 03.14\obj\Debug\net8.0-windows\MainWindow.g.cs
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\wpfCanvas 03.14\obj\Debug\net8.0-windows\App.g.cs
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\wpfCanvas 03.14\obj\Debug\net8.0-windows\wpfCanvas 03.14._MarkupCompile.cache
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\wpfCanvas 03.14\obj\Debug\net8.0-windows\wpfCanvas 03.14._MarkupCompile.lref
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\wpfCanvas 03.14\obj\Debug\net8.0-windows\MainWindow.baml
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\wpfCanvas 03.14\obj\Debug\net8.0-windows\wpfCanvas 03.14..g.resources
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\wpfCanvas 03.14\obj\Debug\net8.0-windows\wpfCanvas 03.14..GeneratedMSBuildEditorConfig.editorconfig
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\wpfCanvas 03.14\obj\Debug\net8.0-windows\wpfCanvas 03.14..AssemblyInfoInputs.cache
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\wpfCanvas 03.14\obj\Debug\net8.0-windows\wpfCanvas 03.14..AssemblyInfo.cs
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\wpfCanvas 03.14\obj\Debug\net8.0-windows\wpfCanvas 03.14..csproj.CoreCompileInputs.cache
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\wpfCanvas 03.14\obj\Debug\net8.0-windows\wpfCanvas 03.14..sourcelink.json
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\wpfCanvas 03.14\obj\Debug\net8.0-windows\wpfCanvas 03.14..dll
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\wpfCanvas 03.14\obj\Debug\net8.0-windows\refint\wpfCanvas 03.14..dll
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\wpfCanvas 03.14\obj\Debug\net8.0-windows\wpfCanvas 03.14..pdb
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\wpfCanvas 03.14\obj\Debug\net8.0-windows\wpfCanvas 03.14..genruntimeconfig.cache
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\wpfCanvas 03.14\obj\Debug\net8.0-windows\ref\wpfCanvas 03.14..dll
