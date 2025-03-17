@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="kiir"></div>
+    <script>
+
+        class Zene{
+            constructor(mufaj,hossz)
+            {
+                this.mufaj=mufaj;
+                this.hossz=hossz;
+            }
+        }
+
+        class Konnyuzene extends Zene{
+            constructor(mufaj,hossz)
+            {
+                super(mufaj,hossz);
+            }
+
+            hangzas()
+            {
+                let hang = "duc";
+                let eredmeny = hang.repeat(this.hossz);
+                
+
+
+                return eredmeny;
+            }
+        }
+
+        const kiiras = document.getElementById("kiir");
+        const szam1 = new Konnyuzene("Pop",450);
+
+        //kiiras.innerHTML += szam1.hangzas();
+        
+        console.log(szam1.hangzas())
+        
+        kiiras.innerHTML += szam1.hangzas()
+
+        //Hangzás függvény
+
+    </script>
+</body>
+</html>
