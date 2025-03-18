@@ -35,7 +35,13 @@ namespace wpfCanvas_03._14_
 			myLine.StrokeThickness = 10;
 			Vaszon.Children.Add(myLine);
 
-			kor(100,100,100, 0);
+	
+
+			for (int i = 0; i < 36; i++)
+			{
+                kor(100, 100, 100, i*10);
+
+            }
 		}
 
 		void kor(int X,int Y,int sugar, int szog)
@@ -53,9 +59,14 @@ namespace wpfCanvas_03._14_
 			vonal.Stroke = Brushes.Black;
 			vonal.X1 = X+sugar;
 			vonal.Y1 = Y+sugar;
-            vonal.X2 = X+sugar*2;
-			vonal.Y2 = Y + sugar ;
-			Vaszon.Children.Add (vonal);
+
+			double dY = sugar*Math.Sin(szog*Math.PI/180.0);
+
+			double dX = sugar * Math.Cos(szog * Math.PI / 180.0);
+
+            vonal.X2 = X+dX+sugar;
+			vonal.Y2 = Y + dY +sugar;
+			Vaszon.Children.Add(vonal);
 
 			//Hf: Keressünk olyan képletet vagy URL-t ami a koordinátás rajzolásra,vonalak szögek kapcsán
         }
