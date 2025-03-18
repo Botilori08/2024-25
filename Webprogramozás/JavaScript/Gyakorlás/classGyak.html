@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zene</title>
+    <style>
+        body{
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="kiiras"></div>
+    <script>
+
+        class zene{
+            constructor(mufaj,stilus,ev)
+            {
+                this.mufaj = mufaj;
+                this.stilus = stilus;
+                this.ev = ev;
+            }
+        }
+
+        class lemez extends zene
+        {
+            constructor(borito,eloado,album,mufaj,stilus,ev)
+            {
+                super(mufaj,stilus,ev)
+                this.borito = borito;
+                this.eloado = eloado;
+                this.album = album;
+            }
+            get kiir()
+            {
+                return "<img src="+this.borito+">"+"<h2>"+this.eloado+" - "+this.album+"</h2>"+"<h3>"+"Év:"+this.ev+"</h3>"+"Műfaj: "+this.mufaj+"<br>"+"Stílus: "+this.stilus+"<br>"+"<hr>";
+            }
+        }
+
+        const lemez1 = new lemez("./futurenostalgia.jpg","Dua Lipa","Future Nostalgia","Electronic, Pop","Disco Dance-pop",2020)
+
+        document.getElementById("kiiras").innerHTML += lemez1.kiir;
+
+        const lemez2 = new lemez("./madonna.jpg","Madonna","Madonna","Pop","Dance-pop",1983)
+
+        document.getElementById("kiiras").innerHTML += lemez2.kiir;
+
+        const lemez3 = new lemez("./digitalisanalog.jpg","Carson Coma","Digitális/ analóg","Pop Rock","Indie-rock",2022)
+
+        document.getElementById("kiiras").innerHTML += lemez3.kiir;
+
+    </script>
+</body>
+</html>
