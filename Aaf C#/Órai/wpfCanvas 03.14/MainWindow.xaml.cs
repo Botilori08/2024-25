@@ -9,6 +9,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.Windows.Threading;
 
 namespace wpfCanvas_03._14_
 {
@@ -22,7 +23,8 @@ namespace wpfCanvas_03._14_
 			InitializeComponent();
 		}
 
-		private void Vaszon_Loaded(object sender, RoutedEventArgs e)
+        DispatcherTimer timer = new DispatcherTimer();
+        private void Vaszon_Loaded(object sender, RoutedEventArgs e)
 		{
 			Line myLine = new Line();
 			myLine.Stroke = System.Windows.Media.Brushes.Red;
@@ -35,14 +37,35 @@ namespace wpfCanvas_03._14_
 			myLine.StrokeThickness = 10;
 			Vaszon.Children.Add(myLine);
 
-	
 
-			for (int i = 0; i < 36; i++)
+            
+			timer.Interval = TimeSpan.FromMilliseconds(4);
+			timer.Tick += korRajzol;
+			timer.Start();
+			/*
+            for (int i = 0; i < 36; i++)
 			{
                 kor(100, 100, 100, i*10);
 
-            }
+            }*/
 		}
+
+		int szogAllas = 0;
+
+
+		void korRajzol(object sender, EventArgs e)
+		{
+            Vaszon.Children.Clear();
+            kor(100, 100, 100, szogAllas * 10);
+			
+
+			szogAllas++;
+			
+			if(szogAllas >= 360)
+			{
+				szogAllas -= 360;
+			}
+        }
 
 		void kor(int X,int Y,int sugar, int szog)
 		{
