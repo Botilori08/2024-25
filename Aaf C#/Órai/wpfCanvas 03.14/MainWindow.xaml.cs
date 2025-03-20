@@ -75,13 +75,41 @@ namespace wpfCanvas_03._14_
 				double dX = r * Math.Cos(30 * i * Math.PI / 180.0);
 
 
-                double dY1 = r * Math.Sin(30 * i * Math.PI / 180.0);
+				/*
+                double dY1 = (r-10) * Math.Sin(30 * i * Math.PI / 180.0);
 
-                double dX1 = r * Math.Cos(30 * i * Math.PI / 180.0);
+                double dX1 = (r-10) * Math.Cos(30 * i * Math.PI / 180.0);
+
+
+                double dY2 = (r+10) * Math.Sin(30 * i * Math.PI / 180.0);
+
+                double dX2 = (r + 10) * Math.Cos(30 * i * Math.PI / 180.0);
+				*/
+
+				double arany = 7/8.0;
+				double arany2 = 9 / 8.0;
+
+
+                double dY1 = arany * r * Math.Sin(30 * i * Math.PI / 180.0);
+
+                double dX1 = arany*r* Math.Cos(30 * i * Math.PI / 180.0);
+
+
+                double dY2 = arany2*r * Math.Sin(30 * i * Math.PI / 180.0);
+
+                double dX2 = arany2*r* Math.Cos(30 * i * Math.PI / 180.0);
+
 
                 vonal.X2 = X + dX + r;
 				vonal.Y2 = Y + dY + r;
-				Vaszon.Children.Add(vonal);
+
+                vonal.X1 = X + dX1 + r;
+                vonal.Y1 = Y + dY1 + r;
+
+                vonal.X2 = X + dX2 + r;
+                vonal.Y2 = Y + dY2 + r;
+
+                Vaszon.Children.Add(vonal);
 			}
 		}
 
