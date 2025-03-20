@@ -26,6 +26,7 @@ namespace wpfCanvas_03._14_
         DispatcherTimer timer = new DispatcherTimer();
         private void Vaszon_Loaded(object sender, RoutedEventArgs e)
 		{
+			/*
 			Line myLine = new Line();
 			myLine.Stroke = System.Windows.Media.Brushes.Red;
 			myLine.X1 = 1;
@@ -36,21 +37,57 @@ namespace wpfCanvas_03._14_
 			myLine.VerticalAlignment = VerticalAlignment.Center;
 			myLine.StrokeThickness = 10;
 			Vaszon.Children.Add(myLine);
-
+			*/
 
             
 			timer.Interval = TimeSpan.FromMilliseconds(4);
-			timer.Tick += korRajzol;
-			timer.Start();
+			//timer.Tick += korRajzol;
+			//timer.Start();
 			/*
             for (int i = 0; i < 36; i++)
 			{
                 kor(100, 100, 100, i*10);
 
             }*/
+
+			szamlap(0, 0, 100);
 		}
 
+		void szamlap(int X, int Y, int r)
+		{
+			Ellipse ellipse = new Ellipse();
+			ellipse.Width = 2 * r;
+			ellipse.Height = 2 * r;
+			ellipse.Stroke = Brushes.Black;
+			ellipse.StrokeThickness = 3;
+			ellipse.Margin = new Thickness(X, Y, 0, 0);
+			Vaszon.Children.Add(ellipse);
+
+			for (int i = 0; i < 12; i++)
+			{
+				Line vonal = new Line();
+				vonal.Stroke = Brushes.Black;
+				vonal.X1 = X + r;
+				vonal.Y1 = Y + r;
+
+				double dY = r * Math.Sin(30 * i * Math.PI / 180.0);
+
+				double dX = r * Math.Cos(30 * i * Math.PI / 180.0);
+
+
+                double dY1 = r * Math.Sin(30 * i * Math.PI / 180.0);
+
+                double dX1 = r * Math.Cos(30 * i * Math.PI / 180.0);
+
+                vonal.X2 = X + dX + r;
+				vonal.Y2 = Y + dY + r;
+				Vaszon.Children.Add(vonal);
+			}
+		}
+
+
 		int szogAllas = 0;
+
 
 
 		void korRajzol(object sender, EventArgs e)
