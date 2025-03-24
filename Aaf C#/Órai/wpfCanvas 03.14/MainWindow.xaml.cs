@@ -24,6 +24,7 @@ namespace wpfCanvas_03._14_
 		}
 
         DispatcherTimer timer = new DispatcherTimer();
+        DispatcherTimer oraTimer = new DispatcherTimer();
         private void Vaszon_Loaded(object sender, RoutedEventArgs e)
 		{
 			/*
@@ -50,11 +51,32 @@ namespace wpfCanvas_03._14_
 
             }*/
 
-			szamlap(0, 0, 100);
+			oraRajzol(0, 0, 200);
+			timer.Interval = TimeSpan.FromMilliseconds(1);
+			oraTimer.Tick += oraIdozit;
+			oraTimer.Start();
 
-			mutato(100, 100, "kismutato", 0, 50);
-            mutato(100, 100, "nagymutato", 30, 80);
-            mutato(100, 100, "masodpercmutato", 60, 95);
+        }
+
+		void oraRajzol(int x,int y,int meret)
+		{
+			Vaszon.Children.Clear();
+			int x1 = x + meret / 2;
+            int y1 = y + meret / 2;
+            szamlap(x, y, meret/2);
+
+			int ora = DateTime.Now.Hour;
+			int perc = DateTime.Now.Minute;
+			int mp = DateTime.Now.Second;
+
+            mutato(x1, y1, "kismutato", (360/12*ora)-90, (int)(meret/2*.5));
+            mutato(x1, y1, "nagymutato", (360/60*perc)-90, (int)(meret / 2 * .80));
+            mutato(x1, y1, "masodpercmutato", (390/60*mp)-90, (int)(meret / 2 * .95));
+        }
+
+		void oraIdozit(object sender, EventArgs e)
+		{
+            oraRajzol(0, 0, 200);
         }
 
 		void mutato(int x, int y,string fajta,int szog,int hossz)
