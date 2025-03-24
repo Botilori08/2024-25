@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("wpfCanvas 03.14.")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+91cd5a3b4546664d9e26c3711b1860d30a8cc92b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1ddbbe4d7845d7589989b29c026dc165f16e8dbb")]
 [assembly: System.Reflection.AssemblyProductAttribute("wpfCanvas 03.14.")]
 [assembly: System.Reflection.AssemblyTitleAttribute("wpfCanvas 03.14.")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
