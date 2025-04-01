@@ -39,6 +39,8 @@ namespace Fuggvenyek
             origoX = r;
             origoY = (int)(Sinus.ActualHeight/2);
             koordinataRendszer();
+            feketeKor(0);
+            feketeKor(10);
 
         }
         int origoX = 0;
@@ -96,5 +98,19 @@ namespace Fuggvenyek
             }
 
         }
+
+        void feketeKor(int x)
+        {
+            Ellipse kor = new Ellipse();
+            kor.Width = r / 10;
+            kor.Height = r / 10;
+            kor.Margin = new Thickness(origoX - kor.Width/2,origoY-kor.Height/2,0,0);
+
+            kor.Stroke = Brushes.Black;
+            kor.Fill = Brushes.Black;
+
+            Sinus.Children.Add(kor);
+        }
+
     }
 }
