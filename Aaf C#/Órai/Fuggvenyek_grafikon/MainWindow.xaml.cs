@@ -40,7 +40,13 @@ namespace Fuggvenyek
             origoY = (int)(Sinus.ActualHeight/2);
             koordinataRendszer();
             feketeKor(0);
+            pirosvonal(0);
             feketeKor(10);
+
+            pirosvonal(10);
+
+            //sugar(0);
+            sugar(10);
 
         }
         int origoX = 0;
@@ -104,7 +110,7 @@ namespace Fuggvenyek
             Ellipse kor = new Ellipse();
             kor.Width = r / 10;
             kor.Height = r / 10;
-            kor.Margin = new Thickness(origoX - kor.Width/2,origoY-kor.Height/2,0,0);
+            kor.Margin = new Thickness(origoX+x - kor.Width/2,origoY-kor.Height/2,0,0);
 
             kor.Stroke = Brushes.Black;
             kor.Fill = Brushes.Black;
@@ -112,5 +118,44 @@ namespace Fuggvenyek
             Sinus.Children.Add(kor);
         }
 
+        void pirosvonal(int x)
+        {
+            double magassag = Math.Sin(x/180.0*Math.PI)*r;
+
+            Line v = new Line();
+            v.Stroke = Brushes.Red;
+            v.StrokeThickness = 3;
+
+            v.X1 = origoX + x;
+            v.Y1 = origoY;
+            v.X2 = origoX+ x;
+            v.Y2 = origoY-magassag ;
+
+            Sinus.Children.Add(v);
+
+        }
+
+        void sugar(int x)
+        {
+            double dX = Math.Cos(x / 180.0 * Math.PI) * r;
+            double magassag = Math.Sin(x / 180.0 * Math.PI) * r;
+
+            Line v = new Line();
+            v.Stroke = Brushes.Black;
+            v.StrokeThickness = 3;
+
+            v.X1 = origoX + x;
+            v.Y1 = origoY - magassag;
+            v.X2 = origoX + x - dX;
+            v.Y2 = origoY;
+
+            Sinus.Children.Add(v);
+
+        }
+
+        void kekKor(int x)
+        {
+
+        }
     }
 }
