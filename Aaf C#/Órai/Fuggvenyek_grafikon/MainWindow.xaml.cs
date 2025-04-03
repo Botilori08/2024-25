@@ -38,15 +38,22 @@ namespace Fuggvenyek
         {
             origoX = r;
             origoY = (int)(Sinus.ActualHeight/2);
-            koordinataRendszer();
-            feketeKor(0);
-            pirosvonal(0);
-            feketeKor(10);
+            pontok.Add(new Point(origoX, origoY));
 
-            pirosvonal(10);
+            int szog = 110;
+
+            koordinataRendszer();
+            //feketeKor(0);
+            //pirosvonal(0);
+            feketeKor(szog);
+
+            pirosvonal(szog);
 
             //sugar(0);
-            sugar(10);
+            sugar(szog);
+
+            kekKor(szog);
+            szinuszGorbe(szog);
 
         }
         int origoX = 0;
@@ -155,6 +162,37 @@ namespace Fuggvenyek
 
         void kekKor(int x)
         {
+            double dX = Math.Cos(x / 180.0 * Math.PI) * r;
+            Ellipse kor = new Ellipse();
+            kor.Stroke = Brushes.Blue;
+            kor.StrokeThickness = 1;
+            kor.Width = 2 * r;
+            kor.Height = 2 * r;
+
+            kor.Margin = new Thickness(origoX +x -dX -r, origoY-r, 0, 0);
+
+            Sinus.Children.Add (kor);
+
+        }
+
+
+        PointCollection pontok = new PointCollection();
+        void szinuszGorbe(int x)
+        {
+            double magassag = Math.Sin(x / 180.0 * Math.PI) * r;
+
+            pontok.Add(new Point(x+origoX,origoY- magassag));
+
+            Polyline vonal = new Polyline();
+
+            vonal.Stroke = Brushes.Red;
+            vonal.StrokeThickness = 3;
+
+            vonal.Points = pontok;
+
+           Sinus.Children.Add(vonal);
+
+
 
         }
     }
