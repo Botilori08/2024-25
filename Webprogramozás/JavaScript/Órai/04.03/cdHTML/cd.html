@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="hu">
+<body>
+
+<h2>The XMLHttpRequest Object</h2>
+<p id="demo"></p>
+ 
+
+<table>
+</table>
+
+<script>
+
+const xhttp = new XMLHttpRequest();
+xhttp.onload = function() {
+
+  const xmlDoc = this.responseXML;
+  console.log(xmlDoc.children[0].children);
+
+  for(let i = 0;i < xmlDoc.children[0].children;i++)
+  {
+      
+  }
+
+
+
+
+
+}
+xhttp.open("GET", "cd_catalog.xml");
+xhttp.send();
+
+
+
+
+
+</script>
+
+</body>
+</html>
