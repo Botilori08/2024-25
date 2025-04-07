@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="Hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Űrlap</title>
+    <style>
+        body
+        {
+            font-family: 'Courier New', Courier, monospace;
+        }
+        input
+        {
+            font-size: 20px;
+            margin-bottom: 15px;
+            margin-top: 15px;
+        }
+        button
+        {
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <label for="felhasznalo">Felhasználónév</label><br>
+        <input type="text" id="felhasznalo" name="felhasznalonev"><br>
+        <label for="jelszo">Jelszó</label><br>
+        <input type="password" id="jelszo" name="jelszo"><br>
+        <button type="submit" onmousedown="kuldes()" onclick= "return false">Küldés</button>
+    </form>
+    <div id="uzenet"></div>
+    <script>
+        function kuldes()
+        {
+            //console.log("Elküldve");
+            const nev = document.getElementById("felhasznalo").value;
+            const jelszo = document.getElementById("jelszo").value;
+
+
+            const kuld = new XMLHttpRequest();
+            
+            kuld.onload = function(){
+
+
+                document.getElementById("uzenet").innerHTML = this.responseText
+            
+            };
+
+            kuld.open("GET","ajaxTest.php?nev="+nev+"&jelszo="+jelszo);
+            kuld.send();
+        }
+    </script>
+</body>
+</html>
