@@ -40,7 +40,7 @@ namespace Fuggvenyek
 			origoY = (int)(Sinus.ActualHeight / 2);
 			pontok.Add(new Point(origoX, origoY));
 
-			int szog = 110;
+			int szog = 300;
 
 			koordinataRendszer();
 			//feketeKor(0);
@@ -200,33 +200,62 @@ namespace Fuggvenyek
 
 		void koriv(int x)
 		{
-			Path path = new Path();
+            double dX = Math.Cos(x / 180.0 * Math.PI) * r;
+            double magassag = Math.Sin(x / 180.0 * Math.PI) * r;
+            Path path = new Path();
 
 
 			path.Stroke = Brushes.Blue;
-			path.StrokeThickness = 1;
-			path.Fill = Brushes.Red;
+			path.StrokeThickness = 3;
+			//path.Fill = Brushes.Red;
 
 
 			PathGeometry pathGeometry = new PathGeometry();
 			PathFigure figure = new PathFigure();
-			figure.StartPoint = new Point(x, origoY);
+			figure.StartPoint = new Point(origoX+x-dX+r, origoY);
 
 			ArcSegment arc = new ArcSegment();
-			arc.Point = new Point(x+origoX, origoY);
-			arc.Size = new Size(100, 100);
-            arc.SweepDirection = SweepDirection.Clockwise;
-            arc.IsLargeArc = true;
+			arc.Point = new Point(x+origoX, origoY-magassag);
+			arc.Size = new Size(r, r);
+            arc.SweepDirection = SweepDirection.Counterclockwise;
+            arc.IsLargeArc = x>180;
 
-
-			figure.Segments.Add(arc);
+            figure.Segments.Add(arc);
 			pathGeometry.Figures.Add(figure);
 			path.Data = pathGeometry;
 
 			Sinus.Children.Add(path);
-
-
-
 		}
-	}
+
+        void korivKicsi(int x)
+        {
+            double dX = Math.Cos(x / 180.0 * Math.PI) * r;
+            double magassag = Math.Sin(x / 180.0 * Math.PI) * r;
+            
+			Path path = new Path();
+
+
+            path.Stroke = Brushes.Blue;
+            path.StrokeThickness = 3;
+            //path.Fill = Brushes.Red;
+
+
+            PathGeometry pathGeometry = new PathGeometry();
+            PathFigure figure = new PathFigure();
+            figure.StartPoint = new Point(origoX + x - dX + r/10.0, origoY);
+
+            ArcSegment arc = new ArcSegment();
+            arc.Point = new Point(x + origoX, origoY - magassag);
+            arc.Size = new Size(r, r);
+            arc.SweepDirection = SweepDirection.Counterclockwise;
+            arc.IsLargeArc = x > 180;
+
+            figure.Segments.Add(arc);
+            pathGeometry.Figures.Add(figure);
+            path.Data = pathGeometry;
+
+            Sinus.Children.Add(path);
+        }
+
+    }
 }
