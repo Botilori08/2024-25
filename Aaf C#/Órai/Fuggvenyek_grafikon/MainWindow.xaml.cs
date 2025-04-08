@@ -40,7 +40,7 @@ namespace Fuggvenyek
 			origoY = (int)(Sinus.ActualHeight / 2);
 			pontok.Add(new Point(origoX, origoY));
 
-			int szog = 300;
+			int szog = 200;
 
 			koordinataRendszer();
 			//feketeKor(0);
@@ -56,6 +56,7 @@ namespace Fuggvenyek
 			szinuszGorbe(szog);
 
 			koriv(szog);
+			korivKicsi(szog);
 
 		}
 		int origoX = 0;
@@ -236,17 +237,33 @@ namespace Fuggvenyek
 
 
             path.Stroke = Brushes.Blue;
-            path.StrokeThickness = 3;
+            path.StrokeThickness = 1;
             //path.Fill = Brushes.Red;
 
 
             PathGeometry pathGeometry = new PathGeometry();
+
+			/*
+            vX1 = origoX + x;
+            v.Y1 = origoY - magassag;
+            v.X2 = origoX + x - dX;
+            v.Y2 = origoY;
+			*/
+
+			double x1 = origoX + x - dX;
+			double y1 = origoY;
+			double x2 = origoX + x;
+			double y2 = origoY -magassag;
+
+			double x3 = x1-(x1 - x2)/10;
+			double y3 = y1-(y1 - y2)/10;
+
             PathFigure figure = new PathFigure();
             figure.StartPoint = new Point(origoX + x - dX + r/10.0, origoY);
 
             ArcSegment arc = new ArcSegment();
-            arc.Point = new Point(x + origoX, origoY - magassag);
-            arc.Size = new Size(r, r);
+            arc.Point = new Point(x3,y3);
+            arc.Size = new Size(r*0.1, r*0.1);
             arc.SweepDirection = SweepDirection.Counterclockwise;
             arc.IsLargeArc = x > 180;
 
