@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doga 03.19</title>
+</head>
+<body>
+    <script>
+        class Jarmu{
+            constructor(marka,modell,szin,sebesseg)
+            {
+                this.marka = marka;
+                this.modell = modell;
+                this.szin = szin;
+                this.sebesseg1 = sebesseg;
+
+            }
+
+            get sebesseg()
+            {
+                return this.sebesseg1;
+            }
+
+            set sebesseg(ujsebesseg)
+            {
+                if (ujsebesseg>=0 )
+                {
+                    this.sebesseg1+=ujsebesseg;
+                }
+            }
+
+            leir()
+            {
+                return "Ez egy "+this.szin+" színű "+this.marka+" "+this.modell+".; A sebessége jelenleg "+this.sebesseg+" km/h .";
+            }
+            gyorsit(szam)
+            {
+                return this.ujsebesseg += szam;
+            }
+
+        }
+
+
+        class Auto extends Jarmu{
+            constructor(marka,modell,szin,ajtoSzam,sebesseg1)
+            {
+                super(marka,modell,szin,sebesseg1)
+                this.ajtoSzam = ajtoSzam;
+
+            }
+
+            leir()
+            {
+                return "Ez egy "+this.szin+" színű "+this.marka+" "+this.modell+".; A sebessége jelenleg "+this.sebesseg+" km/h ."+"Ez egy autó "+this.ajtoSzam+" ajtóval.";
+            }
+            gyorsit(szam)
+            {
+                return this.ujsebesseg += szam;
+            }
+        }
+
+        const jarmu1 = new Jarmu("Általános","jármű","szürke",0);
+
+        const auto1 = new Auto("Toyota","Corolla","piros",5,0);
+
+        console.log(jarmu1.marka);
+
+        console.log(auto1.modell);
+        console.log(auto1.szin);
+        console.log(auto1.ajtokSzama);
+
+        auto1.sebesseg = 30;
+        console.log(auto1.sebesseg);
+        auto1.sebesseg = -10;
+
+        console.log(jarmu1.leir());
+        console.log(auto1.leir());
+        jarmu1.gyorsit(10);
+        auto1.gyorsit(25);
+        console.log(auto1.leir());
+        auto1.lassit(5);
+        console.log(auto1.leir());
+
+
+    </script>
+</body>
+</html>
