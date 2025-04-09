@@ -8,6 +8,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.Windows.Threading;
 
 /*
 https://youtu.be/Q55T6LeTvsA?si=DWIwDZpkj1GBv5Ti
@@ -40,31 +41,54 @@ namespace Fuggvenyek
 			origoY = (int)(Sinus.ActualHeight / 2);
 			pontok.Add(new Point(origoX, origoY));
 
-			int szog = 200;
 
-			koordinataRendszer();
-			//feketeKor(0);
-			//pirosvonal(0);
-			feketeKor(szog);
+			DispatcherTimer timer = new DispatcherTimer();
+			timer.Tick += rajzol;
+			timer.Interval = TimeSpan.FromMilliseconds(10);
+			timer.Start();
 
-			pirosvonal(szog);
 
-			//sugar(0);
-			sugar(szog);
-
-			kekKor(szog);
-			szinuszGorbe(szog);
-
-			koriv(szog);
-			korivKicsi(szog);
-
-		}
-		int origoX = 0;
+        }
+		bool eloreMegy = true;
+        int szog = 0;
+        int origoX = 0;
 		int origoY = 0;
 		int r = 100;
 
+        void rajzol(object sender,EventArgs e)
+        {
+			Sinus.Children.Clear();
+            koordinataRendszer();
+            feketeKor(szog);
+            pirosvonal(szog);
+            sugar(szog);
+            kekKor(szog);
+            szinuszGorbe(szog);
+            koriv(szog);
+            korivKicsi(szog);
 
-		void koordinataRendszer()
+			if (eloreMegy)
+			{
+				szog+=4;
+			}
+			else
+			{
+				szog -=4;
+
+			}
+
+			if(szog >= 360)
+			{
+				eloreMegy=false;
+			}
+			if (szog == 0)
+			{
+				eloreMegy = true;
+			}
+        }
+
+
+        void koordinataRendszer()
 		{
 			Line xTengely = new Line();
 			xTengely.Stroke = Brushes.Black;
@@ -184,7 +208,12 @@ namespace Fuggvenyek
 		{
 			double magassag = Math.Sin(x / 180.0 * Math.PI) * r;
 
-			pontok.Add(new Point(x + origoX, origoY - magassag));
+			if(eloreMegy)
+			{
+                pontok.Add(new Point(x + origoX, origoY - magassag));
+            }
+
+
 
 			Polyline vonal = new Polyline();
 
@@ -196,8 +225,13 @@ namespace Fuggvenyek
 			Sinus.Children.Add(vonal);
 
 
+            if(!eloreMegy)
+            {
+                pontok.Remove(pontok.Last());
+            }
 
-		}
+
+        }
 
 		void koriv(int x)
 		{
@@ -219,7 +253,7 @@ namespace Fuggvenyek
 			arc.Point = new Point(x+origoX, origoY-magassag);
 			arc.Size = new Size(r, r);
             arc.SweepDirection = SweepDirection.Counterclockwise;
-            arc.IsLargeArc = x>180;
+            arc.IsLargeArc = x%360 > 180;
 
             figure.Segments.Add(arc);
 			pathGeometry.Figures.Add(figure);
@@ -273,6 +307,8 @@ namespace Fuggvenyek
 
             Sinus.Children.Add(path);
         }
+
+
 
     }
 }
