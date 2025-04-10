@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("autok 01.07")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a3c634ca3df34904a4d76a2b24a4957694452190")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+93f02bc67b69cf94bf3aca99eacd304e83da29b8")]
 [assembly: System.Reflection.AssemblyProductAttribute("autok 01.07")]
 [assembly: System.Reflection.AssemblyTitleAttribute("autok 01.07")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
