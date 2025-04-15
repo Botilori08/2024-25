@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Vonatosszeallitas/1.0.0": {
+        "runtime": {
+          "Vonatosszeallitas.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Vonatosszeallitas/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

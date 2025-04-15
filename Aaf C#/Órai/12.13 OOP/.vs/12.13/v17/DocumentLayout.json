@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\loran\\Desktop\\Suli\\Programoz\u00E1s, Ikt\\2024-25\\Aaf C#\\\u00D3rai\\12.13 OOP\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{330B2BD5-73D2-48E9-8058-573D3C563AEB}|12.13.csproj|c:\\users\\loran\\desktop\\suli\\programoz\u00E1s, ikt\\2024-25\\aaf c#\\\u00F3rai\\12.13 oop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{330B2BD5-73D2-48E9-8058-573D3C563AEB}|12.13.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{330B2BD5-73D2-48E9-8058-573D3C563AEB}|12.13.csproj|c:\\users\\loran\\desktop\\suli\\programoz\u00E1s, ikt\\2024-25\\aaf c#\\\u00F3rai\\12.13 oop\\utas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{330B2BD5-73D2-48E9-8058-573D3C563AEB}|12.13.csproj|solutionrelative:utas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -17,10 +21,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{330B2BD5-73D2-48E9-8058-573D3C563AEB}|12.13.csproj|c:\\users\\loran\\desktop\\suli\\programoz\u00E1s, ikt\\2024-25\\aaf c#\\\u00F3rai\\12.13 oop\\szo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{330B2BD5-73D2-48E9-8058-573D3C563AEB}|12.13.csproj|solutionrelative:szo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{330B2BD5-73D2-48E9-8058-573D3C563AEB}|12.13.csproj|c:\\users\\loran\\desktop\\suli\\programoz\u00E1s, ikt\\2024-25\\aaf c#\\\u00F3rai\\12.13 oop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{330B2BD5-73D2-48E9-8058-573D3C563AEB}|12.13.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,11 +30,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Utas.cs",
               "DocumentMoniker": "C:\\Users\\loran\\Desktop\\Suli\\Programoz\u00E1s, Ikt\\2024-25\\Aaf C#\\\u00D3rai\\12.13 OOP\\Utas.cs",
               "RelativeDocumentMoniker": "Utas.cs",
@@ -48,7 +48,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "tanc.cs",
               "DocumentMoniker": "C:\\Users\\loran\\Desktop\\Suli\\Programoz\u00E1s, Ikt\\2024-25\\Aaf C#\\\u00D3rai\\12.13 OOP\\tanc.cs",
               "RelativeDocumentMoniker": "tanc.cs",
@@ -57,12 +57,11 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-13T07:45:46.685Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "utasok.cs",
               "DocumentMoniker": "C:\\Users\\loran\\Desktop\\Suli\\Programoz\u00E1s, Ikt\\2024-25\\Aaf C#\\\u00D3rai\\12.13 OOP\\utasok.cs",
               "RelativeDocumentMoniker": "utasok.cs",
@@ -70,12 +69,11 @@
               "RelativeToolTip": "utasok.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-13T07:48:19.749Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-13T07:48:19.749Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Szo.cs",
               "DocumentMoniker": "C:\\Users\\loran\\Desktop\\Suli\\Programoz\u00E1s, Ikt\\2024-25\\Aaf C#\\\u00D3rai\\12.13 OOP\\Szo.cs",
               "RelativeDocumentMoniker": "Szo.cs",
@@ -83,12 +81,11 @@
               "RelativeToolTip": "Szo.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-13T07:47:00.859Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-13T07:47:00.859Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\loran\\Desktop\\Suli\\Programoz\u00E1s, Ikt\\2024-25\\Aaf C#\\\u00D3rai\\12.13 OOP\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
