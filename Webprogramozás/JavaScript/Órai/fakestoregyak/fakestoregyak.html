@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button type="button" id="gomb" onclick="egyElembetolt()">Egy elem betöltése</button>
+    <script>
+        function egyElembetolt()
+        {
+            let xml = new XMLHttpRequest();
+
+            xml.open("GET","https://fakestoreapi.com/products/1");
+            xml.onload = function(){
+                console.log(xml.response);
+            }
+            xml.send();
+
+
+            //console.log("ok");
+            /*
+            fetch('https://fakestoreapi.com/products/1')
+            .then(response => response.json())
+            .then(data => console.log(data));
+            */
+        }
+    </script>
+</body>
+</html>

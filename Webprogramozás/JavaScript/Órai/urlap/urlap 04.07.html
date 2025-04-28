@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Űrlap</title>
+    <style>
+        body
+        {
+            font-family: 'Courier New', Courier, monospace;
+        }
+        input
+        {
+            font-size: 20px;
+            margin-bottom: 15px;
+            margin-top: 15px;
+        }
+        button
+        {
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <label for="felhasznalo">Felhasználónév</label><br>
+        <input type="text" id="felhasznalo" name="felhasznalonev"><br>
+        <label for="jelszo">Jelszó</label><br>
+        <input type="password" id="jelszo" name="jelszo"><br>
+        <label for="datum">Születési dátum</label><br>
+        <input type="date" id="datum" name="datum"><br>
+        <label for="mobilszam">Telefonszám</label><br>
+        <input type="tel" id="mobilszam" name="mobilszam"><br>
+        <label for="lakhely">Lakhely</label><br>
+        <input type="text" id="lakhely" name="lakhely"><br>
+
+        <div>
+            <input type="file" name="file" id="file">
+        </div>
+
+        <input type="hidden" name="id" id="id" value="1024">
+
+        <button type="submit" onmousedown="kuldes()" onclick= "return false">Küldés</button>
+        <button type="submit" onmousedown="kuldesPost()" onclick= "return false">KüldésPost</button>
+    </form>
+    <pre id="uzenet"></pre>
+    <script>
+
+        function kuldes()
+        {
+
+            //console.log("Elküldve");
+            const nev = document.getElementById("felhasznalo").value;
+            const jelszo = document.getElementById("jelszo").value;
+            const datum = document.getElementById("datum").value;
+            const telefonszam = document.getElementById("mobilszam").value;
+            const lakhely = document.getElementById("lakhely").value;
+            const titkos = document.getElementById("id").value;
+
+
+            const kuld = new XMLHttpRequest();
+            
+            kuld.onload = function(){
+
+
+                document.getElementById("uzenet").innerHTML = this.responseText
+            
+            };
+
+            kuld.open("GET","ajaxTest.php?nev="+nev+"&jelszo="+jelszo+"&szuletesiDatum="+datum+"&telefonszam="+telefonszam+"&lakhely="+lakhely);
+            kuld.send();
+        }
+
+        function kuldesPost()
+        {
+            /*Kattintás után kitöröl
+            document.getElementById("felhasznalo").value = "";
+            document.getElementById("jelszo").value = "";
+            document.getElementById("datum").value = "";
+            document.getElementById("mobilszam").value = "";
+            document.getElementById("lakhely").value = "";
+            */
+
+            //console.log("Elküldve");
+            const nev = document.getElementById("felhasznalo").value;
+            const jelszo = document.getElementById("jelszo").value;
+            const datum = document.getElementById("datum").value;
+            const telefonszam = document.getElementById("mobilszam").value;
+            const lakhely = document.getElementById("lakhely").value;
+            const titkos = document.getElementById("id").value;
+
+
+            const kuld = new XMLHttpRequest();
+            
+            kuld.onload = function(){
+
+
+                document.getElementById("uzenet").innerHTML = this.responseText
+            
+            };
+
+            kuld.open("POST","ajaxTest.php?valami=1");
+            kuld.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+            kuld.send("nev="+nev+"&jelszo="+jelszo+"&szuletesiDatum="+datum+"&telefonszam="+telefonszam+"&lakhely="+lakhely+"&id="+titkos);
+        }
+    </script>
+</body>
+</html>
