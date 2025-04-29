@@ -1,13 +1,13 @@
-﻿<Window x:Class="balkezesek.MainWindow"
+﻿<Window x:Name="Balkezesek" x:Class="balkezesek.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:balkezesek"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Balkezesek" Height="450" Width="800">
     <Grid Loaded="Grid_Loaded">
-        <Button x:Name="gomb1" Content="3.feladat" RenderTransformOrigin="0.5,0.5" Margin="17,40,638,345" FontSize="24" Click="Button_Click">
+        <Button x:Name="gomb1" Content="3.feladat" RenderTransformOrigin="0.5,0.5" Margin="17,24,642,344" FontSize="24" Click="Button_Click">
             <Button.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -17,7 +17,19 @@
                 </TransformGroup>
             </Button.RenderTransform>
         </Button>
-        <TextBlock x:Name="Harmadikfeladat" HorizontalAlignment="Left" Margin="192,42,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="45" Width="561" FontSize="20"/>
+        <TextBlock x:Name="Harmadikfeladat" HorizontalAlignment="Left" Margin="177,30,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="57" Width="561" FontSize="20"/>
+        <Button x:Name="gomb2" Content="4.feladat" RenderTransformOrigin="0.5,0.5" Margin="17,121,642,247" FontSize="24" Click="Button_Click">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0.012"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <ListBox x:Name="listBox"  Margin="187,146,119,135" FontSize="14"/>
+        <Label Content="Utoljára 1999-ben léptek pályára" HorizontalAlignment="Left" Margin="180,120,0,0" VerticalAlignment="Top" Width="216"/>
 
     </Grid>
 </Window>

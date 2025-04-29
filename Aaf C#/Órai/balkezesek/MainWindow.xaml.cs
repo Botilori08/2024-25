@@ -22,12 +22,12 @@ namespace balkezesek
         {
             InitializeComponent();
         }
-
+        List<Jatekos> jatekosok = new List<Jatekos>();
         private void Grid_Loaded(object sender, RoutedEventArgs e)
         {
             string[] sorok = File.ReadAllLines("balkezesek.csv");
 
-            List <Jatekos> jatekosok = new List <Jatekos>();
+
 
             for (int i = 1; i < sorok.Length; i++)
             {
@@ -35,9 +35,22 @@ namespace balkezesek
             }
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void gomb1_Click(object sender, RoutedEventArgs e)
         {
-            Harmadikfeladat.Text = jatekosok.Count.ToString();
+            Harmadikfeladat.Text = jatekosok.Count().ToString();
+        }
+        private void gomb2_Click(object sender, RoutedEventArgs e)
+        {
+            List<string> magassagok = new List<string>();
+
+            for (int i = 0; i < jatekosok.Count; i++)
+            {
+                if (jatekosok[i].utolsoDatum < DateOnly.Parse("1999-11-01"))
+                {
+                    magassagok.Add(jatekosok[i].magassagCentimeter.ToString());
+                }
+            }
+            listBox.ItemsSource = magassagok;
         }
     }
 

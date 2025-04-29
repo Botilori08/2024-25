@@ -22,11 +22,20 @@ namespace balkezesek
             this.suly = suly;
             this.magassag = magassag;
         }
+
+        public double magassagCentimeter
+        { 
+            get { return Math.Round(this.magassag*2.54,1); }
+        }
+
+
         public static Jatekos Factory(string sor)
         {
             string[] vag = sor.Split(';');
             return new Jatekos(vag[0], DateOnly.Parse(vag[1]), DateOnly.Parse(vag[2]), int.Parse(vag[3]), int.Parse(vag[4]));
         }
+
+
 
 
     }
