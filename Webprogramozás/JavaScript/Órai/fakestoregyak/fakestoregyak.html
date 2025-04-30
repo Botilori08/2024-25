@@ -4,16 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <style>
+
+        .kartya
+        {
+            width:200px;
+            display: inline-block;
+            border:4px solid black;
+        }
+        .kartya .kep img{
+            width: 100%;
+        }
+
+    </style>
+
 </head>
 <body>
-    <button type="button" id="gomb" onclick="egyElembetolt()">Egy elem betöltése</button>
+    <button type="button" id="gomb" onclick="egyElembetolt(1)">Egy elem betöltése</button>
+    
+    <button type="button" id="gomb" onclick="mindenElembetolt()">Minden elem betöltése</button>
+    <div id="elem"></div>
     <div id="helye"></div>
     <script>
-        function egyElembetolt()
+        function egyElembetolt(id)
         {
             let xml = new XMLHttpRequest();
 
-            xml.open("GET","https://fakestoreapi.com/products/1");
+            xml.open("GET","https://fakestoreapi.com/products/"+id);
             xml.onload = function(){
                 let json = JSON.parse(xml.response)
                 console.log(json);
@@ -25,12 +43,13 @@
                     <div class="kep"><img src="`+json.image+`" alt=""></div>
                     <div class="ar">
                         <span class="szoveg">Ár:</span>
-                        <span class="">`+json.price+` &euro;</span>
+                        <span class="">`+json.price+` &euro;</span><br>
+                        <span class="ertekeles">Értékelés: `+json.rating.rate+`<br>Értékelők száma: `+json.rating.count+`</span>
                     </div>
                     <div class="leiras">`+json.description+`</div>
                 </div>`
 
-                document.getElementById("helye").innerHTML += szoveg;
+                document.getElementById("elem").innerHTML = szoveg;
 
 
 
@@ -45,7 +64,40 @@
             .then(data => console.log(data));
             */
         }
+        function mindenElembetolt()
+        {
+            let xml = new XMLHttpRequest();
+            xml.open("GET","https://fakestoreapi.com/products")
+            xml.onload = function() {
+
+                let json = JSON.parse(xml.response)
+                console.log(json);
+                let szoveg = "";
+                json.forEach(elem => {
+                    szoveg += 
+                `<div class="kartya" onclick="egyElembetolt(`+elem.id+`)">
+                    <h3>`+elem.title+`</h3>
+                    <div class="kep"><img src="`+elem.image+`" alt=""></div>
+                    <div class="ar">
+                        <span class="szoveg">Ár:</span>
+                        <span class="ertek">`+elem.price+` &euro;</span><br>
+                        <span class="ertekeles">Értékelés: `+elem.rating.rate+`<br>Értékelők száma: `+elem.rating.count+`</span>
+                    </div>
+                    
+                </div>`
+                })
+
+                document.getElementById("helye").innerHTML += szoveg;
+
+
+            }
+
+            xml.send();
+
+        }
     </script>
+
+//Hf formázás Bootstrappel
 
 </body>
 </html>
