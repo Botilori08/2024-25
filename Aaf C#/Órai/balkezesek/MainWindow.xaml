@@ -5,9 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:balkezesek"
         mc:Ignorable="d"
-        Title="Balkezesek" Height="450" Width="800">
+        Title="Balkezesek" Height="544" Width="1041">
     <Grid Loaded="Grid_Loaded">
-        <Button x:Name="gomb1" Content="3.feladat" RenderTransformOrigin="0.5,0.5" Margin="17,24,642,344" FontSize="24" Click="Button_Click">
+        <Button x:Name="gomb1" Content="3.feladat" RenderTransformOrigin="0.5,0.5" Margin="17,24,886,437" FontSize="24" Click="gomb1_Click">
             <Button.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -18,7 +18,7 @@
             </Button.RenderTransform>
         </Button>
         <TextBlock x:Name="Harmadikfeladat" HorizontalAlignment="Left" Margin="177,30,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="57" Width="561" FontSize="20"/>
-        <Button x:Name="gomb2" Content="4.feladat" RenderTransformOrigin="0.5,0.5" Margin="17,121,642,247" FontSize="24" Click="Button_Click">
+        <Button x:Name="gomb2" Content="4.feladat" RenderTransformOrigin="0.5,0.5" Margin="17,121,883,331" FontSize="24" Click="gomb2_Click">
             <Button.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -28,8 +28,14 @@
                 </TransformGroup>
             </Button.RenderTransform>
         </Button>
-        <ListBox x:Name="listBox"  Margin="187,146,119,135" FontSize="14"/>
-        <Label Content="Utoljára 1999-ben léptek pályára" HorizontalAlignment="Left" Margin="180,120,0,0" VerticalAlignment="Top" Width="216"/>
+        <ListBox x:Name="listBox"  Margin="177,128,129,190" FontSize="14"/>
+        <Label Content="Utoljára 1999-ben léptek pályára" HorizontalAlignment="Left" Margin="177,102,0,0" VerticalAlignment="Top" Width="216"/>
+        <Label Content="Adjon meg egy 1990 és 1999 közötti évszámot" HorizontalAlignment="Left" Margin="19,357,0,0" VerticalAlignment="Top" Width="342" Height="40" FontSize="16"/>
+        <Label x:Name="kiiras" Content="" HorizontalAlignment="Left" Height="32" Margin="190,402,0,0" VerticalAlignment="Top" Width="569"/>
+        <TextBox x:Name="bekeres" HorizontalAlignment="Left" Margin="19,402,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="150" Height="32" FontSize="16" TextChanged="bekeres_TextChanged"/>
+        <Button x:Name="gomb3" Content="Button" HorizontalAlignment="Left" Margin="19,448,0,0" VerticalAlignment="Top" Height="36" Width="110" FontSize="16" Click="gomb3_Click"/>
+        <Label Content="Átlagsúly:" HorizontalAlignment="Left" Margin="157,453,0,0" VerticalAlignment="Top" FontSize="14"/>
+
 
     </Grid>
 </Window>

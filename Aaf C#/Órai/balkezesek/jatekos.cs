@@ -35,6 +35,11 @@ namespace balkezesek
             return new Jatekos(vag[0], DateOnly.Parse(vag[1]), DateOnly.Parse(vag[2]), int.Parse(vag[3]), int.Parse(vag[4]));
         }
 
+        public bool jatszottE(int ev)
+        {
+            return ev >= this.elsodatum.Year && ev <= this.utolsoDatum.Year;
+        }
+
 
 
 
