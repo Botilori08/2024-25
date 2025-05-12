@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dolgozat</title>
+</head>
+<body>
+    <div id="feladatHelye"></div>
+    <button onclick="feladatlekeres()">Feladat bevezető</button><br>
+    <button onclick="elsofeladat()">1. feladat</button><br>
+    <input type="number" id="egyikszam"><br>
+    <input type="number" id="masikszam"><br>
+    <div id="kiir"></div>
+    <button onclick="elsofeladatVegrehajtasa()">1. Feladat küldése</button><br>
+    <button onclick="masodikfeladat()">2. feladat</button><br>
+    <input type="number" id="ertek"><br>
+    <button onclick="masodikfeladatVegrehajtasa()">2. Feladat küldése</button><br>
+    <button onclick="harmadikfeladat()">3. feladat</button><br>
+    <input type="number" id="userSzam"><br>
+    <input type="checkbox" id="name">name<br>
+    <input type="checkbox" id="picture">picture<br>
+    <input type="checkbox" id="location">location<br>
+    <input type="checkbox" id="email">email<br>
+    <button onclick="harmadikfeladatVegrehajtasa()">3. Feladat végrehajtása</button><br>
+
+    <script>
+
+        function feladatlekeres()
+        {
+            const kuld = new XMLHttpRequest();
+
+            kuld.onload = function()
+            {
+                document.getElementById("feladatHelye").innerHTML = kuld.response;
+            }
+            kuld.open("GET","/~pepa/dolgozat/dolgozat.php?nev=botilorant");
+            kuld.send();
+        }
+
+        function elsofeladat()
+        {
+            const kuld = new XMLHttpRequest();
+
+            kuld.onload = function()
+            {
+                document.getElementById("feladatHelye").innerHTML = kuld.response;
+            }
+            kuld.open("GET","/~pepa/dolgozat/dolgozat.php?nev=botilorant&feladat=1");
+            kuld.send();
+        }
+
+        function elsofeladatVegrehajtasa()
+        {
+            let egyikszam = document.getElementById("egyikszam").value;
+            let masikszam = document.getElementById("masikszam").value;
+
+            let kulonbseg = egyikszam - masikszam;
+
+            document.getElementById("kiir").innerHTML = "A két szám különbsége = "+kulonbseg;
+
+            const kuldes = new XMLHttpRequest();
+            kuldes.onload = function()
+            {
+                console.log("Elküldve")
+            }
+            kuldes.open("POST","/~pepa/dolgozat/dolgozat.php?nev=botilorant&akcio=kivonas")
+            kuldes.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+            kuldes.send("egyikszam="+egyikszam+"&masikszam="+masikszam);
+        }
+
+        function masodikfeladat()
+        {
+            const kuld = new XMLHttpRequest();
+
+            kuld.onload = function()
+            {
+                document.getElementById("feladatHelye").innerHTML = kuld.response;
+            }
+            kuld.open("GET","/~pepa/dolgozat/dolgozat.php?nev=botilorant&feladat=2");
+            kuld.send();
+        }
+
+        function masodikfeladatVegrehajtasa()
+        {
+            let ertek = document.getElementById("ertek").value;
+
+            const kuldes = new XMLHttpRequest();
+            kuldes.onload = function()
+            {
+                console.log("Elküldve")
+            }
+            kuldes.open("POST","/~pepa/dolgozat/dolgozat.php?nev=botilorant&akcio=muvelet");
+            kuldes.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+            kuldes.send("ertek="+ertek);
+        }
+
+        function harmadikfeladat()
+        {
+            const kuld = new XMLHttpRequest();
+
+            kuld.onload = function()
+            {
+                document.getElementById("feladatHelye").innerHTML = kuld.response;
+            }
+            kuld.open("GET","/~pepa/dolgozat/dolgozat.php?nev=botilorant&feladat=3");
+            kuld.send();
+        }
+        function harmadikfeladatVegrehajtasa()
+        {
+            let userSzam = document.getElementById("userSzam").value;
+            const xhttp = new XMLHttpRequest();
+
+            xhttp.onload = function()
+            {
+                let json = JSON.parse(xhttp.response)
+
+                
+
+            }
+
+            xhttp.open("GET","https://randomuser.me/api/?results="+userSzam);
+
+
+        }
+
+
+    </script>
+</body>
+</html>
