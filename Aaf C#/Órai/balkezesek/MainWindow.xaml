@@ -31,10 +31,11 @@
         <ListBox x:Name="listBox"  Margin="177,128,129,190" FontSize="14"/>
         <Label Content="Utoljára 1999-ben léptek pályára" HorizontalAlignment="Left" Margin="177,102,0,0" VerticalAlignment="Top" Width="216"/>
         <Label Content="Adjon meg egy 1990 és 1999 közötti évszámot" HorizontalAlignment="Left" Margin="19,357,0,0" VerticalAlignment="Top" Width="342" Height="40" FontSize="16"/>
-        <Label x:Name="kiiras" Content="" HorizontalAlignment="Left" Height="32" Margin="190,402,0,0" VerticalAlignment="Top" Width="569"/>
-        <TextBox x:Name="bekeres" HorizontalAlignment="Left" Margin="19,402,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="150" Height="32" FontSize="16" TextChanged="bekeres_TextChanged"/>
-        <Button x:Name="gomb3" Content="Button" HorizontalAlignment="Left" Margin="19,448,0,0" VerticalAlignment="Top" Height="36" Width="110" FontSize="16" Click="gomb3_Click"/>
+        <Label x:Name="kiiras" Content="" HorizontalAlignment="Left" Height="32" Margin="190,402,0,0" VerticalAlignment="Top" Width="569" Foreground="#FFDC0C0C"/>
+        <TextBox x:Name="bekeres" HorizontalAlignment="Left" Margin="19,402,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="150" Height="32" FontSize="16" TextChanged="bekeres_TextChanged"/>
+        <Button x:Name="gomb3" Content="6." HorizontalAlignment="Left" Margin="19,448,0,0" VerticalAlignment="Top" Height="36" Width="110" FontSize="16" Click="gomb3_Click"/>
         <Label Content="Átlagsúly:" HorizontalAlignment="Left" Margin="157,453,0,0" VerticalAlignment="Top" FontSize="14"/>
+        <Label x:Name="label5" Content="" HorizontalAlignment="Left" Margin="241,453,0,0" VerticalAlignment="Top" FontSize="14"/>
 
 
     </Grid>

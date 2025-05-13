@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Vonatosszeallitas")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8ce0c419d3151225652e1557f7cb744b3b2d14a2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5e4e911821765d6ddd2bfff265349936eeddd7f3")]
 [assembly: System.Reflection.AssemblyProductAttribute("Vonatosszeallitas")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Vonatosszeallitas")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

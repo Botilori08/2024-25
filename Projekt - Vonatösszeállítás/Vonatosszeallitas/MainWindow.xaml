@@ -7,17 +7,8 @@
 		mc:Ignorable="d"
 		Title="Vonatösszeállítás" Height="751" Width="1497" Loaded="Ablak_Loaded">
     <Grid>
-        <Grid Margin="0,0,1188,19">
-            <ComboBox x:Name="Villanymozdony" Margin="0,0,0,628"/>
-            <ComboBox Margin="0,88,0,540"/>
-            <ComboBox Margin="0,176,0,452"/>
-            <ComboBox Margin="0,264,0,363"/>
-            <ComboBox Margin="0,353,0,274"/>
-            <ComboBox Margin="0,442,0,194"/>
-        </Grid>
-        <Grid Margin="309,0,0,19"/>
-        <ComboBox Margin="0,521,1188,114"/>
-        <ComboBox Margin="0,621,1188,19"/>
+        <Grid x:Name="kocsik" Margin="0,0,1188,0"/>
+        <Grid x:Name="vonat" Margin="314,0,0,0"/>
 
     </Grid>
 </Window>
