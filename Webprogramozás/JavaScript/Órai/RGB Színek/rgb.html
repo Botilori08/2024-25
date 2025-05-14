@@ -7,6 +7,15 @@
     <script src="kep.js"></script>
 </head>
 <body>
+	<h2>2.feladat</h2>
+	<p>Kérek egy sor és oszlopszámot!</p>
+	<label for="sor">Sor: </label>
+	<input type="number" id="sor">
+	<label for="oszlop">Oszlop:</label>
+	<input type="number" id="oszlop"><br>
+	<button onclick="masodikfeladat()">Végrehajtás</button>
+
+	<div id="f2"></div>
     <script>
 
 		class Pixel
@@ -17,31 +26,43 @@
 				this.g = g;
 				this.b = b;
 			}
+			rgb()
+			{
+				return `RBG(${this.r},${this.g},${this.b})`;
+			}
 		}
 
 		let pixelek = [];
 
-		const sorok = adatok.split("\r\n");
+		const sorok = adatok.split("\n");
 
 		sorok.forEach(elem => {
 
 			const vag = elem.split(" ");
-			const sor = [];
+			let sor = [];
 			let temp = [];
 			vag.forEach(elem =>
 				{
-					temp.push(paseInt(elem));
+					temp.push(parseInt(elem));
 					if(temp.length == 3)
 					{
 						sor.push(new Pixel(temp[0],temp[1],temp[2]))
 						temp = [];
 					}
 				});
-
+				pixelek.push(sor);
 
 		});
+		console.log(pixelek);
 
+		function masodikfeladat()
+		{
+			const oszlop = document.getElementById("oszlop").value;
 
+			const sor = document.getElementById("sor").value;
+
+			document.getElementById("f2").innerHTML = "A képpont színe";
+		}
     </script>
 </body>
 </html>
