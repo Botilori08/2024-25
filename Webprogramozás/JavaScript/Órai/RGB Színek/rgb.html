@@ -14,8 +14,19 @@
 	<label for="oszlop">Oszlop:</label>
 	<input type="number" id="oszlop"><br>
 	<button onclick="masodikfeladat()">Végrehajtás</button>
-
 	<div id="f2"></div>
+
+	<h3>3.feladat</h3>
+	<p>A világos képpontok száma: <span id="vilagosak"></span></p>
+	<button onclick="harmadikfeladat()">Végrehajtás</button>
+
+	<h3>4.feladat</h3>
+	<p>A legsötétebb pont RGB összege: <span id="sotetOsszeg"></span></p>
+	<p>A legsötétebb pixelek színe: </p>
+	<div id="f4"></div>
+	<button onclick="negyedikfeladat()">Végrehajtás</button>
+
+
     <script>
 
 		class Pixel
@@ -28,8 +39,21 @@
 			}
 			rgb()
 			{
-				return `RBG(${this.r},${this.g},${this.b})`;
+				return `RGB(${this.r},${this.g},${this.b})`;
 			}
+
+			szinOsszeg()
+			{
+				return this.r+this.g+this.b;
+			}
+
+			vilagos()
+			{
+				return this.szinOsszeg > 600;
+			}
+
+
+
 		}
 
 		let pixelek = [];
@@ -61,8 +85,35 @@
 
 			const sor = document.getElementById("sor").value;
 
-			document.getElementById("f2").innerHTML = "A képpont színe";
+			document.getElementById("f2").innerHTML = "A képpont színe: "+pixelek[sor-1][oszlop-1].rgb()+"<div style='background-color:"+pixelek[sor-1][oszlop-1].rgb()+";width:100px;height:100px;'></div>";
 		}
-    </script>
+
+		function harmadikfeladat()
+		{
+			const darab = pixelek.flat().filter(elem=> elem.vilagos()).length;
+
+			console.log(darab);
+
+			document.getElementById("vilagosak").innerHTML = darab;
+			//ugyanaz: document.querySelector("#vilagosak").innerHTML = darab;
+
+		}
+
+		function negyedikfeladat()
+		{
+			const sotet = pixelek.flat().sort((a,b) => a - b)[0].szinOsszeg();
+
+			document.getElementById("sotetOsszeg").innerHTML = sotet;
+
+			const osszesSotet = pixelek.flat().filter(elem => elem.szinOsszeg()==sotet);
+
+			console.log(osszesSotet);
+			osszesSotet.forEach(elem =>{
+				document.getElementById("f2").innerHTML = "A képpont színe: "+elem.rgb()+"<div style='background-color:"+pixelek[sor-1][oszlop-1].rgb()+";width:100px;height:100px;'></div>";
+		});
+		}
+
+
+		</script>
 </body>
 </html>
