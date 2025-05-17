@@ -48,14 +48,17 @@ namespace rgb
         {
             try
             {
+                int sorszam = Convert.ToInt32(sor.Text);
+                int oszlopszam = Convert.ToInt32(oszlop.Text);
 
+                textblock.Text = pixelek[sorszam - 1][oszlopszam -1].rgbkod();
             }
-            catch {
-            
+            catch 
+            {
+                
             };
 
-            int sorszam = Convert.ToInt32(sor.Text);
-            int oszlopszam = Convert.ToInt32(oszlop.Text);
+
 
 
         }

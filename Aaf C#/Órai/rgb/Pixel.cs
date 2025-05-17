@@ -18,5 +18,11 @@ namespace rgb
 			this.g = g;
 			this.b = b;
 		}
+
+		public string rgbkod()
+		{
+
+			return $"RGB({this.r},{this.g},{this.b})";
+		}
 	}
 }

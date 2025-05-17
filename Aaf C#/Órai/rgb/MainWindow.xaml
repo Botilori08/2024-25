@@ -12,7 +12,7 @@
         <TextBox x:Name="sor" HorizontalAlignment="Left" Margin="73,46,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="77"/>
         <Label Content="Oszlop:" HorizontalAlignment="Left" Margin="15,72,0,0" VerticalAlignment="Top"/>
         <TextBox x:Name="oszlop" HorizontalAlignment="Left" Margin="73,76,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="77"/>
-        <Button x:Name="gomb" Content="Button" HorizontalAlignment="Left" Margin="73,141,0,0" VerticalAlignment="Top" Click="Button_Click"/>
+        <Button x:Name="gomb" Content="Button" HorizontalAlignment="Left" Margin="73,141,0,0" VerticalAlignment="Top" Click="gomb_Click"/>
         <Rectangle x:Name="szinesdoboz" HorizontalAlignment="Left" Height="51" Margin="168,45,0,0" Stroke="Black" VerticalAlignment="Top" Width="82" RenderTransformOrigin="0.5,0.5">
             <Rectangle.RenderTransform>
                 <TransformGroup>
@@ -23,7 +23,7 @@
                 </TransformGroup>
             </Rectangle.RenderTransform>
         </Rectangle>
-        <TextBlock x:Name="textblock" HorizontalAlignment="Left" Margin="73,113,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="120"/>
+        <TextBlock x:Name="textblock" HorizontalAlignment="Left" Margin="73,113,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
         <Label Content="Színkód:" HorizontalAlignment="Left" Margin="10,108,0,0" VerticalAlignment="Top"/>
 
     </Grid>
