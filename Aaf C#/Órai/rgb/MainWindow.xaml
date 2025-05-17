@@ -23,8 +23,11 @@
                 </TransformGroup>
             </Rectangle.RenderTransform>
         </Rectangle>
-        <TextBlock x:Name="textblock" HorizontalAlignment="Left" Margin="73,113,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBlock x:Name="textblock" HorizontalAlignment="Left" Margin="73,113,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="179"/>
         <Label Content="Színkód:" HorizontalAlignment="Left" Margin="10,108,0,0" VerticalAlignment="Top"/>
+        <Label Content="3. feladat" HorizontalAlignment="Left" Margin="15,172,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="vilagosSzamol" Content="Világos számol" HorizontalAlignment="Left" Margin="15,0,0,0" VerticalAlignment="Center" Click="vilagosSzamol_Click" Width="90"/>
+        <TextBlock HorizontalAlignment="Left" Margin="128,0,0,0" TextWrapping="Wrap" VerticalAlignment="Center" Width="0" Height="0"/>
 
     </Grid>
 </Window>

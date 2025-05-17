@@ -51,16 +51,27 @@ namespace rgb
                 int sorszam = Convert.ToInt32(sor.Text);
                 int oszlopszam = Convert.ToInt32(oszlop.Text);
 
-                textblock.Text = pixelek[sorszam - 1][oszlopszam -1].rgbkod();
+                Pixel p = pixelek[sorszam - 1][oszlopszam - 1];
+
+                textblock.Text = "A képpont színe "+p.rgbkod();
+
+                szinesdoboz.Fill = new SolidColorBrush(Color.FromRgb((byte)p.r, (byte)p.g, (byte)p.b));
             }
             catch 
             {
                 
             };
+        }
 
+        private void vilagosSzamol_Click(object sender, RoutedEventArgs e)
+        {
+            for (int i = 0; i < pixelek.Count; i++)
+            {
+                for(int j = 0; j < pixelek[i].Count; j++)
+                {
 
-
-
+                }
+            }
         }
     }
 }
