@@ -65,13 +65,20 @@ namespace rgb
 
         private void vilagosSzamol_Click(object sender, RoutedEventArgs e)
         {
+            int darab = 0;
             for (int i = 0; i < pixelek.Count; i++)
             {
                 for(int j = 0; j < pixelek[i].Count; j++)
                 {
-
+                    if (pixelek[i][j].vilagos())
+                    {
+                        darab++;
+                    }
                 }
             }
+            doboz.Text = darab.ToString();
         }
+
+
     }
 }

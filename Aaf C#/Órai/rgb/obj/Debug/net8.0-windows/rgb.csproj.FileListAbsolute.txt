@@ -1,12 +1,12 @@
-D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\rgb\obj\Debug\net8.0-windows\MainWindow.g.cs
-D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\rgb\obj\Debug\net8.0-windows\App.g.cs
-D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\rgb\obj\Debug\net8.0-windows\rgb_MarkupCompile.cache
-D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\rgb\obj\Debug\net8.0-windows\rgb_MarkupCompile.lref
 D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\rgb\bin\Debug\net8.0-windows\rgb.exe
 D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\rgb\bin\Debug\net8.0-windows\rgb.deps.json
 D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\rgb\bin\Debug\net8.0-windows\rgb.runtimeconfig.json
 D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\rgb\bin\Debug\net8.0-windows\rgb.dll
 D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\rgb\bin\Debug\net8.0-windows\rgb.pdb
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\rgb\obj\Debug\net8.0-windows\MainWindow.g.cs
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\rgb\obj\Debug\net8.0-windows\App.g.cs
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\rgb\obj\Debug\net8.0-windows\rgb_MarkupCompile.cache
+D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\rgb\obj\Debug\net8.0-windows\rgb_MarkupCompile.lref
 D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\rgb\obj\Debug\net8.0-windows\MainWindow.baml
 D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\rgb\obj\Debug\net8.0-windows\rgb.g.resources
 D:\munkakönyvtár\Boti Lóránt\2024-25\Aaf C#\Órai\rgb\obj\Debug\net8.0-windows\rgb.GeneratedMSBuildEditorConfig.editorconfig

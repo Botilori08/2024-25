@@ -27,7 +27,11 @@
         <Label Content="Színkód:" HorizontalAlignment="Left" Margin="10,108,0,0" VerticalAlignment="Top"/>
         <Label Content="3. feladat" HorizontalAlignment="Left" Margin="15,172,0,0" VerticalAlignment="Top"/>
         <Button x:Name="vilagosSzamol" Content="Világos számol" HorizontalAlignment="Left" Margin="15,0,0,0" VerticalAlignment="Center" Click="vilagosSzamol_Click" Width="90"/>
-        <TextBlock HorizontalAlignment="Left" Margin="128,0,0,0" TextWrapping="Wrap" VerticalAlignment="Center" Width="0" Height="0"/>
+        <TextBlock x:Name="doboz" HorizontalAlignment="Left" Margin="128,0,0,0" TextWrapping="Wrap" VerticalAlignment="Center" Height="17"/>
+        <Label Content="4. feladat" HorizontalAlignment="Left" Margin="15,241,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="sotetSzamol" Content="Sötét számol" HorizontalAlignment="Left" Margin="15,272,0,0" VerticalAlignment="Top" Click="vilagosSzamol_Click" Width="90"/>
+        <TextBlock HorizontalAlignment="Left" Margin="150,272,0,0" TextWrapping="Wrap" Text="A legsötétebb pont RGB összege:" VerticalAlignment="Top" Height="20"/>
+        <TextBlock HorizontalAlignment="Left" Margin="342,272,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="20"/>
 
     </Grid>
 </Window>
