@@ -79,6 +79,36 @@ namespace rgb
             doboz.Text = darab.ToString();
         }
 
+        private void sotetSzamol_Click(object sender, RoutedEventArgs e)
+        {
+            Pixel sotet = pixelek[0][0];
 
+            for(int i = 0;i < pixelek.Count;i++)
+            {
+                for (int j = 0; j < pixelek[i].Count; j++)
+                {
+                    if (pixelek[i][j].komponensOsszeg() < sotet.komponensOsszeg())
+                    {
+                        sotet = pixelek[i][j];
+                    }
+                }
+            }
+            sotetOsszeg.Text = sotet.komponensOsszeg().ToString();
+             
+            List<Pixel>sotetek = new List<Pixel>();
+            for (int i = 0; i < pixelek.Count; i++)
+            {
+                for (int j = 0; j < pixelek[i].Count; j++)
+                {
+                    if (pixelek[i][j].komponensOsszeg() == sotet.komponensOsszeg())
+                    {
+                        sotetek.Add(pixelek[i][j]);
+                    }
+                }
+            }
+
+            listbox.ItemsSource = sotetek;
+
+        }
     }
 }

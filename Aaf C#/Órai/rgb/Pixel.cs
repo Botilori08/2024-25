@@ -35,5 +35,10 @@ namespace rgb
 			return komponensOsszeg() > 600; 
 		}
 
-	}
+        public override string ToString()
+        {
+            return rgbkod();
+        }
+
+    }
 }
