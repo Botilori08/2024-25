@@ -108,7 +108,29 @@ namespace rgb
             }
 
             listbox.ItemsSource = sotetek;
+            
+            for(int i = 0;i < sotetek.Count;i++)
+            {
+                Rectangle rectangle = new Rectangle();
+                rectangle.Width = 100;
+                rectangle.Height = 100;
 
+                rectangle.Fill = new SolidColorBrush(Color.FromRgb((byte)sotetek[i].r, (byte)sotetek[i].g, (byte)sotetek[i].b));
+
+                panel.Children.Add(rectangle);  
+            }
+        }
+
+        bool hatar(int sorSzam, int elteres)
+        {
+            for(int i = 0;i < pixelek[sorSzam].Count;i++)
+            {
+                if (elteres < Math.Abs(pixelek[sorSzam][i].b - pixelek[sorSzam][i+1].b))
+                {
+                    return true;
+                }
+            }
+            return false;
         }
     }
 }
