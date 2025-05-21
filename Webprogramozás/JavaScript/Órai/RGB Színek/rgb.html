@@ -27,6 +27,15 @@
 	<button onclick="negyedikfeladat()">Végrehajtás</button>
 
 
+	<h3>6.feladat</h3>
+	<div id="f6">
+		a felhő legfelső sora: <span id="elsoSor"></span><br>
+		a felhő legutolsó sora: <span id="utolsoSor"></span>
+	</div>
+	<button onclick="hatodikfeladat()">Végrehajtás</button>
+	<div id="kep"></div>
+
+
     <script>
 
 		class Pixel
@@ -85,8 +94,9 @@
 
 			const sor = document.getElementById("sor").value;
 
-			document.getElementById("f2").innerHTML = "A képpont színe: "+pixelek[sor-1][oszlop-1].rgb()+"<div style='background-color:"+pixelek[sor-1][oszlop-1].rgb()+";width:100px;height:100px;'></div>";
+			document.getElementById("f2").innerHTML += "A képpont színe: "+pixelek[sor-1][oszlop-1].rgb()+"<div style='background-color:"+pixelek[sor-1][oszlop-1].rgb()+";width:100px;height:100px;'></div>";
 		}
+
 
 		function harmadikfeladat()
 		{
@@ -108,10 +118,79 @@
 			const osszesSotet = pixelek.flat().filter(elem => elem.szinOsszeg()==sotet);
 
 			console.log(osszesSotet);
-			osszesSotet.forEach(elem =>{
+			
+			/*osszesSotet.forEach(elem =>{
 				document.getElementById("f2").innerHTML = "A képpont színe: "+elem.rgb()+"<div style='background-color:"+pixelek[sor-1][oszlop-1].rgb()+";width:100px;height:100px;'></div>";
-		});
+			});*/
+			
+			hatar(6,50);
 		}
+		function hatar(sorSzam,elteres)
+		{
+			return pixelek[sorSzam].some((elem,i,sor) =>{
+					if(i<sor.length-1)
+					{
+						return elteres < Math.abs(elem.b-sor[i+1].b);
+					}
+					else
+					{
+						return false;
+					}
+
+
+				}
+			);
+		};
+
+		function hatodikfeladat()
+		{
+			let elso = -1;
+			let utolso = -1;
+			for(let i = 0;i < pixelek.length;i++)
+			{
+				if(hatar(i,10))
+				{
+					if(elso===-1)
+					{
+						elso=i;
+					}
+					utolso = i;
+				}
+			}
+
+			console.log(elso);
+			console.log(utolso);
+
+			elso = pixelek.indexOf(pixelek.filter((elem,i) => hatar(i,10))[0]);
+			utolso = pixelek.indexOf(pixelek.filter((elem,i) => hatar(i,10)).at(-1));
+
+			
+			document.getElementById("elsoSor").innerHTML = elso+1;
+			document.getElementById("utolsoSor").innerHTML = utolso+1;
+
+			kepRajzol();
+		}
+
+		function kepRajzol()
+		{
+
+			const kep = document.getElementById("kep");
+
+			for(let i = 0;i < pixelek.length;i++)
+			{
+				for(let j = 0;j < pixelek[i].length;j++)
+				{
+					kep.innerHTML += "<div class='pixel' style='background-color: "+pixelek[i][j].rgb()+"'></div>"
+				}
+			}
+
+
+
+
+
+
+		}
+
 
 
 		</script>
