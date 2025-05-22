@@ -5,6 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RGB színek</title>
     <script src="kep.js"></script>
+	<style>
+		#kep table tr td
+		{
+			width:1px;
+			height:1px;
+			
+		}
+
+		table{
+			border-collapse: collapse;
+		}
+	</style>
 </head>
 <body>
 	<h2>2.feladat</h2>
@@ -174,19 +186,29 @@
 		function kepRajzol()
 		{
 
+			const tabla = document.createElement("table");
+
+
+
 			const kep = document.getElementById("kep");
 
 			for(let i = 0;i < pixelek.length;i++)
 			{
+				const sor = document.createElement("tr");
 				for(let j = 0;j < pixelek[i].length;j++)
 				{
-					kep.innerHTML += "<div class='pixel' style='background-color: "+pixelek[i][j].rgb()+"'></div>"
+					const cella = document.createElement("td");
+					cella.style.backgroundColor= pixelek[i][j].rgb();
+					sor.appendChild(cella);
+
+					//kep.innerHTML += "<div class='pixel' style='background-color:"+pixelek[i][j].rgb()+"'></div>"
 				}
+				tabla.appendChild(sor);
 			}
 
 
 
-
+			kep.appendChild(tabla);
 
 
 		}
