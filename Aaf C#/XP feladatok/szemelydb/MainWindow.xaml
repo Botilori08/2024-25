@@ -1,0 +1,25 @@
+﻿<Window x:Name="ablak" x:Class="szemelydb.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:szemelydb"
+        mc:Ignorable="d"
+        Title="Űrlap" Height="450" Width="514">
+    <Grid Background="#FFDDD8D8">
+        <TextBox x:Name="Nev" HorizontalAlignment="Left" Margin="159,24,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="187" Height="29" FontSize="22" FontFamily="Bahnschrift Light Condensed"/>
+        <TextBox x:Name="Telepules" HorizontalAlignment="Left" Margin="159,84,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="187" Height="29" FontSize="22" FontFamily="Bahnschrift Light Condensed"/>
+        <Label Content="Név:" HorizontalAlignment="Left" Margin="85,24,0,0" VerticalAlignment="Top" Height="29" Width="42" FontSize="16"/>
+        <Label Content="Település:" HorizontalAlignment="Left" Margin="57,82,0,0" VerticalAlignment="Top" Height="29" FontSize="16"/>
+        <TextBox x:Name="Lakcim" HorizontalAlignment="Left" Margin="159,140,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="187" Height="29" FontSize="22" FontFamily="Bahnschrift Light Condensed"/>
+        <Label Content="Lakcím:" HorizontalAlignment="Left" Margin="65,140,0,0" VerticalAlignment="Top" Height="30" FontSize="16"/>
+        <TextBox x:Name="Telefonszam" HorizontalAlignment="Left" Margin="159,0,0,0" TextWrapping="Wrap" VerticalAlignment="Center" Width="187" Height="29" FontSize="22" FontFamily="Bahnschrift Light Condensed"/>
+        <Label Content="Telefonszám:" HorizontalAlignment="Left" Margin="35,0,0,0" VerticalAlignment="Center" Height="31" FontSize="16"/>
+        <Label Content="Fizetés:" HorizontalAlignment="Left" Margin="66,261,0,0" VerticalAlignment="Top" Height="31" FontSize="16"/>
+        <TextBox x:Name="Fizetes" HorizontalAlignment="Left" Margin="159,263,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="187" Height="29" FontSize="22" FontFamily="Bahnschrift Light Condensed"/>
+        <Button x:Name="hozzadas" Content="Hozzáadás" HorizontalAlignment="Left" Margin="60,333,0,0" VerticalAlignment="Top" Height="35" Width="92" Click="hozzadas_Click"/>
+        <Button x:Name="kilepes" Content="Kilépés" HorizontalAlignment="Left" Margin="192,333,0,0" VerticalAlignment="Top" Height="35" Width="92" Click="kilepes_Click"/>
+        <Button x:Name="torles" Content="Törlés" HorizontalAlignment="Left" Margin="325,333,0,0" VerticalAlignment="Top" Height="35" Width="92" Click="torles_Click"/>
+
+    </Grid>
+</Window>
