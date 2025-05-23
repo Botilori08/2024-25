@@ -35,6 +35,12 @@
         <TextBlock HorizontalAlignment="Left" Margin="150,297,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="20"><Run Text="A legsötétebb p"/><Run Language="hu-hu" Text="ixelek"/><Run Text=" "/><Run Language="hu-hu" Text="színe"/><Run Text=":"/></TextBlock>
         <ListBox x:Name="listbox" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="302,297,315,91"/>
         <StackPanel x:Name="panel" Margin="506,297,120,97"/>
+        <Label Content="6.feladat" HorizontalAlignment="Left" Margin="506,49,0,0" VerticalAlignment="Top"/>
+        <Label Content="A felhő legfelső sora:" HorizontalAlignment="Left" Margin="502,90,0,0" VerticalAlignment="Top"/>
+        <Label Content="A felhő legalsó sora:" HorizontalAlignment="Left" Margin="506,116,0,0" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="631,100,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Name="legfelso"/>
+        <TextBlock HorizontalAlignment="Left" Margin="631,121,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Name="legalso"/>
+        <Button x:Name="gomb3" Content="GoGoGo!" HorizontalAlignment="Left" Margin="527,155,0,0" VerticalAlignment="Top" Click="gomb3_Click"/>
 
     </Grid>
 </Window>
