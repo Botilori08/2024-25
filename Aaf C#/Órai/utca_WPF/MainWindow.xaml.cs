@@ -20,5 +20,10 @@ namespace utca_WPF
         {
             InitializeComponent();
         }
+
+        private void ablak_Loaded(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
