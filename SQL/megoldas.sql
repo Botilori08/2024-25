@@ -10,3 +10,4 @@ SELECT magyarszoveg, cim FROM film WHERE rendezo="Christopher Nolan" AND studio=
 SELECT eredeti, cim, COUNT(szinkid) FROM film INNER JOIN szinkron ON film.filmaz = szinkron.filmaz GROUP BY film.filmaz;
 --7.feladat--
 SELECT szerep, szinesz, hang FROM film INNER JOIN szinkron ON film.filmaz = szinkron.filmaz WHERE szerep LIKE "rab%" OR szerep LIKE "% rab%";
+--8.feladat--
