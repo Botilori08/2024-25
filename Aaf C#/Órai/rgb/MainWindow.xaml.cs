@@ -119,18 +119,37 @@ namespace rgb
 
                 panel.Children.Add(rectangle);  
             }
+
         }
 
         bool hatar(int sorSzam, int elteres)
         {
-            for(int i = 0;i < pixelek[sorSzam].Count;i++)
+            for(int i = 0;i < pixelek[sorSzam].Count-1;i++)
             {
-                if (elteres < Math.Abs(pixelek[sorSzam][i].b - pixelek[sorSzam][i+1].b))
+                if (Math.Abs(pixelek[sorSzam][i].b - pixelek[sorSzam][i+1].b) > elteres)
                 {
                     return true;
                 }
             }
             return false;
+        }
+
+        private void gomb3_Click(object sender, RoutedEventArgs e)
+        {
+
+            List <int> hatarok = new List<int>();
+
+            for (int i = 0; i < pixelek.Count; i++)
+            {
+                if (hatar(i, 10))
+                {
+                    hatarok.Add(i);
+                }
+            }
+
+            legfelso.Text = (hatarok[0]+1).ToString();
+            legalso.Text = (hatarok[hatarok.Count -1]+1).ToString();
+
         }
     }
 }
