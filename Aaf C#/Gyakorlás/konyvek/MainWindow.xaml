@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:konyvek"
         mc:Ignorable="d"
-        Title="konyvek" Height="450" Width="800">
+        Title="konyvek" Height="450" Width="800" Loaded="Ablak_Loaded">
     <Grid>
         <Label Content="2. feladat" HorizontalAlignment="Left" Margin="48,60,0,0" VerticalAlignment="Top" FontSize="22"/>
         <TextBox x:Name="megadottNev" HorizontalAlignment="Left" Margin="146,117,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="184" FontSize="22"/>
@@ -16,12 +16,14 @@
         <Label Content="3. feladat" HorizontalAlignment="Left" Margin="48,188,0,0" VerticalAlignment="Top" FontSize="22"/>
         <Label Content="Legnagyobb példányszám:" HorizontalAlignment="Left" Margin="48,247,0,0" VerticalAlignment="Top"/>
         <Label x:Name="peldany" Content="" HorizontalAlignment="Left" Margin="204,247,0,0" VerticalAlignment="Top"/>
-        <Label Content=",előfordult" HorizontalAlignment="Left" Margin="238,247,0,0" VerticalAlignment="Top"/>
+        <Label Content=",előfordult" HorizontalAlignment="Left" Margin="248,247,0,0" VerticalAlignment="Top"/>
         <Label x:Name="szama" Content="" HorizontalAlignment="Left" Margin="308,247,0,0" VerticalAlignment="Top"/>
-        <Label Content="alkalommal" HorizontalAlignment="Left" Margin="323,247,0,0" VerticalAlignment="Top"/>
+        <Label Content="alkalommal" HorizontalAlignment="Left" Margin="346,247,0,0" VerticalAlignment="Top"/>
         <Button x:Name="harmadikfeladat" Content="" HorizontalAlignment="Left" Margin="171,193,0,0" VerticalAlignment="Top" Width="67" Height="29" Click="harmadikfeladat_Click"/>
         <ComboBox HorizontalAlignment="Left" Margin="1118,400,0,0" VerticalAlignment="Top" Width="120"/>
         <ComboBox HorizontalAlignment="Left" Margin="1292,188,0,0" VerticalAlignment="Top" Width="120"/>
+        <Label Content="4. feladat" HorizontalAlignment="Left" Margin="48,278,0,0" VerticalAlignment="Top" FontSize="22"/>
+        <Button x:Name="negyedikfeladat" Content="" HorizontalAlignment="Left" Margin="171,287,0,0" VerticalAlignment="Top" Width="67" Height="29" Click="harmadikfeladat_Click"/>
 
     </Grid>
 </Window>

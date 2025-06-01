@@ -37,7 +37,7 @@ namespace konyvek
 				konyvek.Add(new Konyv(Convert.ToInt32(vag[0]), Convert.ToInt32(vag[1]), vag[2], vag[3], Convert.ToInt32(vag[4])));
 			}
 			
-			MessageBox.Show(konyvek.Count+"");
+			//MessageBox.Show(konyvek.Count+"");
 
 		}
 
@@ -58,7 +58,7 @@ namespace konyvek
 				if(legnagyobbPeldany < konyvek[i].peldanySzam)
 				{
 					legnagyobbPeldany = konyvek[i].peldanySzam;
-					MessageBox.Show(legnagyobbPeldany.ToString());
+					//MessageBox.Show(legnagyobbPeldany.ToString());
 				}
 			}
 
