@@ -1,29 +1,46 @@
-﻿<Window x:Class="versek.MainWindow"
+﻿<Window x:Name="ablak" x:Class="versek.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:versek"
         mc:Ignorable="d"
-        Title="ADYák szemle: Heti versek" Height="656" Width="800">
+        Title="ADYák szemle: Heti versek" Height="656" Width="800" Loaded="ablak_Loaded">
     <Grid Background="#FFCBD8D6">
-        <TextBox x:Name="cim" HorizontalAlignment="Left" Margin="216,309,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="381" Height="53" FontSize="28" FontFamily="Sitka Heading" TextAlignment="Justify" VerticalContentAlignment="Center" Background="White"/>
-        <TextBox x:Name="szerzoNeve" HorizontalAlignment="Left" Margin="216,189,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="381" Height="53" FontSize="28" FontFamily="Sitka Heading" TextAlignment="Justify" VerticalContentAlignment="Center" Background="White"/>
-        <Label Content="Felelős neve:" HorizontalAlignment="Left" Margin="216,20,0,0" VerticalAlignment="Top" Height="115" Width="251" FontSize="36" FontFamily="Sitka Subheading"/>
-        <Label Content="Vers szerzője:" HorizontalAlignment="Left" Margin="216,132,0,0" VerticalAlignment="Top" Height="115" Width="251" FontSize="36" FontFamily="Sitka Subheading"/>
-        <Label Content="Vers címe:" HorizontalAlignment="Left" Margin="216,254,0,0" VerticalAlignment="Top" Height="115" Width="203" FontSize="36" FontFamily="Sitka Subheading"/>
-        <Button x:Name="kuldes" Content="Küldés" HorizontalAlignment="Center" Margin="0,504,0,0" VerticalAlignment="Top" Height="84" Width="484" FontSize="48" FontFamily="Rockwell" Background="#FF5E98A4" Click="kuldes_Click"/>
-        <Image HorizontalAlignment="Left" Height="178" Margin="10,10,0,0" VerticalAlignment="Top" Width="174" Source="/adyaklogo_hatternelkul_javitott.png"/>
-        <Label Content="Dátum:" HorizontalAlignment="Left" Margin="216,369,0,0" VerticalAlignment="Top" Height="115" Width="203" FontSize="36" FontFamily="Sitka Subheading"/>
-        <DatePicker x:Name="Datum" HorizontalAlignment="Left" Margin="216,426,0,0" VerticalAlignment="Top" Width="385" Height="53" FontSize="36" BorderBrush="{x:Null}" FontFamily="Sitka Subheading"/>
-        <ComboBox x:Name="nevKivalaszt" HorizontalAlignment="Left" Margin="216,73,0,0" VerticalAlignment="Top" Width="381" Height="53" FontSize="24" FontFamily="Sitka Subheading">
-            <ComboBox.Background>
-                <LinearGradientBrush EndPoint="0,1">
-                    <GradientStop Color="#FFF0F0F0"/>
-                    <GradientStop Color="White" Offset="1"/>
-                </LinearGradientBrush>
-            </ComboBox.Background>
-        </ComboBox>
+        <TabControl>
+            <TabItem Header="Adatok megadása">
+                <TabItem.Background>
+                    <LinearGradientBrush EndPoint="0,1">
+                        <GradientStop Color="#FFF0F0F0"/>
+                        <GradientStop Color="#FFCBD8D6" Offset="1"/>
+                    </LinearGradientBrush>
+                </TabItem.Background>
+                <Grid Background="#FFCBD8D6">
+                    <TextBox x:Name="cim" HorizontalAlignment="Left" Margin="216,309,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="381" Height="53" FontSize="28" FontFamily="Sitka Heading" TextAlignment="Justify" VerticalContentAlignment="Center" Background="White"/>
+                    <TextBox x:Name="szerzoNeve" HorizontalAlignment="Left" Margin="216,189,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="381" Height="53" FontSize="28" FontFamily="Sitka Heading" TextAlignment="Justify" VerticalContentAlignment="Center" Background="White"/>
+                    <Label Content="Felelős neve:" HorizontalAlignment="Left" Margin="216,20,0,0" VerticalAlignment="Top" Height="115" Width="251" FontSize="36" FontFamily="Sitka Subheading"/>
+                    <Label Content="Vers szerzője:" HorizontalAlignment="Left" Margin="216,132,0,0" VerticalAlignment="Top" Height="115" Width="251" FontSize="36" FontFamily="Sitka Subheading"/>
+                    <Label Content="Vers címe:" HorizontalAlignment="Left" Margin="216,254,0,0" VerticalAlignment="Top" Height="115" Width="203" FontSize="36" FontFamily="Sitka Subheading"/>
+                    <Button x:Name="kuldes" Content="Küldés" HorizontalAlignment="Center" Margin="0,504,0,0" VerticalAlignment="Top" Height="84" Width="484" FontSize="48" FontFamily="Rockwell" Background="#FF5E98A4" Click="kuldes_Click"/>
+                    <Image HorizontalAlignment="Left" Height="178" Margin="10,10,0,0" VerticalAlignment="Top" Width="174" Source="/adyaklogo_hatternelkul_javitott.png"/>
+                    <Label Content="Dátum:" HorizontalAlignment="Left" Margin="216,369,0,0" VerticalAlignment="Top" Height="115" Width="203" FontSize="36" FontFamily="Sitka Subheading"/>
+                    <DatePicker x:Name="Datum" HorizontalAlignment="Left" Margin="216,426,0,0" VerticalAlignment="Top" Width="385" Height="53" FontSize="36" BorderBrush="{x:Null}" FontFamily="Sitka Subheading"/>
+                    <ComboBox x:Name="nevKivalaszt" HorizontalAlignment="Left" Margin="216,73,0,0" VerticalAlignment="Top" Width="381" Height="53" FontSize="24" FontFamily="Sitka Subheading">
+                        <ComboBox.Background>
+                            <LinearGradientBrush EndPoint="0,1">
+                                <GradientStop Color="#FFF0F0F0"/>
+                                <GradientStop Color="White" Offset="1"/>
+                            </LinearGradientBrush>
+                        </ComboBox.Background>
+                    </ComboBox>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Eddigi versek">
+                <Grid Background="#FFCBD8D6">
+                    <ListBox x:Name="listBox" Background="#FFCBD8D6" Margin="0,28,0,0"/>
+                </Grid>
+            </TabItem>
+        </TabControl>
 
     </Grid>
 </Window>

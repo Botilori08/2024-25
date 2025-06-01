@@ -1,0 +1,27 @@
+﻿<Window x:Name="Ablak" x:Class="konyvek.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:konyvek"
+        mc:Ignorable="d"
+        Title="konyvek" Height="450" Width="800">
+    <Grid>
+        <Label Content="2. feladat" HorizontalAlignment="Left" Margin="48,60,0,0" VerticalAlignment="Top" FontSize="22"/>
+        <TextBox x:Name="megadottNev" HorizontalAlignment="Left" Margin="146,117,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="184" FontSize="22"/>
+        <Label Content="Szerző neve:" HorizontalAlignment="Left" Margin="48,120,0,0" VerticalAlignment="Top"/>
+        <Label Content="Kiadott művek száma:" HorizontalAlignment="Left" Margin="346,120,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="kiir" Content="" HorizontalAlignment="Left" Margin="485,120,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="masodikfeladat" Content="" HorizontalAlignment="Left" Margin="171,65,0,0" VerticalAlignment="Top" Width="67" Height="29" Click="masodikfeladat_Click"/>
+        <Label Content="3. feladat" HorizontalAlignment="Left" Margin="48,188,0,0" VerticalAlignment="Top" FontSize="22"/>
+        <Label Content="Legnagyobb példányszám:" HorizontalAlignment="Left" Margin="48,247,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="peldany" Content="" HorizontalAlignment="Left" Margin="204,247,0,0" VerticalAlignment="Top"/>
+        <Label Content=",előfordult" HorizontalAlignment="Left" Margin="238,247,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="szama" Content="" HorizontalAlignment="Left" Margin="308,247,0,0" VerticalAlignment="Top"/>
+        <Label Content="alkalommal" HorizontalAlignment="Left" Margin="323,247,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="harmadikfeladat" Content="" HorizontalAlignment="Left" Margin="171,193,0,0" VerticalAlignment="Top" Width="67" Height="29" Click="harmadikfeladat_Click"/>
+        <ComboBox HorizontalAlignment="Left" Margin="1118,400,0,0" VerticalAlignment="Top" Width="120"/>
+        <ComboBox HorizontalAlignment="Left" Margin="1292,188,0,0" VerticalAlignment="Top" Width="120"/>
+
+    </Grid>
+</Window>
