@@ -37,15 +37,8 @@ Tamás Bettina;József Attila - TAVASZ VAN! GYÖNYÖRŰ!;2025. 03. 05.
 Boti Lóránt;Arany János - Tetemre hívás;2025. 03. 18.
 Máté Abigél;Aranyosi Ervin - Legyél hát boldog;2025. 03. 31.
 Boti Lóránt;Csokonai Vitéz Mihály - A Reményhez;2025. 04. 14.
-<<<<<<< HEAD
-Kovács Máté;ssldkjj - dfsgr;2025. 05. 30.
-Máté Abigél;lhlkgkjf - fjkjgjhvg;
-Kovács Máté;gsdgdsgd - rherhdhh;2025. 06. 07.
-Kovács Máté;ssssssssssss - ssssssssssssssssssssss;2025. 06. 06.
-Máté Abigél;gddddgrdgg - dfsdfsffsdff;2025. 05. 28.
-=======
 Janota-Hantosi Julianna;Pilinszky János - Kihűlt világ;2025. 04. 21.
 Tamás Bettina;Váci Mihály - Még nem elég!;2025. 05. 05.
 Máté Abigél;Aranyosi Ervin - Szeretetnek fénye;2025. 05. 12.
 Takács Andor;Andók Veronika - Vakáció;2025. 05. 26.
->>>>>>> 51c4d68225bf7bc35cb18d7fa37468e6b9ef9a77
+Boti Lóránt; - ;
