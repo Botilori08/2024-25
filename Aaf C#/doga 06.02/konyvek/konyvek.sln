@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35122.118
 MinimumVisualStudioVersion = 10.0.40219.1
+<<<<<<< HEAD
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "konyvek", "konyvek.csproj", "{43E2B561-A157-4A70-8CCC-D48ABF512344}"
+=======
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "konyvek", "konyvek\konyvek.csproj", "{699E9CF5-6978-42B3-981B-AD48F1D0DB4C}"
+>>>>>>> a9cc3aadbcdf9499a775eb1f3035ba4755c96a4c
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +15,26 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+<<<<<<< HEAD
 		{43E2B561-A157-4A70-8CCC-D48ABF512344}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{43E2B561-A157-4A70-8CCC-D48ABF512344}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{43E2B561-A157-4A70-8CCC-D48ABF512344}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{43E2B561-A157-4A70-8CCC-D48ABF512344}.Release|Any CPU.Build.0 = Release|Any CPU
+=======
+		{699E9CF5-6978-42B3-981B-AD48F1D0DB4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{699E9CF5-6978-42B3-981B-AD48F1D0DB4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{699E9CF5-6978-42B3-981B-AD48F1D0DB4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{699E9CF5-6978-42B3-981B-AD48F1D0DB4C}.Release|Any CPU.Build.0 = Release|Any CPU
+>>>>>>> a9cc3aadbcdf9499a775eb1f3035ba4755c96a4c
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
+<<<<<<< HEAD
 		SolutionGuid = {C87126D6-FBA3-4DA5-B11C-29A663B7782A}
+=======
+		SolutionGuid = {00BD5A3C-6E19-4E02-915C-686A80CCCA19}
+>>>>>>> a9cc3aadbcdf9499a775eb1f3035ba4755c96a4c
 	EndGlobalSection
 EndGlobal

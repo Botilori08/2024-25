@@ -1,44 +1,45 @@
-﻿Boti Lóránt;Kosztolányi Dezső - Mostan színes tintákról álmodom;2024. 02. 19.
-Tamás Bettina;Pilinszky János - Ne félj;2024. 02. 26.
-Rengel Tamás;Heltai Jenő - Szabadság;2024. 03. 04.
-Kovács Máté;Edgar Allan Poe - A holló;2024. 03. 11.
-Máté Abigél;Petőfi Sándor - Szeptember végén;2024. 03. 19.
-Boti Lóránt;József Attila - Óh Szív! Nyugodj!;2024. 03. 25.
-Hornyák Katalin;Radnóti Miklós - Huszonnyolc év;2024. 04. 01.
-Janota-Hantosi Julianna;Emily Bronte - Gyűlölhetik, megvethetik;2024. 04. 08.
-Rengel Tamás;Radnóti Miklós - Nem tudhatom...;2024. 04. 16.
-Tamás Bettina;Szabó T. Anna - A majdnem;2024. 04. 22.
-Boti Lóránt;Tóth Árpád - Körúti hajnal;2024. 04. 29.
-Máté Abigél;Aranyosi Ervin - Megváltozik a világ;2024. 05. 06.
-Janota-Hantosi Julianna;Sissi - Bámészkodókhoz;2024. 05. 13.
-Janota-Hantosi Julianna;Albert-Lőrincz Márton - Álmunkban kiabálunk;2024. 06. 10.
-Boti Lóránt;Bereményi Géza - Csönded vagyok;2024. 06. 21.
-Kovács Máté;Walt Whitman - Ó kapitány, kapitányom!;2024. 07. 22.
-Janota-Hantosi Julianna;Baka István - Erdő, erdő;2024. 07. 29.
-Tamás Bettina;Szabó T. Anna - Örökmúlás;2024. 08. 05.
-Takács Andor;Kosztolányi Dezső - NYÁR, NYÁR, NYÁR;2024. 08. 13.
-Boti Lóránt;Juhász Gyula - A szobor;2024. 08. 20.
-Janota-Hantosi Julianna;József Attila - Tedd a kezed;2024. 08. 26.
-Tamás Bettina;Szabó T. Anna - Filoméla;2024. 09. 03.
-Kovács Máté;Petőfi Sándor - A szerelmes tenger;2024. 09. 10.
-Máté Abigél;Aranyosi Ervin - Nem elég várni!;2024. 09. 16.
-Kovács Máté;Nemes Nagy Ágnes - Istenről;2024. 10. 03.
-Janota-Hantosi Julianna;József Attila - Szappanosvíz;2024. 10. 28.
-Máté Abigél;Aranyosi Ervin - Életiskola;2024. 11. 11.
-Boti Lóránt;Juhász Gyula - Anna örök;2024. 11. 25.
-Takács Andor;Ady Endre - Üzenet egykori iskolámba;2024. 12. 02.
-Boti Lóránt;Petőfi Sándor - A puszta, télen;2024. 12. 18.
-Máté Abigél;Aranyosi Ervin - Éld a csodát!;2025. 01. 06.
-Tamás Bettina;Pilinszky János - Apokrif;2025. 01. 29.
-Máté Abigél;Aranyosi Ervin - Legyen mágnes a szíved;2025. 02. 03.
-Boti Lóránt;Petőfi Sándor - Minek nevezzelek?;2025. 02. 12.
-Simon Sára Franciska;Radnóti Miklós - Bájoló;2025. 02. 24.
-Tamás Bettina;József Attila - TAVASZ VAN! GYÖNYÖRŰ!;2025. 03. 05.
-Boti Lóránt;Arany János - Tetemre hívás;2025. 03. 18.
-Máté Abigél;Aranyosi Ervin - Legyél hát boldog;2025. 03. 31.
-Boti Lóránt;Csokonai Vitéz Mihály - A Reményhez;2025. 04. 14.
-Janota-Hantosi Julianna;Pilinszky János - Kihűlt világ;2025. 04. 21.
-Tamás Bettina;Váci Mihály - Még nem elég!;2025. 05. 05.
-Máté Abigél;Aranyosi Ervin - Szeretetnek fénye;2025. 05. 12.
-Takács Andor;Andók Veronika - Vakáció;2025. 05. 26.
-Boti Lóránt; - ;
+﻿Boti Lóránt ; Kosztolányi Dezső - Mostan színes tintákról álmodom ; 2024. 02. 19.
+Tamás Bettina ; Pilinszky János - Ne félj ; 2024. 02. 26.
+Rengel Tamás ; Heltai Jenő - Szabadság ; 2024. 03. 04.
+Kovács Máté ; Edgar Allan Poe - A holló ; 2024. 03. 11.
+Máté Abigél ; Petőfi Sándor - Szeptember végén ; 2024. 03. 19.
+Boti Lóránt ; József Attila - Óh Szív! Nyugodj! ; 2024. 03. 25.
+Hornyák Katalin ; Radnóti Miklós - Huszonnyolc év ; 2024. 04. 01.
+Janota-Hantosi Julianna ; Emily Bronte - Gyűlölhetik, megvethetik ; 2024. 04. 08.
+Rengel Tamás ; Radnóti Miklós - Nem tudhatom... ; 2024. 04. 16.
+Tamás Bettina ; Szabó T. Anna - A majdnem ; 2024. 04. 22.
+Boti Lóránt ; Tóth Árpád - Körúti hajnal ; 2024. 04. 29.
+Máté Abigél ; Aranyosi Ervin - Megváltozik a világ ; 2024. 05. 06.
+Janota-Hantosi Julianna ; Sissi - Bámészkodókhoz ; 2024. 05. 13.
+Janota-Hantosi Julianna ; Albert-Lőrincz Márton - Álmunkban kiabálunk ; 2024. 06. 10.
+Boti Lóránt ; Bereményi Géza - Csönded vagyok ; 2024. 06. 21.
+Kovács Máté ; Walt Whitman - Ó kapitány, kapitányom! ; 2024. 07. 22.
+Janota-Hantosi Julianna ; Baka István - Erdő, erdő ; 2024. 07. 29.
+Tamás Bettina ; Szabó T. Anna - Örökmúlás ; 2024. 08. 05.
+Takács Andor ; Kosztolányi Dezső - NYÁR, NYÁR, NYÁR ; 2024. 08. 13.
+Boti Lóránt ; Juhász Gyula - A szobor ; 2024. 08. 20.
+Janota-Hantosi Julianna ; József Attila - Tedd a kezed ; 2024. 08. 26.
+Tamás Bettina ; Szabó T. Anna - Filoméla ; 2024. 09. 03.
+Kovács Máté ; Petőfi Sándor - A szerelmes tenger ; 2024. 09. 10.
+Máté Abigél ; Aranyosi Ervin - Nem elég várni! ; 2024. 09. 16.
+Kovács Máté ; Nemes Nagy Ágnes - Istenről ; 2024. 10. 03.
+Janota-Hantosi Julianna ; József Attila - Szappanosvíz ; 2024. 10. 28.
+Máté Abigél ; Aranyosi Ervin - Életiskola ; 2024. 11. 11.
+Boti Lóránt ; Juhász Gyula - Anna örök ; 2024. 11. 25.
+Takács Andor ; Ady Endre - Üzenet egykori iskolámba ; 2024. 12. 02.
+Boti Lóránt ; Petőfi Sándor - A puszta, télen ; 2024. 12. 18.
+Máté Abigél ; Aranyosi Ervin - Éld a csodát! ; 2025. 01. 06.
+Tamás Bettina ; Pilinszky János - Apokrif ; 2025. 01. 29.
+Máté Abigél ; Aranyosi Ervin - Legyen mágnes a szíved ; 2025. 02. 03.
+Boti Lóránt ; Petőfi Sándor - Minek nevezzelek? ; 2025. 02. 12.
+Simon Sára Franciska ; Radnóti Miklós - Bájoló ; 2025. 02. 24.
+Tamás Bettina ; József Attila - TAVASZ VAN! GYÖNYÖRŰ! ; 2025. 03. 05.
+Boti Lóránt ; Arany János - Tetemre hívás ; 2025. 03. 18.
+Máté Abigél ; Aranyosi Ervin - Legyél hát boldog ; 2025. 03. 31.
+Boti Lóránt ; Csokonai Vitéz Mihály - A Reményhez ; 2025. 04. 14.
+Janota-Hantosi Julianna ; Pilinszky János - Kihűlt világ ; 2025. 04. 21.
+Tamás Bettina ; Váci Mihály - Még nem elég! ; 2025. 05. 05.
+Máté Abigél ; Aranyosi Ervin - Szeretetnek fénye ; 2025. 05. 12.
+Takács Andor ; Andók Veronika - Vakáció ; 2025. 05. 26.
+
+Boti Lóránt ; Weöres Sándor - Kánikula ; 2025. 06. 02.
