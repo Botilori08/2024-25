@@ -21,13 +21,14 @@ namespace versek
 		{
 			InitializeComponent();
 			nevKivalaszt.ItemsSource = nevek;
-            listBox.ItemsSource = versKiir;
-        }
+			listBox.ItemsSource = versKiir;
+		}
 
 		List <Vers> versek = new List <Vers>();
-        List<string> versKiir = new List<string>();
-        string[] nevek = File.ReadAllLines("ember.txt");
-        private void ablak_Loaded(object sender, RoutedEventArgs e)
+		List<string> versKiir = new List<string>();
+		string[] nevek = File.ReadAllLines("ember.txt");
+
+		private void ablak_Loaded(object sender, RoutedEventArgs e)
 		{
 
 			
@@ -55,7 +56,7 @@ namespace versek
 		private void kuldes_Click(object sender, RoutedEventArgs e)
 		{
 
-            string szerzo = szerzoNeve.Text;
+			string szerzo = szerzoNeve.Text;
 			string versCime = cim.Text;
 			string datum = Datum.Text;
 			string neve = nevKivalaszt.Text;
@@ -68,10 +69,10 @@ namespace versek
 			{
 				versek.Add(new Vers(szerzo, versCime, neve, datum));
 
-                sr.WriteLine($"{neve};{szerzo};{versCime};{datum}");
+				sr.WriteLine($"{neve};{szerzo};{versCime};{datum}");
 
-                versKiir.Add($"{neve} ; {szerzo} - {szerzo} ; {datum}");
-            }
+				versKiir.Add($"{neve} ; {szerzo} - {versCime} ; {datum}");
+			}
 
 			sr.Close();
 			
@@ -80,18 +81,18 @@ namespace versek
 			cim.Text = "";
 			Datum.Text = "";
 
-            listBox.Items.Refresh();
+			listBox.Items.Refresh();
 
-            //listBox.ItemsSource = versKiir;
-            /*
-            string[] hetiVersek = File.ReadAllLines("eddigiversek.txt");
-            for (int i = 0; i < hetiVersek.Length; i++)
-            {
-                versAdatok.Add(hetiVersek[i]);
-            }
+			//listBox.ItemsSource = versKiir;
+			/*
+			string[] hetiVersek = File.ReadAllLines("eddigiversek.txt");
+			for (int i = 0; i < hetiVersek.Length; i++)
+			{
+				versAdatok.Add(hetiVersek[i]);
+			}
 
-            listBox.ItemsSource = versAdatok;*/
-        }
+			listBox.ItemsSource = versAdatok;*/
+		}
 
 
 	}

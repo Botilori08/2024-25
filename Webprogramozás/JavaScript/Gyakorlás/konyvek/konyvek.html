@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Könyvek érettségi feladat</title>
+    <script src="kiadas.js"></script>
+</head>
+<body onload="betolt()">
+
+<h2>2.feladat</h2>
+<input type="text" id="bekertNev">
+<button onclick="masodikfeladat()">Végrehajt</button>   
+<div id="kiir"></div>
+
+<h2>3.feladat</h2> 
+<button onclick="harmadikfeladat()">Végrehajt</button> 
+<div id="kiir3"></div>
+
+<h2>4.feladat</h2> 
+<button onclick="negyedikfeladat()">Végrehajt</button> 
+<div id="kiir4"></div>
+
+<h2>5.feladat</h2>
+<div id="tablazatHelye"></div> 
+
+
+
+    <script>
+        let konyvek = [];
+
+        class Konyv
+        {
+            constructor(ev,negyedev,eredet,leiras,peldanyszam)
+            {
+                this.ev = ev;
+                this.negyedev = negyedev;
+                this.eredet = eredet
+                this.leiras = leiras;
+                this.peldanyszam = peldanyszam
+
+            }
+        }
+
+        function betolt()
+        {
+
+            let sorok = adatok.split("\n");
+
+            console.log(sorok);
+
+            
+
+            for(let i = 0;i < sorok.length;i++)
+            {
+                let vag = sorok[i].split(";")
+
+                konyvek.push(new Konyv(parseInt(vag[0]),vag[1],vag[2],vag[3],parseInt(vag[4])));
+            }
+
+            console.log(konyvek);
+            //sorok.push(new Konyv())
+
+            let evek = [];
+            let demoEv = 2000
+            for(let i = 0;i < konyvek.length;i++)
+            {
+                if(demoEv != konyvek[i].ev)
+                {
+                    demoEv = konyvek[i].ev;
+                    evek.push(demoEv)
+                }
+            }
+
+            /*
+            let magyarPeldanyszamok = [];
+
+            for(let i = 0;i < konyvek.length;i++)
+            {
+                for(let j = 0;i < evek.length;i++)
+                {
+                    if(konyvek[i].ev == evek[i])
+                    {
+
+                    }
+                }
+            }*/
+
+            const tablazat = `<table>
+            <tr><th>Év</th><th>Magyar kiadás</th><th>Magyar példányszám</th><th>Külföldi
+            kiadás</th><th>Külföldi példányszám</th></tr>
+            <tr><td>`+evek[0]+`</td><td>45</td><td>834005</td><td>29</td><td>416000</td></tr>
+            <tr><td>`+evek[1]+`</td><td>49</td><td>779130</td><td>52</td><td>736900</td></tr>
+            <tr><td>`+evek[2]+`</td><td>63</td><td>1115210</td><td>42</td><td>649639</td></tr>
+            <tr><td>`+evek[3]+`</td><td>41</td><td>625185</td><td>40</td><td>536000</td></tr>
+            </table>`
+
+            document.getElementById("tablazatHelye").innerHTML = tablazat;
+
+        }
+
+        function masodikfeladat()
+        {
+            let nev = document.getElementById("bekertNev").value;
+            let kiadasSzam = 0;
+
+            for(let i = 0;i < konyvek.length;i++)
+            {
+                if(konyvek[i].leiras.includes(nev))
+                {
+                    kiadasSzam++;
+                }
+            }
+
+            const kiiras = document.getElementById("kiir");
+
+            if(kiadasSzam > 0)
+            {
+                kiiras.innerHTML = kiadasSzam+" könyvkiadás";
+            }
+            else
+            {
+                kiiras.innerHTML = "Nem adtak ki";
+            }
+
+
+        }
+        function harmadikfeladat()
+        {
+            let legnagyobbPeldany = 0;
+            let elofordulas = 0;
+
+            for(let i = 0;i < konyvek.length;i++)
+            {
+                if(konyvek[i].peldanyszam > legnagyobbPeldany)
+                {
+                    legnagyobbPeldany = konyvek[i].peldanyszam;
+                }
+            }
+            for(let i = 0;i < konyvek.length;i++)
+            {
+                if(konyvek[i].peldanyszam == legnagyobbPeldany)
+                {   
+                    elofordulas++;
+                }
+            }
+
+            document.getElementById("kiir3").innerHTML = "Legnagyobb példányszám: "+legnagyobbPeldany+" előfordult "+ elofordulas +" alkalommal";
+
+        }
+
+        function negyedikfeladat()
+        {
+
+            for(let i = 0;i < konyvek.length;i++)
+            {
+                if(konyvek[i].peldanyszam >= 40000 && konyvek[i].eredet == "kf")
+                {
+                    document.getElementById("kiir4").innerHTML = konyvek[i].ev+"/"+konyvek[i].negyedev+". "+konyvek[i].leiras;
+                    break;
+                }
+            }
+        }
+
+
+    </script>
+
+</body>
+</html>
