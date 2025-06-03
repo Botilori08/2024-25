@@ -1,0 +1,70 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\munkak\u00F6nyvt\u00E1r\\Boti L\u00F3r\u00E1nt\\2024-25\\Aaf C#\\doga 06.02\\konyvek\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{43E2B561-A157-4A70-8CCC-D48ABF512344}|konyvek.csproj|d:\\munkak\u00F6nyvt\u00E1r\\boti l\u00F3r\u00E1nt\\2024-25\\aaf c#\\doga 06.02\\konyvek\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{43E2B561-A157-4A70-8CCC-D48ABF512344}|konyvek.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43E2B561-A157-4A70-8CCC-D48ABF512344}|konyvek.csproj|d:\\munkak\u00F6nyvt\u00E1r\\boti l\u00F3r\u00E1nt\\2024-25\\aaf c#\\doga 06.02\\konyvek\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43E2B561-A157-4A70-8CCC-D48ABF512344}|konyvek.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43E2B561-A157-4A70-8CCC-D48ABF512344}|konyvek.csproj|d:\\munkak\u00F6nyvt\u00E1r\\boti l\u00F3r\u00E1nt\\2024-25\\aaf c#\\doga 06.02\\konyvek\\konyv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43E2B561-A157-4A70-8CCC-D48ABF512344}|konyvek.csproj|solutionrelative:konyv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Konyv.cs",
+              "DocumentMoniker": "D:\\munkak\u00F6nyvt\u00E1r\\Boti L\u00F3r\u00E1nt\\2024-25\\Aaf C#\\doga 06.02\\konyvek\\Konyv.cs",
+              "RelativeDocumentMoniker": "Konyv.cs",
+              "ToolTip": "D:\\munkak\u00F6nyvt\u00E1r\\Boti L\u00F3r\u00E1nt\\2024-25\\Aaf C#\\doga 06.02\\konyvek\\Konyv.cs",
+              "RelativeToolTip": "Konyv.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABYAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T06:09:32.2Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\munkak\u00F6nyvt\u00E1r\\Boti L\u00F3r\u00E1nt\\2024-25\\Aaf C#\\doga 06.02\\konyvek\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainWindow.xaml",
+              "ToolTip": "D:\\munkak\u00F6nyvt\u00E1r\\Boti L\u00F3r\u00E1nt\\2024-25\\Aaf C#\\doga 06.02\\konyvek\\MainWindow.xaml",
+              "RelativeToolTip": "MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-02T06:08:58.673Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\munkak\u00F6nyvt\u00E1r\\Boti L\u00F3r\u00E1nt\\2024-25\\Aaf C#\\doga 06.02\\konyvek\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "D:\\munkak\u00F6nyvt\u00E1r\\Boti L\u00F3r\u00E1nt\\2024-25\\Aaf C#\\doga 06.02\\konyvek\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MainWindow.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T06:08:55.949Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
