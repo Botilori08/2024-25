@@ -21,14 +21,16 @@ namespace versek
 		{
 			InitializeComponent();
 			nevKivalaszt.ItemsSource = nevek;
-		}
+            listBox.ItemsSource = versKiir;
+        }
 
 		List <Vers> versek = new List <Vers>();
+        List<string> versKiir = new List<string>();
         string[] nevek = File.ReadAllLines("ember.txt");
         private void ablak_Loaded(object sender, RoutedEventArgs e)
 		{
 
-			List <string> versKiir = new List <string>();
+			
 
 			string[] hetiVersek = File.ReadAllLines("eddigiversek.txt");
 
@@ -44,7 +46,7 @@ namespace versek
 				versKiir.Add($"{versek[i].felelos} ; {versek[i].versSzerzo} - {versek[i].versCim} ; {versek[i].datum}");
 			}
 
-			listBox.ItemsSource = versKiir;
+			
 
 		}
 
@@ -66,8 +68,10 @@ namespace versek
 			{
 				versek.Add(new Vers(szerzo, versCime, neve, datum));
 
-                sr.WriteLine($"{neve} ; {szerzo} - {versCime} ; {datum}");
-			}
+                sr.WriteLine($"{neve};{szerzo};{versCime};{datum}");
+
+                versKiir.Add($"{neve} ; {szerzo} - {szerzo} ; {datum}");
+            }
 
 			sr.Close();
 			
@@ -76,8 +80,10 @@ namespace versek
 			cim.Text = "";
 			Datum.Text = "";
 
-			
+            listBox.Items.Refresh();
 
+            //listBox.ItemsSource = versKiir;
+            /*
             string[] hetiVersek = File.ReadAllLines("eddigiversek.txt");
             for (int i = 0; i < hetiVersek.Length; i++)
             {
