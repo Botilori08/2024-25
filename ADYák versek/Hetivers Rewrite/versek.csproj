@@ -10,12 +10,10 @@
 
   <ItemGroup>
     <None Remove="adyaklogo_hatternelkul_javitott.png" />
-    <None Remove="signal-2024-10-11-211709_002.jpeg" />
   </ItemGroup>
 
   <ItemGroup>
     <Resource Include="adyaklogo_hatternelkul_javitott.png" />
-    <Resource Include="signal-2024-10-11-211709_002.jpeg" />
   </ItemGroup>
 
 </Project>

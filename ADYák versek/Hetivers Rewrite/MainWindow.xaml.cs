@@ -24,14 +24,16 @@ namespace versek
 			listBox.ItemsSource = versKiir;
 		}
 
-		List <Vers> versek = new List <Vers>();
+		List<Vers> versek = new List<Vers>();
 		List<string> versKiir = new List<string>();
 		string[] nevek = File.ReadAllLines("ember.txt");
+
+
 
 		private void ablak_Loaded(object sender, RoutedEventArgs e)
 		{
 
-			
+
 
 			string[] hetiVersek = File.ReadAllLines("eddigiversek.txt");
 
@@ -47,13 +49,14 @@ namespace versek
 				versKiir.Add($"{versek[i].felelos} ; {versek[i].versSzerzo} - {versek[i].versCim} ; {versek[i].datum}");
 			}
 
-			
-
 		}
 
-		
-		
-		private void kuldes_Click(object sender, RoutedEventArgs e)
+
+
+
+
+
+	private void kuldes_Click(object sender, RoutedEventArgs e)
 		{
 
 			string szerzo = szerzoNeve.Text;
@@ -94,6 +97,27 @@ namespace versek
 			listBox.ItemsSource = versAdatok;*/
 		}
 
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            List<string> szures = new List<string>();
+            string nev = vizsgaltNev.Text;
+            string szerzo = vizsgaltSzerzo.Text;
+            string verscim = vizsgaltVerscim.Text;
 
-	}
+            
+			for (int i = 0; i< versek.Count; i++)
+			{
+				if (nev == versek[i].felelos || szerzo == versek[i].versSzerzo || verscim == versek[i].versCim)
+				{
+					szures.Add($"{versek[i].felelos} ; {versek[i].versSzerzo} - {versek[i].versCim} ; {versek[i].datum}");
+				}
+
+                //MessageBox.Show(versek[i].ToString());
+            }
+			
+			eredmeny.ItemsSource = szures;
+
+
+        }
+    }
 }
