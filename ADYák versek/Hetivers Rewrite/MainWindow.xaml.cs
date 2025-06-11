@@ -70,12 +70,12 @@ namespace versek
 
 			if(szerzo !="" && versCime !="" && datum != "" && neve != "")
 			{
-				versek.Add(new Vers(szerzo, versCime, neve, datum));
 
 				sr.WriteLine($"{neve};{szerzo};{versCime};{datum}");
 
 				versKiir.Add($"{neve} ; {szerzo} - {versCime} ; {datum}");
-			}
+                versek.Add(new Vers(szerzo, versCime, neve, datum));
+            }
 
 			sr.Close();
 			
@@ -109,6 +109,7 @@ namespace versek
 			{
 				if (nev == versek[i].felelos || szerzo == versek[i].versSzerzo || verscim == versek[i].versCim)
 				{
+					MessageBox.Show(versek[i].versCim);
 					szures.Add($"{versek[i].felelos} ; {versek[i].versSzerzo} - {versek[i].versCim} ; {versek[i].datum}");
 				}
 
