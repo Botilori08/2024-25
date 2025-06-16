@@ -37,7 +37,7 @@
             </TabItem>
             <TabItem Header="Eddigi versek">
                 <Grid Background="#FFCBD8D6">
-                    <ListBox x:Name="listBox" Background="#FFCBD8D6" Margin="0,28,0,0" FontSize="16">
+                    <ListBox x:Name="listBox" Background="#FFCBD8D6" Margin="0,28,0,0" FontSize="16" SelectionChanged="listBox_SelectionChanged">
                         <ListBox.BorderBrush>
                             <ImageBrush/>
                         </ListBox.BorderBrush>
