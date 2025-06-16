@@ -65,12 +65,21 @@ namespace versek
 
 			if (szerzo != "" && versCime != "" && datum != "" && neve != "")
 			{
+<<<<<<< HEAD
 				versek.Add(new Vers(neve, szerzo, versCime, datum));
 
 				sr.WriteLine($"{neve};{szerzo};{versCime};{datum}");
 
 				versKiir.Add(versek[versek.Count-1].osszefuz());
 			}
+=======
+
+				sr.WriteLine($"{neve};{szerzo};{versCime};{datum}");
+
+				versKiir.Add($"{neve} ; {szerzo} - {versCime} ; {datum}");
+                versek.Add(new Vers(szerzo, versCime, neve, datum));
+            }
+>>>>>>> f315bfd949218c5b7b4e978e43ddabb5ff90308a
 
 			sr.Close();
 
@@ -107,6 +116,7 @@ namespace versek
 		listBox.ItemsSource = versAdatok;*/
 	}
 
+<<<<<<< HEAD
 		private void Button_Click(object sender, RoutedEventArgs e)
 		{
 			List<string> szures = new List<string>();
@@ -117,6 +127,16 @@ namespace versek
 			//MessageBox.Show(versek[versek.Count() - 1].felelos);
 
 			int adatSzam = 0;
+=======
+            
+			for (int i = 0; i< versek.Count; i++)
+			{
+				if (nev == versek[i].felelos || szerzo == versek[i].versSzerzo || verscim == versek[i].versCim)
+				{
+					MessageBox.Show(versek[i].versCim);
+					szures.Add($"{versek[i].felelos} ; {versek[i].versSzerzo} - {versek[i].versCim} ; {versek[i].datum}");
+				}
+>>>>>>> f315bfd949218c5b7b4e978e43ddabb5ff90308a
 
 			
 

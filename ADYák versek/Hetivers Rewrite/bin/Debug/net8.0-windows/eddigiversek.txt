@@ -45,9 +45,15 @@ Máté Abigél;Aranyosi Ervin;Szeretetnek fénye;2025. 05. 12.
 Takács Andor;Andók Veronika;Vakáció;2025. 05. 26.
 Boti Lóránt;Weöres Sándor;Kánikula;2025. 06. 02.
 Máté Abigél;Óbecseny István;Szeressétek az öregeket;2025. 06. 09.
+<<<<<<< HEAD
 Janota-Hantosi Julianna;jjjjj;kklljhjhf;2025. 06. 16.
 Janota-Hantosi Julianna;sss;ssss;2025. 06. 17.
 Boti Lóránt;jjjjj;kkljghfsdfss;2025. 06. 23.
 Kovács Máté;hhhh;hhhhh;2025. 06. 16.
 Boti Lóránt;fff;sdsd;2025. 06. 16.
 Takács Andor;llll;kkjkhkh;2025. 06. 23.
+=======
+Boti Lóránt;rrr;rrr;2025. 06. 16.
+Janota-Hantosi Julianna;ddd;dddd;2025. 06. 17.
+Janota-Hantosi Julianna;sss;sss;2025. 06. 09.
+>>>>>>> f315bfd949218c5b7b4e978e43ddabb5ff90308a
