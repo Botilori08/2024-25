@@ -13,6 +13,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{12CF83D9-2684-4A7B-BAC5-2F7525ED8B50}|versek.csproj|c:\\users\\loran\\desktop\\suli\\programoz\u00E1s, ikt\\2024-25\\ady\u00E1k versek\\hetivers rewrite\\vers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{12CF83D9-2684-4A7B-BAC5-2F7525ED8B50}|versek.csproj|solutionrelative:vers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12CF83D9-2684-4A7B-BAC5-2F7525ED8B50}|versek.csproj|c:\\users\\loran\\desktop\\suli\\programoz\u00E1s, ikt\\2024-25\\ady\u00E1k versek\\hetivers rewrite\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{12CF83D9-2684-4A7B-BAC5-2F7525ED8B50}|versek.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,8 +26,20 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\loran\\Desktop\\Suli\\Programoz\u00E1s, Ikt\\2024-25\\ADY\u00E1k versek\\Hetivers Rewrite\\App.xaml",
+              "RelativeDocumentMoniker": "App.xaml",
+              "ToolTip": "C:\\Users\\loran\\Desktop\\Suli\\Programoz\u00E1s, Ikt\\2024-25\\ADY\u00E1k versek\\Hetivers Rewrite\\App.xaml",
+              "RelativeToolTip": "App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-16T11:41:36.441Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 2,
@@ -32,7 +48,7 @@
               "RelativeDocumentMoniker": "Vers.cs",
               "ToolTip": "C:\\Users\\loran\\Desktop\\Suli\\Programoz\u00E1s, Ikt\\2024-25\\ADY\u00E1k versek\\Hetivers Rewrite\\Vers.cs",
               "RelativeToolTip": "Vers.cs",
-              "ViewState": "AgIAADQAAAAAAAAAAAAgwD8AAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAADgAAAAAAAAAAAAcwBIAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-02T14:36:49.072Z",
               "EditorCaption": ""
@@ -45,7 +61,7 @@
               "RelativeDocumentMoniker": "MainWindow.xaml.cs",
               "ToolTip": "C:\\Users\\loran\\Desktop\\Suli\\Programoz\u00E1s, Ikt\\2024-25\\ADY\u00E1k versek\\Hetivers Rewrite\\MainWindow.xaml.cs",
               "RelativeToolTip": "MainWindow.xaml.cs",
-              "ViewState": "AgIAAD0AAAAAAAAAAAAswKgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAFIAAAAAAAAAAAArwFwAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-23T15:46:29.617Z",
               "EditorCaption": ""

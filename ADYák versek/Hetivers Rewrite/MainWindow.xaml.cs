@@ -1,4 +1,5 @@
-﻿using System.IO;
+﻿using System.Diagnostics;
+using System.IO;
 using System.Security.Policy;
 using System.Text;
 using System.Windows;
@@ -39,6 +40,7 @@ namespace versek
 
 			for (int i = 0; i < hetiVersek.Length; i++)
 			{
+				//MessageBox.Show(hetiVersek[i]);
 				string[] vag = hetiVersek[i].Split(';');
 				versek.Add(new Vers(vag[0], vag[1], vag[2], vag[3]));
 			}
@@ -47,7 +49,7 @@ namespace versek
 			for (int i = 0; i < versek.Count; i++)
 			{
 				versKiir.Add($"{versek[i].felelos} ; {versek[i].versSzerzo} - {versek[i].versCim} ; {versek[i].datum}");
-				MessageBox.Show(versek[i].URL());
+				//MessageBox.Show(versek[i].URL());
 			}
 
 		}
@@ -65,21 +67,12 @@ namespace versek
 
 			if (szerzo != "" && versCime != "" && datum != "" && neve != "")
 			{
-<<<<<<< HEAD
 				versek.Add(new Vers(neve, szerzo, versCime, datum));
 
 				sr.WriteLine($"{neve};{szerzo};{versCime};{datum}");
 
 				versKiir.Add(versek[versek.Count-1].osszefuz());
 			}
-=======
-
-				sr.WriteLine($"{neve};{szerzo};{versCime};{datum}");
-
-				versKiir.Add($"{neve} ; {szerzo} - {versCime} ; {datum}");
-                versek.Add(new Vers(szerzo, versCime, neve, datum));
-            }
->>>>>>> f315bfd949218c5b7b4e978e43ddabb5ff90308a
 
 			sr.Close();
 
@@ -94,14 +87,14 @@ namespace versek
 			MessageBox.Show(versKiir.Count().ToString());
 
 
-			for (int i = 0; i < versek.Count; i++)
-			{
-                foreach(var j in listBox.Items)
-                {
-					j.Tag = versek[i].URL();
+			//List <string> urlek = new List<string>();
 
-				}
-            }
+			for (int i = 0 ; i < versek.Count; i++)
+			{
+				listBox.Tag = versek[i].URL();
+			}
+
+
 
 
 
@@ -114,9 +107,7 @@ namespace versek
 		}
 
 		listBox.ItemsSource = versAdatok;*/
-	}
-
-<<<<<<< HEAD
+		}		
 		private void Button_Click(object sender, RoutedEventArgs e)
 		{
 			List<string> szures = new List<string>();
@@ -127,17 +118,6 @@ namespace versek
 			//MessageBox.Show(versek[versek.Count() - 1].felelos);
 
 			int adatSzam = 0;
-=======
-            
-			for (int i = 0; i< versek.Count; i++)
-			{
-				if (nev == versek[i].felelos || szerzo == versek[i].versSzerzo || verscim == versek[i].versCim)
-				{
-					MessageBox.Show(versek[i].versCim);
-					szures.Add($"{versek[i].felelos} ; {versek[i].versSzerzo} - {versek[i].versCim} ; {versek[i].datum}");
-				}
->>>>>>> f315bfd949218c5b7b4e978e43ddabb5ff90308a
-
 			
 
 			adatSzam = nev != "" ? adatSzam += 1 : adatSzam;
@@ -191,12 +171,20 @@ namespace versek
 
 		}
 
-        private void listBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
-        {
+		private void listBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+		{
 			if(listBox.SelectedItem is ListBoxItem SelectedItem)
 			{
+					/*string url = listBox.SelectedItem.Tag as string;
+					if (!string.IsNullOrEmpty(url))
+					{
+						Process.Start(new ProcessStartInfo(url) { UseShellExecute = true });
+					}
 
+					// Visszaállítjuk a kiválasztást, hogy újra lehessen ugyanarra kattintani
+					.SelectedItem = null;*/
+				
 			}
-        }
-    }
+		}
+	}
 }
