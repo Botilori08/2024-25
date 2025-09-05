@@ -51,3 +51,7 @@ Máté Abigél;Aranyosi Ervin;Semmi sem az, aminek látszik!;2025. 07. 07.
 Boti Lóránt;Ady Endre;Az én menyasszonyom;2025. 07. 14.
 Janota-Hantosi Julianna;Radnóti Miklós;Tétova óda;2025. 07. 21.
 Máté Abigél;Aranyosi Ervin;Álom-szép mosoly;2025. 08. 04.
+<<<<<<< HEAD
+=======
+Janota-Hantosi Julianna;Ady Endre;A tenger ákombákoma;2025. 08. 11.
+>>>>>>> 800042d35848d013690ad38622245d4a35700903
