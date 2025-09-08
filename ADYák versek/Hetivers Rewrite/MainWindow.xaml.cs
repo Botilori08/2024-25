@@ -28,6 +28,7 @@ namespace versek
 
 		List<Vers> versek = new List<Vers>();
 		List<string> versKiir = new List<string>();
+		List<string> URLek = new List<string>();
 		string[] nevek = File.ReadAllLines("ember.txt");
 
 
@@ -50,7 +51,9 @@ namespace versek
 			{
 				versKiir.Add($"{versek[i].felelos} ; {versek[i].versSzerzo} - {versek[i].versCim} ; {versek[i].datum}");
 				//MessageBox.Show(versek[i].URL());
+				URLek.Add(versek[i].URL());
 			}
+			
 
 		}
 		private void kuldes_Click(object sender, RoutedEventArgs e)
@@ -83,8 +86,8 @@ namespace versek
 
 			listBox.Items.Refresh();
 
-			MessageBox.Show(versek.Count().ToString());
-			MessageBox.Show(versKiir.Count().ToString());
+			//MessageBox.Show(versek.Count().ToString());
+			//MessageBox.Show(versKiir.Count().ToString());
 
 
 			//List <string> urlek = new List<string>();
@@ -175,6 +178,7 @@ namespace versek
 		{
 			if(listBox.SelectedItem is ListBoxItem SelectedItem)
 			{
+
 					/*string url = listBox.SelectedItem.Tag as string;
 					if (!string.IsNullOrEmpty(url))
 					{

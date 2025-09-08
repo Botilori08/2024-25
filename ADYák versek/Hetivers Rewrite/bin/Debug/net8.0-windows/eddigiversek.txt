@@ -45,3 +45,13 @@ Máté Abigél;Aranyosi Ervin;Szeretetnek fénye;2025. 05. 12.
 Takács Andor;Andók Veronika;Vakáció;2025. 05. 26.
 Boti Lóránt;Weöres Sándor;Kánikula;2025. 06. 02.
 Máté Abigél;Óbecseny István;Szeressétek az öregeket;2025. 06. 09.
+Rengel Tamás;Faludy György;Nagy Imre;2025. 06. 16.
+Janota-Hantosi Julianna;Mikszáth Kálmán;A megfagyott madárka;2025. 06. 30.
+Máté Abigél;Aranyosi Ervin;Semmi sem az, aminek látszik!;2025. 07. 07.
+Boti Lóránt;Ady Endre;Az én menyasszonyom;2025. 07. 14.
+Janota-Hantosi Julianna;Radnóti Miklós;Tétova óda;2025. 07. 21.
+Máté Abigél;Aranyosi Ervin;Álom-szép mosoly;2025. 08. 04.
+<<<<<<< HEAD
+=======
+Janota-Hantosi Julianna;Ady Endre;A tenger ákombákoma;2025. 08. 11.
+>>>>>>> 800042d35848d013690ad38622245d4a35700903
