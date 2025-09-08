@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("versek")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+13f4ecacb0672713488c6bdc8177825826d846d6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c489c99d3d8a078010128b1ce5161ad711fc85f1")]
 [assembly: System.Reflection.AssemblyProductAttribute("versek")]
 [assembly: System.Reflection.AssemblyTitleAttribute("versek")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -40,3 +40,24 @@ C:\Users\loran\Desktop\Suli\Programozás, Ikt\2024-25\ADYák versek\versek\obj\D
 C:\Users\loran\Desktop\Suli\Programozás, Ikt\2024-25\ADYák versek\versek\obj\Debug\net8.0-windows\versek.pdb
 C:\Users\loran\Desktop\Suli\Programozás, Ikt\2024-25\ADYák versek\versek\obj\Debug\net8.0-windows\versek.genruntimeconfig.cache
 C:\Users\loran\Desktop\Suli\Programozás, Ikt\2024-25\ADYák versek\versek\obj\Debug\net8.0-windows\ref\versek.dll
+C:\Users\boti.lorant.ferenc.2\source\repos\2024-25\ADYák versek\versek\bin\Debug\net8.0-windows\versek.exe
+C:\Users\boti.lorant.ferenc.2\source\repos\2024-25\ADYák versek\versek\bin\Debug\net8.0-windows\versek.deps.json
+C:\Users\boti.lorant.ferenc.2\source\repos\2024-25\ADYák versek\versek\bin\Debug\net8.0-windows\versek.runtimeconfig.json
+C:\Users\boti.lorant.ferenc.2\source\repos\2024-25\ADYák versek\versek\bin\Debug\net8.0-windows\versek.dll
+C:\Users\boti.lorant.ferenc.2\source\repos\2024-25\ADYák versek\versek\bin\Debug\net8.0-windows\versek.pdb
+C:\Users\boti.lorant.ferenc.2\source\repos\2024-25\ADYák versek\versek\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\boti.lorant.ferenc.2\source\repos\2024-25\ADYák versek\versek\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\boti.lorant.ferenc.2\source\repos\2024-25\ADYák versek\versek\obj\Debug\net8.0-windows\versek_MarkupCompile.cache
+C:\Users\boti.lorant.ferenc.2\source\repos\2024-25\ADYák versek\versek\obj\Debug\net8.0-windows\versek_MarkupCompile.lref
+C:\Users\boti.lorant.ferenc.2\source\repos\2024-25\ADYák versek\versek\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\boti.lorant.ferenc.2\source\repos\2024-25\ADYák versek\versek\obj\Debug\net8.0-windows\versek.g.resources
+C:\Users\boti.lorant.ferenc.2\source\repos\2024-25\ADYák versek\versek\obj\Debug\net8.0-windows\versek.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\boti.lorant.ferenc.2\source\repos\2024-25\ADYák versek\versek\obj\Debug\net8.0-windows\versek.AssemblyInfoInputs.cache
+C:\Users\boti.lorant.ferenc.2\source\repos\2024-25\ADYák versek\versek\obj\Debug\net8.0-windows\versek.AssemblyInfo.cs
+C:\Users\boti.lorant.ferenc.2\source\repos\2024-25\ADYák versek\versek\obj\Debug\net8.0-windows\versek.csproj.CoreCompileInputs.cache
+C:\Users\boti.lorant.ferenc.2\source\repos\2024-25\ADYák versek\versek\obj\Debug\net8.0-windows\versek.sourcelink.json
+C:\Users\boti.lorant.ferenc.2\source\repos\2024-25\ADYák versek\versek\obj\Debug\net8.0-windows\versek.dll
+C:\Users\boti.lorant.ferenc.2\source\repos\2024-25\ADYák versek\versek\obj\Debug\net8.0-windows\refint\versek.dll
+C:\Users\boti.lorant.ferenc.2\source\repos\2024-25\ADYák versek\versek\obj\Debug\net8.0-windows\versek.pdb
+C:\Users\boti.lorant.ferenc.2\source\repos\2024-25\ADYák versek\versek\obj\Debug\net8.0-windows\versek.genruntimeconfig.cache
+C:\Users\boti.lorant.ferenc.2\source\repos\2024-25\ADYák versek\versek\obj\Debug\net8.0-windows\ref\versek.dll

@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-C:\Users\loran\Desktop\Suli\Programozás, Ikt\2024-25\ADYák versek\versek\obj\Debug\net8.0-windows\
+C:\Users\boti.lorant.ferenc.2\source\repos\2024-25\ADYák versek\versek\obj\Debug\net8.0-windows\
 versek
 none
 false
-TRACE;DEBUG;NET;NET8_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
-C:\Users\loran\Desktop\Suli\Programozás, Ikt\2024-25\ADYák versek\versek\App.xaml
+TRACE;RELEASE;NET;NET8_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
+C:\Users\boti.lorant.ferenc.2\source\repos\2024-25\ADYák versek\versek\App.xaml
 11407045341
 
-5-396487648
-198-537775612
+7-1236404143
+39622081650
 MainWindow.xaml;
 
 False
